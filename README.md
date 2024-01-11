@@ -1,1 +1,1 @@
-# consolidating-task-trees
+![overview of our system](architecture.png)
