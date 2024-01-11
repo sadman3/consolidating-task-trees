@@ -1,0 +1,224 @@
+[
+       {
+              "ingredient": "onion",
+              "state": [
+                     {
+                            "physical_state": "peeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "slice",
+                     "pour",
+                     "pour",
+                     "cook and stir",
+                     "cook and stir"
+              ],
+              "end_product": "italian sausage"
+       },
+       {
+              "ingredient": "sweet pepper",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "slice",
+                     "pick-and-place",
+                     "pour",
+                     "stir",
+                     "cook and stir"
+              ],
+              "end_product": "italian sausage"
+       },
+       {
+              "ingredient": "garlic",
+              "state": [
+                     {
+                            "physical_state": "peeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "chop",
+                     "pour",
+                     "cook and stir",
+                     "cook and stir"
+              ],
+              "end_product": "italian sausage"
+       },
+       {
+              "ingredient": "sausage",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "uncooked",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "partly cooked",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "partly cooked",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "partly cooked,chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped,partly cooked",
+                            "location": "pan"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "flip",
+                     "pick-and-place",
+                     "cut",
+                     "scrape",
+                     "cook and stir"
+              ],
+              "end_product": "italian sausage"
+       },
+       {
+              "ingredient": "butter",
+              "state": [
+                     {
+                            "physical_state": "cubed",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "cook and stir"
+              ],
+              "end_product": "italian sausage"
+       },
+       {
+              "ingredient": "basil",
+              "state": [
+                     {
+                            "physical_state": "dried",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "cook and stir"
+              ],
+              "end_product": "italian sausage"
+       },
+       {
+              "ingredient": "oregano",
+              "state": [
+                     {
+                            "physical_state": "dried",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "cook and stir"
+              ],
+              "end_product": "italian sausage"
+       },
+       {
+              "ingredient": "white wine",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "cook and stir"
+              ],
+              "end_product": "italian sausage"
+       },
+       {
+              "ingredient": "italian sausage",
+              "state": [
+                     {
+                            "physical_state": "cooked",
+                            "location": "pan"
+                     }
+              ],
+              "motion": [
+                     "scoop and pour"
+              ],
+              "end_product": null
+       }
+]

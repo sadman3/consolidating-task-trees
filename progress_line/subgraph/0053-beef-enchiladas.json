@@ -1,0 +1,163 @@
+[
+       {
+              "ingredient": "ground beef",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "uncooked",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "cook and stir",
+                     "pour",
+                     "pick-and-place",
+                     "sprinkle"
+              ],
+              "end_product": "enchilada"
+       },
+       {
+              "ingredient": "onion",
+              "state": [
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pick-and-place",
+                     "sprinkle"
+              ],
+              "end_product": "enchilada"
+       },
+       {
+              "ingredient": "enchilada sauce",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "baking tray"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "baking tray"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pick-and-place",
+                     "pour",
+                     "bake"
+              ],
+              "end_product": "enchilada"
+       },
+       {
+              "ingredient": "tortilla",
+              "state": [
+                     {
+                            "physical_state": "rolled",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "rolled",
+                            "location": "baking tray"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "bake"
+              ],
+              "end_product": "enchilada"
+       },
+       {
+              "ingredient": "cheese",
+              "state": [
+                     {
+                            "physical_state": "grated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "baking tray"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "sprinkle"
+              ],
+              "end_product": "enchilada"
+       },
+       {
+              "ingredient": "black olive",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": "jar"
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "spoon"
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     }
+              ],
+              "motion": [
+                     "scoop",
+                     "pour",
+                     "chop",
+                     "sprinkle"
+              ],
+              "end_product": "enchilada"
+       },
+       {
+              "ingredient": "enchilada",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "baking tray"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place"
+              ],
+              "end_product": null
+       }
+]

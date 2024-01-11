@@ -1,0 +1,274 @@
+[
+       {
+              "ingredient": "vegetable oil",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "cooking spray"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "spray bottle"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "baking tray"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "spray",
+                     "spray",
+                     "sprinkle",
+                     "pour",
+                     "mix"
+              ],
+              "end_product": "chocolate cake"
+       },
+       {
+              "ingredient": "flour",
+              "state": [
+                     {
+                            "physical_state": "powder",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "powder",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "powder",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "baking tray"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "spread",
+                     "mix",
+                     "pour"
+              ],
+              "end_product": "cake mix"
+       },
+       {
+              "ingredient": "sugar",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "mix"
+              ],
+              "end_product": "cake mix"
+       },
+       {
+              "ingredient": "cocoa powder",
+              "state": [
+                     {
+                            "physical_state": "powder",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "mix"
+              ],
+              "end_product": "cake mix"
+       },
+       {
+              "ingredient": "baking powder",
+              "state": [
+                     {
+                            "physical_state": "powder",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "mix"
+              ],
+              "end_product": "cake mix"
+       },
+       {
+              "ingredient": "baking soda",
+              "state": [
+                     {
+                            "physical_state": "powder",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "mix"
+              ],
+              "end_product": "cake mix"
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "mix"
+              ],
+              "end_product": "cake mix"
+       },
+       {
+              "ingredient": "cake mix",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "mix"
+              ],
+              "end_product": "chocolate cake"
+       },
+       {
+              "ingredient": "egg white and yolk",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "mix"
+              ],
+              "end_product": "chocolate cake"
+       },
+       {
+              "ingredient": "milk",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "mix"
+              ],
+              "end_product": "chocolate cake"
+       },
+       {
+              "ingredient": "vanilla extract",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "mix"
+              ],
+              "end_product": "chocolate cake"
+       },
+       {
+              "ingredient": "cake batter",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "baking tray"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "bake",
+                     "bake"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "chocolate cake",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "baking tray"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "wire rack"
+                     },
+                     {
+                            "physical_state": "divided",
+                            "location": "plate"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "pick-and-place",
+                     "pick-and-place",
+                     "scoop and pour"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "frosting",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "container"
+                     }
+              ],
+              "motion": [
+                     "spread"
+              ],
+              "end_product": "chocolate cake"
+       }
+]

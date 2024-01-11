@@ -1,0 +1,125 @@
+[
+       {
+              "ingredient": "watermelon",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "frozen,chopped",
+                            "location": "plastic bag"
+                     },
+                     {
+                            "physical_state": "frozen,chopped",
+                            "location": "blender cup"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "slice",
+                     "chop",
+                     "insert",
+                     "pour",
+                     "blend"
+              ],
+              "end_product": "smoothie"
+       },
+       {
+              "ingredient": "tea bag",
+              "state": [
+                     {
+                            "physical_state": "dried",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "soaked",
+                            "location": "drinking glass"
+                     }
+              ],
+              "motion": [
+                     "insert",
+                     "remove"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "tea",
+              "state": [
+                     {
+                            "physical_state": "liquid",
+                            "location": "drinking glass"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "blender cup"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "blend"
+              ],
+              "end_product": "smoothie"
+       },
+       {
+              "ingredient": "strawberry",
+              "state": [
+                     {
+                            "physical_state": "frozen",
+                            "location": "plastic bag"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "blender cup"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "blend"
+              ],
+              "end_product": "smoothie"
+       },
+       {
+              "ingredient": "sugar syrup",
+              "state": [
+                     {
+                            "physical_state": "liquid",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "liquid",
+                            "location": "blender cup"
+                     }
+              ],
+              "motion": [
+                     "scoop and pour",
+                     "blend"
+              ],
+              "end_product": "smoothie"
+       },
+       {
+              "ingredient": "smoothie",
+              "state": [
+                     {
+                            "physical_state": "blended,thick liquid",
+                            "location": "blender cup"
+                     }
+              ],
+              "motion": [
+                     "scoop and pour"
+              ],
+              "end_product": null
+       }
+]

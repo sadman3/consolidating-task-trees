@@ -1,0 +1,154 @@
+[
+       {
+              "ingredient": "egg",
+              "state": [
+                     {
+                            "physical_state": "uncracked",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "jar"
+                     }
+              ],
+              "motion": [
+                     "crack",
+                     "shake"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "sugar",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "spoon"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "jar"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "shake"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "jar"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "shake"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "flour",
+              "state": [
+                     {
+                            "physical_state": "powder",
+                            "location": "spoon"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "jar"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "stir"
+              ],
+              "end_product": "chocolate chip cookie"
+       },
+       {
+              "ingredient": "egg mixture",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "jar"
+                     }
+              ],
+              "motion": [
+                     "stir"
+              ],
+              "end_product": "chocolate chip cookie"
+       },
+       {
+              "ingredient": "egg yolk",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "jar"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "stir"
+              ],
+              "end_product": "chocolate chip cookie"
+       },
+       {
+              "ingredient": "butter",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "jar"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "stir"
+              ],
+              "end_product": "chocolate chip cookie"
+       },
+       {
+              "ingredient": "chocolate chip",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "jar"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "stir"
+              ],
+              "end_product": "chocolate chip cookie"
+       },
+       {
+              "ingredient": "cookie dough",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": "jar"
+                     }
+              ],
+              "motion": [
+                     "heat"
+              ],
+              "end_product": null
+       }
+]

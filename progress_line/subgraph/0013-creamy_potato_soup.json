@@ -1,0 +1,334 @@
+[
+       {
+              "ingredient": "potato",
+              "state": [
+                     {
+                            "physical_state": "unpeeled,whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "unpeeled,whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "diced",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "diced",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "dice",
+                     "pour and scrape",
+                     "pour and scrape",
+                     "pour and mix"
+              ],
+              "end_product": "potato soup"
+       },
+       {
+              "ingredient": "butter",
+              "state": [
+                     {
+                            "physical_state": "softened,unmelted",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "softened,halved,unmelted",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "softened,halved,unmelted",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "softened,halved,unmelted",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "cut",
+                     "unwrap",
+                     "pour",
+                     "melt",
+                     "pour and mix"
+              ],
+              "end_product": "potato soup"
+       },
+       {
+              "ingredient": "onion",
+              "state": [
+                     {
+                            "physical_state": "unpeeled,whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "peeled,whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "peeled,whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "unpeeled,whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "peel",
+                     "pick-and-place",
+                     "chop",
+                     "pick-and-place",
+                     "peel",
+                     "pour and scrape",
+                     "pour and mix"
+              ],
+              "end_product": "potato soup"
+       },
+       {
+              "ingredient": "celery",
+              "state": [
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "scrape",
+                     "pour and scrape",
+                     "pour and mix"
+              ],
+              "end_product": "potato soup"
+       },
+       {
+              "ingredient": "carrot",
+              "state": [
+                     {
+                            "physical_state": "whole,peeled",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole,peeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "chop",
+                     "scrape",
+                     "pour and scrape",
+                     "pour and mix"
+              ],
+              "end_product": "potato soup"
+       },
+       {
+              "ingredient": "basil",
+              "state": [
+                     {
+                            "physical_state": "dried",
+                            "location": "shaker"
+                     },
+                     {
+                            "physical_state": "dried",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "sprinkle",
+                     "pour and mix"
+              ],
+              "end_product": "potato soup"
+       },
+       {
+              "ingredient": "garlic",
+              "state": [
+                     {
+                            "physical_state": "paste",
+                            "location": "jar"
+                     },
+                     {
+                            "physical_state": "paste",
+                            "location": "tablespoon"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "scoop",
+                     "pour",
+                     "pour and mix"
+              ],
+              "end_product": "potato soup"
+       },
+       {
+              "ingredient": "chicken broth",
+              "state": [
+                     {
+                            "physical_state": "liquid",
+                            "location": "carton"
+                     },
+                     {
+                            "physical_state": "liquid",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "pour and mix"
+              ],
+              "end_product": "potato soup"
+       },
+       {
+              "ingredient": "gouda",
+              "state": [
+                     {
+                            "physical_state": "block,whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "grate",
+                     "pour and mix"
+              ],
+              "end_product": "potato soup"
+       },
+       {
+              "ingredient": "flour",
+              "state": [
+                     {
+                            "physical_state": "powder",
+                            "location": "spoon"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pour and mix",
+                     "pour and mix"
+              ],
+              "end_product": "potato soup"
+       },
+       {
+              "ingredient": "potato soup",
+              "state": [
+                     {
+                            "physical_state": "thick liquid,partly cooked",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "thick liquid,partly cooked",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "scoop and pour",
+                     "grind"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "heavy cream",
+              "state": [
+                     {
+                            "physical_state": "creamy",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pour and mix",
+                     "pour and mix"
+              ],
+              "end_product": "potato soup"
+       },
+       {
+              "ingredient": "cheese",
+              "state": [
+                     {
+                            "physical_state": "grated",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour and mix"
+              ],
+              "end_product": "potato soup"
+       },
+       {
+              "ingredient": "black pepper",
+              "state": [
+                     {
+                            "physical_state": "whole,peppercorn",
+                            "location": "pepper mill"
+                     }
+              ],
+              "motion": [
+                     "grind"
+              ],
+              "end_product": "potato soup"
+       }
+]

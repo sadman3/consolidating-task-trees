@@ -1,0 +1,126 @@
+[
+       {
+              "ingredient": "corn syrup",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "heat"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "sugar",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "heat"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "sugar mixture",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "stir"
+              ],
+              "end_product": "peanut brittle"
+       },
+       {
+              "ingredient": "butter",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "stir"
+              ],
+              "end_product": "peanut brittle"
+       },
+       {
+              "ingredient": "vanilla extract",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "stir"
+              ],
+              "end_product": "peanut brittle"
+       },
+       {
+              "ingredient": "peanut",
+              "state": [
+                     {
+                            "physical_state": "dried",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "stir"
+              ],
+              "end_product": "peanut brittle"
+       },
+       {
+              "ingredient": "peanut mixture",
+              "state": [
+                     {
+                            "physical_state": "heated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "heated",
+                            "location": "sheet"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "sit"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "baking soda",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "stir"
+              ],
+              "end_product": "peanut brittle"
+       }
+]

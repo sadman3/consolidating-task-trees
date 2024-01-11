@@ -1,0 +1,222 @@
+[
+       {
+              "ingredient": "bacon",
+              "state": [
+                     {
+                            "physical_state": "sliced,raw",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "sliced,raw",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "chopped,raw",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "raw,chopped",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "fried,chopped",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "fried,chopped",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "cut",
+                     "scrape",
+                     "cook",
+                     "pour",
+                     "sprinkle",
+                     "cook"
+              ],
+              "end_product": "scrambled eggs"
+       },
+       {
+              "ingredient": "egg",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "beaten,uncooked",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "beaten,uncooked",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "crack",
+                     "pour",
+                     "cook and spread",
+                     "cook"
+              ],
+              "end_product": "scrambled eggs"
+       },
+       {
+              "ingredient": "egg white",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "beat"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "egg yolk",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "beat"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "milk",
+              "state": [
+                     {
+                            "physical_state": "liquid",
+                            "location": "cup"
+                     },
+                     {
+                            "physical_state": "liquid",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "beat",
+                     "cook"
+              ],
+              "end_product": "scrambled eggs"
+       },
+       {
+              "ingredient": "napkin",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "packet"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "butter",
+              "state": [
+                     {
+                            "physical_state": "softened,unmelted,stick",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "softened,cubed,unmelted",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "scoop and pour",
+                     "melt",
+                     "cook"
+              ],
+              "end_product": "scrambled eggs"
+       },
+       {
+              "ingredient": "onion",
+              "state": [
+                     {
+                            "physical_state": "chopped",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "cook and shake",
+                     "cook"
+              ],
+              "end_product": "scrambled eggs"
+       },
+       {
+              "ingredient": "cheese",
+              "state": [
+                     {
+                            "physical_state": "grated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "cook"
+              ],
+              "end_product": "scrambled eggs"
+       },
+       {
+              "ingredient": "scrambled eggs",
+              "state": [
+                     {
+                            "physical_state": "partly cooked",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "mixed,partly cooked",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "mixed,cooked",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "flip",
+                     "cook",
+                     "pour"
+              ],
+              "end_product": null
+       }
+]

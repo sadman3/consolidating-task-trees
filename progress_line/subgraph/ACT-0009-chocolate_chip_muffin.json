@@ -1,0 +1,183 @@
+[
+       {
+              "ingredient": "baking powder",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "mix"
+              ],
+              "end_product": "chocolate chip muffin"
+       },
+       {
+              "ingredient": "cinnamon",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "mix"
+              ],
+              "end_product": "chocolate chip muffin"
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "mix"
+              ],
+              "end_product": "chocolate chip muffin"
+       },
+       {
+              "ingredient": "flour",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "scrape"
+              ],
+              "end_product": "chocolate chip muffin"
+       },
+       {
+              "ingredient": "chocolate chip",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "scoop and pour"
+              ],
+              "end_product": "chocolate chip muffin"
+       },
+       {
+              "ingredient": "butter",
+              "state": [
+                     {
+                            "physical_state": "melted",
+                            "location": "mug"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "melted",
+                            "location": "mug"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "beat",
+                     "mix"
+              ],
+              "end_product": "chocolate chip muffin"
+       },
+       {
+              "ingredient": "milk",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "mix"
+              ],
+              "end_product": "chocolate chip muffin"
+       },
+       {
+              "ingredient": "egg white and yolk",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "mix"
+              ],
+              "end_product": "chocolate chip muffin"
+       },
+       {
+              "ingredient": "sour cream",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "mix"
+              ],
+              "end_product": "chocolate chip muffin"
+       },
+       {
+              "ingredient": "vanilla extract",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "mix"
+              ],
+              "end_product": "chocolate chip muffin"
+       },
+       {
+              "ingredient": "sugar",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "mix"
+              ],
+              "end_product": "chocolate chip muffin"
+       },
+       {
+              "ingredient": "muffin batter",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "muffin pan"
+                     }
+              ],
+              "motion": [
+                     "scoop and pour",
+                     "bake"
+              ],
+              "end_product": null
+       }
+]

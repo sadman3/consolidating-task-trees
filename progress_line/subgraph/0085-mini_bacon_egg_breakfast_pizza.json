@@ -1,0 +1,317 @@
+[
+       {
+              "ingredient": "onion",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "whole,peeled",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "whole,peeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "halved,peeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced,peeled",
+                            "location": "cutting board"
+                     }
+              ],
+              "motion": [
+                     "peel",
+                     "pick-and-place",
+                     "cut",
+                     "slice",
+                     "sprinkle"
+              ],
+              "end_product": "eggs and bacon pizza"
+       },
+       {
+              "ingredient": "bacon",
+              "state": [
+                     {
+                            "physical_state": "defrosted",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "defrosted",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "defrosted,chopped",
+                            "location": "cutting board"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "chop",
+                     "sprinkle"
+              ],
+              "end_product": "eggs and bacon pizza"
+       },
+       {
+              "ingredient": "flour",
+              "state": [
+                     {
+                            "physical_state": "powder",
+                            "location": "bag"
+                     },
+                     {
+                            "physical_state": "powder",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "powder",
+                            "location": "bag"
+                     },
+                     {
+                            "physical_state": "powder",
+                            "location": "table spoon"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "powder",
+                            "location": "bag"
+                     },
+                     {
+                            "physical_state": "powder",
+                            "location": "table"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "pour",
+                     "pour",
+                     "pour",
+                     "sprinkle",
+                     "cut with slits"
+              ],
+              "end_product": "dough mixture"
+       },
+       {
+              "ingredient": "table spoon",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": []
+                     }
+              ],
+              "motion": [
+                     "pour"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "teaspoon"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour"
+              ],
+              "end_product": "dough mixture"
+       },
+       {
+              "ingredient": "teaspoon",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": []
+                     }
+              ],
+              "motion": [
+                     "pour"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "olive oil",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "table spoon"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "brush"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "parchment paper"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "pour",
+                     "pour",
+                     "brush",
+                     "brush",
+                     "bake"
+              ],
+              "end_product": "dough mixture"
+       },
+       {
+              "ingredient": "dough mixture",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "mix",
+                     "mix"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "pizza dough",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "halved",
+                            "location": "table"
+                     },
+                     {
+                            "physical_state": "flattened",
+                            "location": "table"
+                     },
+                     {
+                            "physical_state": "flattened",
+                            "location": "parchment paper"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "roll",
+                     "pick-and-place",
+                     "bake"
+              ],
+              "end_product": "egg white and yolk"
+       },
+       {
+              "ingredient": "sour cream",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "scraper"
+                     }
+              ],
+              "motion": [
+                     "scoop",
+                     "spread"
+              ],
+              "end_product": "eggs and bacon pizza"
+       },
+       {
+              "ingredient": "sea salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": []
+                     }
+              ],
+              "motion": [
+                     "sprinkle"
+              ],
+              "end_product": "eggs and bacon pizza"
+       },
+       {
+              "ingredient": "pepper",
+              "state": [
+                     {
+                            "physical_state": "ground",
+                            "location": "bottle"
+                     }
+              ],
+              "motion": [
+                     "sprinkle"
+              ],
+              "end_product": "eggs and bacon pizza"
+       },
+       {
+              "ingredient": "egg",
+              "state": [
+                     {
+                            "physical_state": "uncracked",
+                            "location": []
+                     }
+              ],
+              "motion": [
+                     "crack"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "eggs and bacon pizza",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "parchment paper"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "parsley",
+              "state": [
+                     {
+                            "physical_state": "chopped",
+                            "location": "bow"
+                     }
+              ],
+              "motion": [
+                     "sprinkle"
+              ],
+              "end_product": "eggs and bacon pizza"
+       }
+]

@@ -1,0 +1,283 @@
+[
+       {
+              "ingredient": "tomato",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "cubed",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "slice",
+                     "dice",
+                     "pick-and-place",
+                     "pour"
+              ],
+              "end_product": "salad"
+       },
+       {
+              "ingredient": "onion",
+              "state": [
+                     {
+                            "physical_state": "whole,peeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "slice",
+                     "pick-and-place",
+                     "pour"
+              ],
+              "end_product": "salad"
+       },
+       {
+              "ingredient": "cucumber",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole,peeled",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole,peeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "diced",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "peel",
+                     "pick-and-place",
+                     "dice",
+                     "pick-and-place",
+                     "pour"
+              ],
+              "end_product": "salad"
+       },
+       {
+              "ingredient": "sweet pepper",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "cored",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "cubed",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "core",
+                     "dice",
+                     "cut",
+                     "pick-and-place",
+                     "pour"
+              ],
+              "end_product": "salad"
+       },
+       {
+              "ingredient": "green pepper",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "cored",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "cubed",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "core",
+                     "dice",
+                     "pick-and-place",
+                     "pour"
+              ],
+              "end_product": "salad"
+       },
+       {
+              "ingredient": "oregano",
+              "state": [
+                     {
+                            "physical_state": "dried",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour"
+              ],
+              "end_product": "salad"
+       },
+       {
+              "ingredient": "black olive",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour"
+              ],
+              "end_product": "salad"
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "pieces",
+                            "location": "grinder"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "grind",
+                     "pour"
+              ],
+              "end_product": "salad"
+       },
+       {
+              "ingredient": "lemon",
+              "state": [
+                     {
+                            "physical_state": "halved",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "squeeze",
+                     "pour"
+              ],
+              "end_product": "salad"
+       },
+       {
+              "ingredient": "olive oil",
+              "state": [
+                     {
+                            "physical_state": "liquid",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour"
+              ],
+              "end_product": "salad"
+       },
+       {
+              "ingredient": "feta cheese",
+              "state": [
+                     {
+                            "physical_state": "cubed",
+                            "location": "container"
+                     },
+                     {
+                            "physical_state": "cubed",
+                            "location": "spoon"
+                     }
+              ],
+              "motion": [
+                     "scoop",
+                     "pour"
+              ],
+              "end_product": "salad"
+       },
+       {
+              "ingredient": "salad",
+              "state": [
+                     {
+                            "physical_state": "mixed",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour"
+              ],
+              "end_product": null
+       }
+]

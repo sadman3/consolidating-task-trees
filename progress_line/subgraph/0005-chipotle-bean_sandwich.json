@@ -1,0 +1,291 @@
+[
+       {
+              "ingredient": "kidney bean",
+              "state": [
+                     {
+                            "physical_state": "sealed",
+                            "location": "can"
+                     },
+                     {
+                            "physical_state": "cooked,soaked",
+                            "location": "can"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "can"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "open",
+                     "drain",
+                     "pour",
+                     "spread"
+              ],
+              "end_product": "sandwich"
+       },
+       {
+              "ingredient": "bean mix",
+              "state": [
+                     {
+                            "physical_state": "opened",
+                            "location": "can"
+                     },
+                     {
+                            "physical_state": "mixed,mashed",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "drain",
+                     "spread"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "garbage",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "trash bin"
+                     }
+              ],
+              "motion": [
+                     "throw away"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "chipotle sauce",
+              "state": [
+                     {
+                            "physical_state": "thick liquid",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "spread"
+              ],
+              "end_product": "sandwich"
+       },
+       {
+              "ingredient": "chipotle",
+              "state": [
+                     {
+                            "physical_state": "dried",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "add",
+                     "spread"
+              ],
+              "end_product": "sandwich"
+       },
+       {
+              "ingredient": "chipotle mix",
+              "state": [
+                     {
+                            "physical_state": "mixed",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "mash"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "granulated",
+                            "location": "bean mix"
+                     },
+                     {
+                            "physical_state": "granulated",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "mash",
+                     "sprinkle"
+              ],
+              "end_product": "sandwich"
+       },
+       {
+              "ingredient": "avocado",
+              "state": [
+                     {
+                            "physical_state": "whole,unpeeled",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole,unpeeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "slit,unpeeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "halved,unpeeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "halved,peeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "cutting board"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "cut",
+                     "pull apart",
+                     "peel",
+                     "slice",
+                     "pick-and-place"
+              ],
+              "end_product": "sandwich"
+       },
+       {
+              "ingredient": "bread",
+              "state": [
+                     {
+                            "physical_state": "sliced",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "off (ready)",
+                            "location": "toaster"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "toaster"
+                     },
+                     {
+                            "physical_state": "on",
+                            "location": "toaster"
+                     },
+                     {
+                            "physical_state": "sliced,toasted",
+                            "location": "toaster"
+                     },
+                     {
+                            "physical_state": "sliced,toasted",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "cutting board"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "pick-and-place",
+                     "turn on",
+                     "heat",
+                     "turn off",
+                     "pick-and-place",
+                     "pick-and-place",
+                     "pick-and-place"
+              ],
+              "end_product": "sandwich"
+       },
+       {
+              "ingredient": "escarole",
+              "state": [
+                     {
+                            "physical_state": "leaf",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place"
+              ],
+              "end_product": "sandwich"
+       },
+       {
+              "ingredient": "radish",
+              "state": [
+                     {
+                            "physical_state": "whole,unpeeled",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "peeled,whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "peeled,whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "peel",
+                     "pick-and-place",
+                     "slice",
+                     "pick-and-place",
+                     "pick-and-place"
+              ],
+              "end_product": "sandwich"
+       },
+       {
+              "ingredient": "bean sprout",
+              "state": [
+                     {
+                            "physical_state": "leaf",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place"
+              ],
+              "end_product": "sandwich"
+       },
+       {
+              "ingredient": "sandwich",
+              "state": [
+                     {
+                            "physical_state": "halved",
+                            "location": "cutting board"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place"
+              ],
+              "end_product": null
+       }
+]

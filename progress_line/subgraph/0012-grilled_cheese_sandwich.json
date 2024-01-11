@@ -1,0 +1,222 @@
+[
+       {
+              "ingredient": "gruyere",
+              "state": [
+                     {
+                            "physical_state": "block",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "grated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "grill spatula"
+                     }
+              ],
+              "motion": [
+                     "grate",
+                     "pour",
+                     "sprinkle",
+                     "scoop and pour"
+              ],
+              "end_product": "grilled cheese sandwich"
+       },
+       {
+              "ingredient": "cheddar",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "grill spatula"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "sprinkle",
+                     "scoop and pour"
+              ],
+              "end_product": "grilled cheese sandwich"
+       },
+       {
+              "ingredient": "mustard",
+              "state": [
+                     {
+                            "physical_state": "dried,ground",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "grill spatula"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "sprinkle",
+                     "scoop and pour"
+              ],
+              "end_product": "grilled cheese sandwich"
+       },
+       {
+              "ingredient": "paprika",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "grill spatula"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "sprinkle",
+                     "scoop and pour"
+              ],
+              "end_product": "grilled cheese sandwich"
+       },
+       {
+              "ingredient": "black pepper",
+              "state": [
+                     {
+                            "physical_state": "ground",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "grill spatula"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "sprinkle",
+                     "scoop and pour"
+              ],
+              "end_product": "grilled cheese sandwich"
+       },
+       {
+              "ingredient": "cheese",
+              "state": [
+                     {
+                            "physical_state": "mixed",
+                            "location": "mixing bowl"
+                     },
+                     {
+                            "physical_state": "mixed",
+                            "location": "grill spatula"
+                     },
+                     {
+                            "physical_state": "melted",
+                            "location": "grill spatula"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "heat",
+                     "scoop and pour"
+              ],
+              "end_product": "bread"
+       },
+       {
+              "ingredient": "bread",
+              "state": [
+                     {
+                            "physical_state": "sliced",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "grill"
+                     },
+                     {
+                            "physical_state": "partly toasted,sliced",
+                            "location": "grill"
+                     },
+                     {
+                            "physical_state": "flipped,partly toasted,sliced",
+                            "location": "grill"
+                     },
+                     {
+                            "physical_state": "toasted,sliced",
+                            "location": "grill"
+                     },
+                     {
+                            "physical_state": "toasted,sliced",
+                            "location": "aluminium foil"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "heat",
+                     "flip",
+                     "flip",
+                     "remove",
+                     "pick-and-place"
+              ],
+              "end_product": "grilled cheese sandwich"
+       },
+       {
+              "ingredient": "olive oil",
+              "state": [
+                     {
+                            "physical_state": "liquid",
+                            "location": "spray bottle"
+                     }
+              ],
+              "motion": [
+                     "spray"
+              ],
+              "end_product": "grilled cheese sandwich"
+       },
+       {
+              "ingredient": "grill spatula",
+              "state": [
+                     {
+                            "physical_state": "on",
+                            "location": "grill"
+                     }
+              ],
+              "motion": [
+                     "heat"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "aluminium foil",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "box"
+                     }
+              ],
+              "motion": [
+                     "tear and place"
+              ],
+              "end_product": null
+       }
+]

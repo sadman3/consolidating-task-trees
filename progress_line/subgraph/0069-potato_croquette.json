@@ -1,0 +1,350 @@
+[
+       {
+              "ingredient": "potato",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "peeled",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "peeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "mashed",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "mashed",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "peel",
+                     "pick-and-place",
+                     "chop",
+                     "pick-and-place",
+                     "mash",
+                     "pour",
+                     "scrape",
+                     "mix"
+              ],
+              "end_product": "croquette"
+       },
+       {
+              "ingredient": "sink",
+              "state": [
+                     {
+                            "physical_state": "empty",
+                            "location": []
+                     }
+              ],
+              "motion": [
+                     "drain"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "vegetable oil",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "scrape",
+                     "pour",
+                     "pour",
+                     "cook"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "onion",
+              "state": [
+                     {
+                            "physical_state": "chopped",
+                            "location": "tray"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "scrape",
+                     "sprinkle",
+                     "mix"
+              ],
+              "end_product": "croquette"
+       },
+       {
+              "ingredient": "glass tray",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": []
+                     }
+              ],
+              "motion": [
+                     "scrape"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "ground beef",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": "tray"
+                     },
+                     {
+                            "physical_state": "uncooked",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "scrape",
+                     "cook and stir",
+                     "pour",
+                     "sprinkle",
+                     "mix"
+              ],
+              "end_product": "croquette"
+       },
+       {
+              "ingredient": "oil",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "mix"
+              ],
+              "end_product": "croquette"
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "spoon"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "granulated",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "pour",
+                     "sprinkle",
+                     "mix"
+              ],
+              "end_product": "croquette"
+       },
+       {
+              "ingredient": "black pepper",
+              "state": [
+                     {
+                            "physical_state": "ground",
+                            "location": "spoon"
+                     },
+                     {
+                            "physical_state": "ground",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "sprinkle",
+                     "mix"
+              ],
+              "end_product": "croquette"
+       },
+       {
+              "ingredient": "meat mix",
+              "state": [
+                     {
+                            "physical_state": "cooked",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "scrape",
+                     "scrape",
+                     "mix"
+              ],
+              "end_product": "croquette"
+       },
+       {
+              "ingredient": "croquette mixture",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "roll"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "croquette",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "partly cooked",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "flipped",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "flip",
+                     "cook",
+                     "pick-and-place"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "flour",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "dip"
+              ],
+              "end_product": "croquette"
+       },
+       {
+              "ingredient": "egg yolk",
+              "state": [
+                     {
+                            "physical_state": "mixed",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "dip"
+              ],
+              "end_product": "croquette"
+       },
+       {
+              "ingredient": "breadcrumb",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "dip"
+              ],
+              "end_product": "croquette"
+       },
+       {
+              "ingredient": "chopstick",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": []
+                     }
+              ],
+              "motion": [
+                     "pick-and-place"
+              ],
+              "end_product": null
+       }
+]

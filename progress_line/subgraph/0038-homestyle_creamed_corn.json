@@ -1,0 +1,233 @@
+[
+       {
+              "ingredient": "corn",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "shaved",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "scrape",
+                     "stir"
+              ],
+              "end_product": "creamed corn"
+       },
+       {
+              "ingredient": "corn kernels",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "uncooked",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "scoop and pour",
+                     "stir"
+              ],
+              "end_product": "creamed corn"
+       },
+       {
+              "ingredient": "corn cob",
+              "state": [
+                     {
+                            "physical_state": "shaved",
+                            "location": []
+                     }
+              ],
+              "motion": [
+                     "squeeze"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "milk",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "stir",
+                     "pour",
+                     "cook and stir"
+              ],
+              "end_product": "creamed corn"
+       },
+       {
+              "ingredient": "butter",
+              "state": [
+                     {
+                            "physical_state": "cubed",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "stir"
+              ],
+              "end_product": "creamed corn"
+       },
+       {
+              "ingredient": "sugar",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "stir"
+              ],
+              "end_product": "creamed corn"
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "stir"
+              ],
+              "end_product": "creamed corn"
+       },
+       {
+              "ingredient": "black pepper",
+              "state": [
+                     {
+                            "physical_state": "ground",
+                            "location": "shaker"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "stir"
+              ],
+              "end_product": "creamed corn"
+       },
+       {
+              "ingredient": "corn mixture",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "partly cooked",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "boil",
+                     "cook and stir"
+              ],
+              "end_product": "creamed corn"
+       },
+       {
+              "ingredient": "corn starch",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "scoop",
+                     "pour",
+                     "cook and stir"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "creamed corn",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "scoop and pour"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "parmesan",
+              "state": [
+                     {
+                            "physical_state": "grated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "grated",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "sprinkle",
+                     "mix"
+              ],
+              "end_product": "creamed corn"
+       }
+]

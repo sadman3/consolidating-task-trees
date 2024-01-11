@@ -1,0 +1,156 @@
+[
+       {
+              "ingredient": "curry paste",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "mortar"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "scoop and pour",
+                     "mix",
+                     "mix"
+              ],
+              "end_product": "massaman curry"
+       },
+       {
+              "ingredient": "pestle",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": []
+                     }
+              ],
+              "motion": [
+                     "grind"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "scale",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "surface"
+                     }
+              ],
+              "motion": [
+                     "pour"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "peanut",
+              "state": [
+                     {
+                            "physical_state": "dried",
+                            "location": "bag"
+                     },
+                     {
+                            "physical_state": "dried",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "baking tray"
+                     }
+              ],
+              "motion": [
+                     "cut open",
+                     "pour",
+                     "turn on"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "coconut milk powder",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bag"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "stir"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "coconut milk",
+              "state": [
+                     {
+                            "physical_state": "liquid",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "liquid",
+                            "location": "spoon"
+                     },
+                     {
+                            "physical_state": "liquid",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "scoop",
+                     "pour",
+                     "mix"
+              ],
+              "end_product": "massaman curry"
+       },
+       {
+              "ingredient": "beefsteak",
+              "state": [
+                     {
+                            "physical_state": "sealed",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "uncooked",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "cut in pieces",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "cut open",
+                     "cut",
+                     "cook and stir"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "curry sauce",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "cook and stir"
+              ],
+              "end_product": null
+       }
+]

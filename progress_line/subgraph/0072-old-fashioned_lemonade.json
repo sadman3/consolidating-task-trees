@@ -1,0 +1,191 @@
+[
+       {
+              "ingredient": "lemon",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "colander"
+                     },
+                     {
+                            "physical_state": "washed,whole",
+                            "location": "colander"
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "softened,whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "grated",
+                            "location": "container"
+                     },
+                     {
+                            "physical_state": "grated",
+                            "location": "saucepan"
+                     },
+                     {
+                            "physical_state": "softened,whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "halved",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "juice",
+                            "location": "squeezer"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "wash",
+                     "pick-and-place",
+                     "roll",
+                     "grate",
+                     "pour",
+                     "cook and stir",
+                     "cut",
+                     "squeeze",
+                     "pour"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "sugar",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "granulated",
+                            "location": "saucepan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "saucepan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "cook and stir",
+                     "pour and strain",
+                     "pour"
+              ],
+              "end_product": "lemonade"
+       },
+       {
+              "ingredient": "lemon zest",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "container"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "saucepan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "strainer"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour and strain",
+                     "remove"
+              ],
+              "end_product": "lemonade"
+       },
+       {
+              "ingredient": "lemon juice",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "squeezer"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour"
+              ],
+              "end_product": "lemonade"
+       },
+       {
+              "ingredient": "juice",
+              "state": [
+                     {
+                            "physical_state": "mixed",
+                            "location": "saucepan"
+                     }
+              ],
+              "motion": [
+                     "pour and strain"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "pulp",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "strainer"
+                     }
+              ],
+              "motion": [
+                     "remove"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "lemonade",
+              "state": [
+                     {
+                            "physical_state": "mixed",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "mixed",
+                            "location": "pitcher"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "ice",
+              "state": [
+                     {
+                            "physical_state": "frozen,crushed",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "drinking glass"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "pour"
+              ],
+              "end_product": null
+       }
+]

@@ -1,0 +1,138 @@
+[
+       {
+              "ingredient": "tortilla",
+              "state": [
+                     {
+                            "physical_state": "plain",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "rolled",
+                            "location": "cutting board"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "tuck ends"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "butter",
+              "state": [
+                     {
+                            "physical_state": "stick",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "halved",
+                            "location": "wrap"
+                     }
+              ],
+              "motion": [
+                     "spread",
+                     "pick-and-place"
+              ],
+              "end_product": "tortilla"
+       },
+       {
+              "ingredient": "crayfish mixture",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "halved",
+                            "location": "wrap"
+                     }
+              ],
+              "motion": [
+                     "scrape",
+                     "pick-and-place"
+              ],
+              "end_product": "tortilla"
+       },
+       {
+              "ingredient": "black pepper",
+              "state": [
+                     {
+                            "physical_state": "ground",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "halved",
+                            "location": "wrap"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "pick-and-place"
+              ],
+              "end_product": "tortilla"
+       },
+       {
+              "ingredient": "arugula",
+              "state": [
+                     {
+                            "physical_state": "washed",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "halved",
+                            "location": "wrap"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "pick-and-place"
+              ],
+              "end_product": "tortilla"
+       },
+       {
+              "ingredient": "lemon",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "plate"
+                     }
+              ],
+              "motion": [
+                     "slice",
+                     "squeeze",
+                     "slice",
+                     "pick-and-place",
+                     "pick-and-place"
+              ],
+              "end_product": "crayfish mixture"
+       },
+       {
+              "ingredient": "lemon juice",
+              "state": [
+                     {
+                            "physical_state": "halved",
+                            "location": "wrap"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place"
+              ],
+              "end_product": "tortilla"
+       }
+]

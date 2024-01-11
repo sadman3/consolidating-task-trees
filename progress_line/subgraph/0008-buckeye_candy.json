@@ -1,0 +1,176 @@
+[
+       {
+              "ingredient": "peanut butter",
+              "state": [
+                     {
+                            "physical_state": "creamy",
+                            "location": "jar"
+                     },
+                     {
+                            "physical_state": "creamy",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "scoop",
+                     "pour and scrape",
+                     "roll and shape"
+              ],
+              "end_product": "buckeye candy"
+       },
+       {
+              "ingredient": "butter",
+              "state": [
+                     {
+                            "physical_state": "softened,unmelted,stick",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "roll and shape"
+              ],
+              "end_product": "buckeye candy"
+       },
+       {
+              "ingredient": "vanilla extract",
+              "state": [
+                     {
+                            "physical_state": "liquid",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "liquid",
+                            "location": "spoon"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "roll and shape"
+              ],
+              "end_product": "buckeye candy"
+       },
+       {
+              "ingredient": "powdered sugar",
+              "state": [
+                     {
+                            "physical_state": "powder",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "powder",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "roll and shape"
+              ],
+              "end_product": "buckeye candy"
+       },
+       {
+              "ingredient": "peanut butter mixture",
+              "state": [
+                     {
+                            "physical_state": "creamy,mixed",
+                            "location": "mixing bowl"
+                     },
+                     {
+                            "physical_state": "lumpy,mixed",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "blend",
+                     "roll and shape"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "parchment paper",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "box"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "buckeye candy",
+              "state": [
+                     {
+                            "physical_state": "rolled",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "rolled",
+                            "location": "baking tray"
+                     },
+                     {
+                            "physical_state": "rolled",
+                            "location": "toothpick"
+                     },
+                     {
+                            "physical_state": "chilled,rolled",
+                            "location": "toothpick"
+                     }
+              ],
+              "motion": [
+                     "place",
+                     "insert",
+                     "chill",
+                     "remove"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "chocolate chip",
+              "state": [
+                     {
+                            "physical_state": "pieces",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "pieces",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "melted,thick liquid",
+                            "location": "double boiler"
+                     },
+                     {
+                            "physical_state": "melted,thick liquid",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "pour",
+                     "dip"
+              ],
+              "end_product": "buckeye candy"
+       }
+]

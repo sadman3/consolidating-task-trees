@@ -1,0 +1,191 @@
+[
+       {
+              "ingredient": "sweet potato",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "peeled",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "peeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "plastic bag"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "bag"
+                     },
+                     {
+                            "physical_state": "floured",
+                            "location": "bag"
+                     },
+                     {
+                            "physical_state": "floured",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "peel",
+                     "pick-and-place",
+                     "cut",
+                     "pick-and-place",
+                     "close",
+                     "shake",
+                     "pour",
+                     "sprinkle",
+                     "mix"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "flour",
+              "state": [
+                     {
+                            "physical_state": "powder",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "plastic bag"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "sprinkle",
+                     "mix"
+              ],
+              "end_product": "sweet potato fries"
+       },
+       {
+              "ingredient": "vegetable oil",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "mix"
+              ],
+              "end_product": "sweet potato fries"
+       },
+       {
+              "ingredient": "garlic powder",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "mix"
+              ],
+              "end_product": "sweet potato fries"
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "mix"
+              ],
+              "end_product": "sweet potato fries"
+       },
+       {
+              "ingredient": "black pepper",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "mix"
+              ],
+              "end_product": "sweet potato fries"
+       },
+       {
+              "ingredient": "paprika",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "mix"
+              ],
+              "end_product": "sweet potato fries"
+       },
+       {
+              "ingredient": "sweet potato fries",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "baking tray"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "pick-and-place"
+              ],
+              "end_product": null
+       }
+]

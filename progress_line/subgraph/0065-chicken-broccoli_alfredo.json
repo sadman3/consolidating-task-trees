@@ -1,0 +1,335 @@
+[
+       {
+              "ingredient": "garlic",
+              "state": [
+                     {
+                            "physical_state": "clove",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "peeled",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "peeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "fried",
+                            "location": "pan"
+                     }
+              ],
+              "motion": [
+                     "peel",
+                     "pick-and-place",
+                     "chop",
+                     "pour",
+                     "pour",
+                     "cook and stir",
+                     "pour",
+                     "stir"
+              ],
+              "end_product": "alfredo sauce"
+       },
+       {
+              "ingredient": "olive oil",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "stir"
+              ],
+              "end_product": "alfredo sauce"
+       },
+       {
+              "ingredient": "chicken",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "uncooked",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "pan"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "chop",
+                     "pour",
+                     "pour",
+                     "cook and stir",
+                     "pour",
+                     "stir"
+              ],
+              "end_product": "alfredo sauce"
+       },
+       {
+              "ingredient": "chicken broth",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "stir",
+                     "stir"
+              ],
+              "end_product": "alfredo sauce"
+       },
+       {
+              "ingredient": "broccoli",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "covered",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "chop",
+                     "pour",
+                     "pour",
+                     "pour",
+                     "cook and stir",
+                     "cook"
+              ],
+              "end_product": "pasta alfredo"
+       },
+       {
+              "ingredient": "alfredo sauce",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "covered",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pan"
+                     }
+              ],
+              "motion": [
+                     "cook and stir",
+                     "cook and stir",
+                     "cook",
+                     "cook"
+              ],
+              "end_product": "pasta alfredo"
+       },
+       {
+              "ingredient": "penne",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": "box"
+                     },
+                     {
+                            "physical_state": "uncooked",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "uncooked",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "partly cooked",
+                            "location": "pan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "cook and stir",
+                     "cover",
+                     "cook"
+              ],
+              "end_product": "pasta alfredo"
+       },
+       {
+              "ingredient": "pasta alfredo",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "pan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "pour",
+                     "pour",
+                     "stir",
+                     "stir",
+                     "grate",
+                     "grate",
+                     "stir",
+                     "scoop and pour"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "parmesan",
+              "state": [
+                     {
+                            "physical_state": "grated",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour"
+              ],
+              "end_product": "pasta alfredo"
+       },
+       {
+              "ingredient": "cream",
+              "state": [
+                     {
+                            "physical_state": "creamy",
+                            "location": "measuring cup"
+                     }
+              ],
+              "motion": [
+                     "pour"
+              ],
+              "end_product": "pasta alfredo"
+       },
+       {
+              "ingredient": "nutmeg",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     }
+              ],
+              "motion": [
+                     "grate"
+              ],
+              "end_product": "pasta alfredo"
+       }
+]

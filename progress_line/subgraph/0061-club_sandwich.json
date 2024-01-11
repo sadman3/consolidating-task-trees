@@ -1,0 +1,220 @@
+[
+       {
+              "ingredient": "bacon",
+              "state": [
+                     {
+                            "physical_state": "raw,sliced",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "raw,sliced",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "cooked,sliced",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "fried,sliced",
+                            "location": "plate"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "cook",
+                     "pick-and-place",
+                     "pick-and-place"
+              ],
+              "end_product": "club sandwich"
+       },
+       {
+              "ingredient": "tomato",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "whole,cored",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "cutting board"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "core",
+                     "slice",
+                     "pick-and-place"
+              ],
+              "end_product": "club sandwich"
+       },
+       {
+              "ingredient": "bread",
+              "state": [
+                     {
+                            "physical_state": "sliced",
+                            "location": "toaster"
+                     },
+                     {
+                            "physical_state": "sliced,toasted",
+                            "location": "toaster"
+                     },
+                     {
+                            "physical_state": "sliced,toasted",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "bread"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "bread"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "cutting board"
+                     }
+              ],
+              "motion": [
+                     "toast",
+                     "pick-and-place",
+                     "spread",
+                     "pick-and-place",
+                     "pick-and-place",
+                     "pick-and-place",
+                     "pick-and-place",
+                     "pick-and-place"
+              ],
+              "end_product": "club sandwich"
+       },
+       {
+              "ingredient": "mayonnaise",
+              "state": [
+                     {
+                            "physical_state": "creamy",
+                            "location": "jar"
+                     }
+              ],
+              "motion": [
+                     "spread"
+              ],
+              "end_product": "club sandwich"
+       },
+       {
+              "ingredient": "ham",
+              "state": [
+                     {
+                            "physical_state": "cooked,sliced",
+                            "location": "plate"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place"
+              ],
+              "end_product": "club sandwich"
+       },
+       {
+              "ingredient": "turkey",
+              "state": [
+                     {
+                            "physical_state": "cooked,sliced",
+                            "location": "plate"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place"
+              ],
+              "end_product": "club sandwich"
+       },
+       {
+              "ingredient": "cheese",
+              "state": [
+                     {
+                            "physical_state": "sliced",
+                            "location": "plate"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place"
+              ],
+              "end_product": "club sandwich"
+       },
+       {
+              "ingredient": "lettuce",
+              "state": [
+                     {
+                            "physical_state": "leaf",
+                            "location": "plate"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place"
+              ],
+              "end_product": "club sandwich"
+       },
+       {
+              "ingredient": "club sandwich",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "portioned",
+                            "location": "cutting board"
+                     }
+              ],
+              "motion": [
+                     "divide",
+                     "pick-and-place"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "fries",
+              "state": [
+                     {
+                            "physical_state": "cooked",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "plate"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pick-and-place"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "sandwich",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "cutting board"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place"
+              ],
+              "end_product": null
+       }
+]

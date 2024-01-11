@@ -1,0 +1,160 @@
+[
+       {
+              "ingredient": "onion",
+              "state": [
+                     {
+                            "physical_state": "peeled",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "peeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "chop",
+                     "pour",
+                     "pour",
+                     "cook"
+              ],
+              "end_product": "black bean"
+       },
+       {
+              "ingredient": "garlic",
+              "state": [
+                     {
+                            "physical_state": "peeled",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "peeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "chop",
+                     "pour",
+                     "pour",
+                     "cook"
+              ],
+              "end_product": "black bean"
+       },
+       {
+              "ingredient": "cilantro",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "cut",
+                     "pour",
+                     "pour",
+                     "cook"
+              ],
+              "end_product": "black bean"
+       },
+       {
+              "ingredient": "black bean",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "tin can"
+                     },
+                     {
+                            "physical_state": "partly cooked",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "cook",
+                     "scoop and pour"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "cayenne pepper",
+              "state": [
+                     {
+                            "physical_state": "ground",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "cook"
+              ],
+              "end_product": "black bean"
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "cook"
+              ],
+              "end_product": "black bean"
+       }
+]

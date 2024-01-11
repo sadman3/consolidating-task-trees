@@ -1,0 +1,330 @@
+[
+       {
+              "ingredient": "green onion",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "frying pan"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "chop",
+                     "pick-and-place",
+                     "cook and stir"
+              ],
+              "end_product": "fried rice"
+       },
+       {
+              "ingredient": "sausage",
+              "state": [
+                     {
+                            "physical_state": "whole,raw",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "whole,raw",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced,raw",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced,raw",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "sliced,raw",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "sliced,cooked",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "take out",
+                     "cut",
+                     "pick-and-place",
+                     "scoop and pour",
+                     "stir and fry",
+                     "pour and scrape",
+                     "mix",
+                     "mix"
+              ],
+              "end_product": "fried rice"
+       },
+       {
+              "ingredient": "soy sauce",
+              "state": [
+                     {
+                            "physical_state": "liquid",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "liquid",
+                            "location": "spoon"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "liquid",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "pour",
+                     "pour",
+                     "mix"
+              ],
+              "end_product": "fried rice"
+       },
+       {
+              "ingredient": "sugar",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "spoon"
+                     },
+                     {
+                            "physical_state": "granulated",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "mix"
+              ],
+              "end_product": "fried rice"
+       },
+       {
+              "ingredient": "corn",
+              "state": [
+                     {
+                            "physical_state": "frozen,grain",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "frozen,grain",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "frozen,grain",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour and mix",
+                     "pour and scrape",
+                     "mix",
+                     "mix"
+              ],
+              "end_product": "fried rice"
+       },
+       {
+              "ingredient": "carrot",
+              "state": [
+                     {
+                            "physical_state": "choppped,frozen",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "choppped,frozen",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "choppped,frozen",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour and mix",
+                     "pour and scrape",
+                     "mix",
+                     "mix"
+              ],
+              "end_product": "fried rice"
+       },
+       {
+              "ingredient": "green pea",
+              "state": [
+                     {
+                            "physical_state": "bean,frozen",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "bean,frozen",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "bean,frozen",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour and mix",
+                     "pour and scrape",
+                     "mix",
+                     "mix"
+              ],
+              "end_product": "fried rice"
+       },
+       {
+              "ingredient": "white rice",
+              "state": [
+                     {
+                            "physical_state": "cooked",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour and scrape",
+                     "pour",
+                     "pour and scrape",
+                     "mix"
+              ],
+              "end_product": "fried rice"
+       },
+       {
+              "ingredient": "egg white and yolk",
+              "state": [
+                     {
+                            "physical_state": "beaten",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "beaten",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour and scrape",
+                     "mix"
+              ],
+              "end_product": "fried rice"
+       },
+       {
+              "ingredient": "sauce",
+              "state": [
+                     {
+                            "physical_state": "mixed",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "mixed",
+                            "location": "frying pan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pick-and-place",
+                     "cook and stir"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "fried rice",
+              "state": [
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "mixed",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "mixed",
+                            "location": "frying pan"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "cook and stir",
+                     "turn off",
+                     "pour"
+              ],
+              "end_product": null
+       }
+]

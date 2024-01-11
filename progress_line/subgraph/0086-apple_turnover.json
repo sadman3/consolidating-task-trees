@@ -1,0 +1,334 @@
+[
+       {
+              "ingredient": "apple",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "colander"
+                     },
+                     {
+                            "physical_state": "whole,washed",
+                            "location": "colander"
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "whole,peeled",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "peeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "cut in pieces",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "wash",
+                     "pick-and-place",
+                     "pick-and-place",
+                     "peel",
+                     "pick-and-place",
+                     "cut",
+                     "chop",
+                     "pick-and-place",
+                     "pour",
+                     "pour and stir"
+              ],
+              "end_product": "apple pie"
+       },
+       {
+              "ingredient": "butter",
+              "state": [
+                     {
+                            "physical_state": "stick",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "cubed",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "melted",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "scoop and pour",
+                     "heat",
+                     "pour",
+                     "pour and stir"
+              ],
+              "end_product": "apple pie"
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "pour and stir"
+              ],
+              "end_product": "apple pie"
+       },
+       {
+              "ingredient": "sugar",
+              "state": [
+                     {
+                            "physical_state": "white,granulated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "granulated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "white,granulated",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "pour and stir",
+                     "sprinkle"
+              ],
+              "end_product": "apple pie"
+       },
+       {
+              "ingredient": "cinnamon",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pour and stir",
+                     "pour and stir"
+              ],
+              "end_product": "apple pie"
+       },
+       {
+              "ingredient": "filling",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "spoon"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "scoop",
+                     "pour"
+              ],
+              "end_product": "apple pie"
+       },
+       {
+              "ingredient": "dough",
+              "state": [
+                     {
+                            "physical_state": "rolled",
+                            "location": "tin can"
+                     },
+                     {
+                            "physical_state": "rolled",
+                            "location": "table"
+                     },
+                     {
+                            "physical_state": "flattened",
+                            "location": "table"
+                     },
+                     {
+                            "physical_state": "flattened,folded",
+                            "location": "table"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "roll",
+                     "fold and pinch",
+                     "fold"
+              ],
+              "end_product": "apple pie"
+       },
+       {
+              "ingredient": "flour",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "table"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "pour"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "apple pie",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": "table"
+                     },
+                     {
+                            "physical_state": "uncooked",
+                            "location": "baking tray"
+                     },
+                     {
+                            "physical_state": "uncooked",
+                            "location": "baking try"
+                     },
+                     {
+                            "physical_state": "uncooked",
+                            "location": "baking tray"
+                     },
+                     {
+                            "physical_state": "uncooked,poked",
+                            "location": "baking tray"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "baking tray"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "brush",
+                     "sprinkle",
+                     "poke",
+                     "bake",
+                     "pick-and-place"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "egg",
+              "state": [
+                     {
+                            "physical_state": "uncracked",
+                            "location": []
+                     }
+              ],
+              "motion": [
+                     "crack"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "egg white and yolk",
+              "state": [
+                     {
+                            "physical_state": "beaten",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour"
+              ],
+              "end_product": "egg wash"
+       },
+       {
+              "ingredient": "milk",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "jug"
+                     }
+              ],
+              "motion": [
+                     "pour"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "egg wash",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "brush"
+                     }
+              ],
+              "motion": [
+                     "dip",
+                     "brush"
+              ],
+              "end_product": "apple pie"
+       },
+       {
+              "ingredient": "baking tray",
+              "state": [
+                     {
+                            "physical_state": "on,preheated",
+                            "location": "oven"
+                     }
+              ],
+              "motion": [
+                     "bake"
+              ],
+              "end_product": null
+       }
+]

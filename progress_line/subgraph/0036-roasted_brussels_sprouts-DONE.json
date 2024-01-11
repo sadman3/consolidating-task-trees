@@ -1,0 +1,147 @@
+[
+       {
+              "ingredient": "brussel sprout",
+              "state": [
+                     {
+                            "physical_state": "whole,uncooked",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "whole,uncooked",
+                            "location": "strainer"
+                     },
+                     {
+                            "physical_state": "whole,uncooked,washed",
+                            "location": "strainer"
+                     },
+                     {
+                            "physical_state": "uncooked,whole,washed",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "stem removed,washed",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "uncooked,peeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "uncooked,peeled",
+                            "location": "plastic bag"
+                     },
+                     {
+                            "physical_state": "seasoned,uncooked",
+                            "location": "plastic bag"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "baking tray"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "rinse",
+                     "pick-and-place",
+                     "cut",
+                     "peel",
+                     "add",
+                     "shake",
+                     "pour",
+                     "pick-and-place"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "granulated",
+                            "location": "spoon"
+                     },
+                     {
+                            "physical_state": "granulated",
+                            "location": "plastic bag"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "baking tray"
+                     }
+              ],
+              "motion": [
+                     "scoop",
+                     "add",
+                     "shake",
+                     "pick-and-place"
+              ],
+              "end_product": "brussel sprout"
+       },
+       {
+              "ingredient": "black pepper",
+              "state": [
+                     {
+                            "physical_state": "ground",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "ground",
+                            "location": "spoon"
+                     },
+                     {
+                            "physical_state": "ground",
+                            "location": "plastic bag"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "baking tray"
+                     }
+              ],
+              "motion": [
+                     "scoop",
+                     "add",
+                     "shake",
+                     "pick-and-place"
+              ],
+              "end_product": "brussel sprout"
+       },
+       {
+              "ingredient": "olive oil",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "plastic bag"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "baking tray"
+                     }
+              ],
+              "motion": [
+                     "add",
+                     "shake",
+                     "pick-and-place"
+              ],
+              "end_product": "brussel sprout"
+       },
+       {
+              "ingredient": "pepper",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "spoon"
+                     }
+              ],
+              "motion": [
+                     "add"
+              ],
+              "end_product": null
+       }
+]

@@ -1,0 +1,498 @@
+[
+       {
+              "ingredient": "mortar",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "box"
+                     }
+              ],
+              "motion": [
+                     "remove"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "pestle",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "box"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": []
+                     }
+              ],
+              "motion": [
+                     "remove",
+                     "mash"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "coriander",
+              "state": [
+                     {
+                            "physical_state": "seeds",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "seeds",
+                            "location": "spoon"
+                     },
+                     {
+                            "physical_state": "seeds",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "seeds",
+                            "location": "spoon"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "seeds",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "seeds",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mortar"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "pour",
+                     "pour",
+                     "pick-and-place",
+                     "cook and stir",
+                     "turn off",
+                     "pour and scrape",
+                     "mash"
+              ],
+              "end_product": "curry paste"
+       },
+       {
+              "ingredient": "cumin",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "spoon"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mortar"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "pour and scrape",
+                     "mash"
+              ],
+              "end_product": "curry paste"
+       },
+       {
+              "ingredient": "spice",
+              "state": [
+                     {
+                            "physical_state": "ground",
+                            "location": "container"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "spoon"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "ground",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "ground",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "ground",
+                            "location": "mortar"
+                     }
+              ],
+              "motion": [
+                     "scoop",
+                     "pour",
+                     "pick-and-place",
+                     "cook and stir",
+                     "turn off",
+                     "pour and scrape",
+                     "mash"
+              ],
+              "end_product": "curry paste"
+       },
+       {
+              "ingredient": "clove",
+              "state": [
+                     {
+                            "physical_state": "closed",
+                            "location": "jar"
+                     },
+                     {
+                            "physical_state": "seeds",
+                            "location": "jar"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "seeds",
+                            "location": "mortar"
+                     }
+              ],
+              "motion": [
+                     "open",
+                     "pick-and-place",
+                     "pour and scrape",
+                     "mash"
+              ],
+              "end_product": "spice mixture"
+       },
+       {
+              "ingredient": "black pepper",
+              "state": [
+                     {
+                            "physical_state": "whole,peppercorn",
+                            "location": "jar"
+                     },
+                     {
+                            "physical_state": "whole,peppercorn",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "whole,peppercorn",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "whole,peppercorn",
+                            "location": "mortar"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "cook and stir",
+                     "turn off",
+                     "pour and scrape",
+                     "mash"
+              ],
+              "end_product": "curry paste"
+       },
+       {
+              "ingredient": "onion",
+              "state": [
+                     {
+                            "physical_state": "unpeeled,whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "unpeeled,destemmed",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "unpeeled,halved",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "unpeeled,destemmed,halved",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "skin",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "destemmed,halved,peeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "diced",
+                            "location": "mortar"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "cut in half",
+                     "cut off ends",
+                     "peel",
+                     "throw away",
+                     "chop",
+                     "pour and scrape",
+                     "mash"
+              ],
+              "end_product": "curry paste"
+       },
+       {
+              "ingredient": "trash",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "trash bin"
+                     }
+              ],
+              "motion": [
+                     "throw away"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "garlic",
+              "state": [
+                     {
+                            "physical_state": "unpeeled,clove",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "unpeeled,clove",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "unpeeled,clove,derooted",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "clove,derooted,peeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "skin",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "clove,derooted,peeled",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "clove,derooted,peeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "minced",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "minced",
+                            "location": "mortar"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "cut off ends",
+                     "peel",
+                     "pick-and-place",
+                     "throw away",
+                     "pick-and-place",
+                     "chop",
+                     "scrape",
+                     "mash"
+              ],
+              "end_product": "curry paste"
+       },
+       {
+              "ingredient": "spice mixture",
+              "state": [
+                     {
+                            "physical_state": "mixed",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "mixed",
+                            "location": "mortar"
+                     }
+              ],
+              "motion": [
+                     "pour and scrape",
+                     "mash"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "lemon grass",
+              "state": [
+                     {
+                            "physical_state": "sealed",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "stem",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "unpeeled,stem",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "unpeeled,ends removed",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "ends removed,peeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "mortar"
+                     }
+              ],
+              "motion": [
+                     "rip open",
+                     "pick-and-place",
+                     "cut off ends",
+                     "peel",
+                     "slice",
+                     "pick-and-place",
+                     "mash"
+              ],
+              "end_product": "curry paste"
+       },
+       {
+              "ingredient": "shrimp",
+              "state": [
+                     {
+                            "physical_state": "sealed",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "paste",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "paste",
+                            "location": "spoon"
+                     },
+                     {
+                            "physical_state": "paste",
+                            "location": "mortar"
+                     }
+              ],
+              "motion": [
+                     "cut",
+                     "squeeze",
+                     "pour",
+                     "mash"
+              ],
+              "end_product": "curry paste"
+       },
+       {
+              "ingredient": "galangal",
+              "state": [
+                     {
+                            "physical_state": "closed",
+                            "location": "jar"
+                     },
+                     {
+                            "physical_state": "paste",
+                            "location": "jar"
+                     },
+                     {
+                            "physical_state": "paste",
+                            "location": "spoon"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mortar"
+                     }
+              ],
+              "motion": [
+                     "open",
+                     "scoop",
+                     "pour",
+                     "mash"
+              ],
+              "end_product": "curry paste"
+       },
+       {
+              "ingredient": "fish sauce",
+              "state": [
+                     {
+                            "physical_state": "sauce",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "sauce",
+                            "location": "mortar"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "mash"
+              ],
+              "end_product": "curry paste"
+       },
+       {
+              "ingredient": "paprika",
+              "state": [
+                     {
+                            "physical_state": "ground",
+                            "location": "shaker"
+                     },
+                     {
+                            "physical_state": "ground",
+                            "location": "mortar"
+                     }
+              ],
+              "motion": [
+                     "shake",
+                     "mash"
+              ],
+              "end_product": "curry paste"
+       },
+       {
+              "ingredient": "curry paste",
+              "state": [
+                     {
+                            "physical_state": "mixed",
+                            "location": "mortar"
+                     }
+              ],
+              "motion": [
+                     "mash"
+              ],
+              "end_product": null
+       }
+]

@@ -1,0 +1,376 @@
+[
+       {
+              "ingredient": "cranberry",
+              "state": [
+                     {
+                            "physical_state": "dried",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "dried",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "soak",
+                     "scrape",
+                     "mix"
+              ],
+              "end_product": "cranberry-walnut pancake"
+       },
+       {
+              "ingredient": "maple syrup",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "scrape",
+                     "mix",
+                     "mix"
+              ],
+              "end_product": "cranberry-walnut pancake"
+       },
+       {
+              "ingredient": "cornmeal",
+              "state": [
+                     {
+                            "physical_state": "ground",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "scoop and pour",
+                     "mix"
+              ],
+              "end_product": "cranberry-walnut pancake"
+       },
+       {
+              "ingredient": "flour",
+              "state": [
+                     {
+                            "physical_state": "powder",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "scoop and pour",
+                     "mix"
+              ],
+              "end_product": "cranberry-walnut pancake"
+       },
+       {
+              "ingredient": "baking soda",
+              "state": [
+                     {
+                            "physical_state": "powder",
+                            "location": "box"
+                     },
+                     {
+                            "physical_state": "powder",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "scoop and pour",
+                     "scoop and pour",
+                     "mix"
+              ],
+              "end_product": "cranberry-walnut pancake"
+       },
+       {
+              "ingredient": "baking powder",
+              "state": [
+                     {
+                            "physical_state": "powder",
+                            "location": "tin can"
+                     },
+                     {
+                            "physical_state": "powder",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "scoop and pour",
+                     "scoop and pour",
+                     "mix"
+              ],
+              "end_product": "cranberry-walnut pancake"
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "container"
+                     },
+                     {
+                            "physical_state": "granulated",
+                            "location": "cup"
+                     },
+                     {
+                            "physical_state": "granulated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "scoop and pour",
+                     "mix"
+              ],
+              "end_product": "cranberry-walnut pancake"
+       },
+       {
+              "ingredient": "flour mixture",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "mix",
+                     "mix"
+              ],
+              "end_product": "cranberry-walnut pancake"
+       },
+       {
+              "ingredient": "yogurt",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "mix",
+                     "mix"
+              ],
+              "end_product": "cranberry-walnut pancake"
+       },
+       {
+              "ingredient": "pancake batter",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "scoop and pour",
+                     "flip",
+                     "flip",
+                     "flip"
+              ],
+              "end_product": "cranberry-walnut pancake"
+       },
+       {
+              "ingredient": "walnut",
+              "state": [
+                     {
+                            "physical_state": "chopped",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "mix"
+              ],
+              "end_product": "cranberry-walnut pancake"
+       },
+       {
+              "ingredient": "dark chocolate",
+              "state": [
+                     {
+                            "physical_state": "bar",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "bar",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "chop",
+                     "pick-and-place",
+                     "mix"
+              ],
+              "end_product": "cranberry-walnut pancake"
+       },
+       {
+              "ingredient": "chocolate",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "mix"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "canola oil",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "tin can"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "spray",
+                     "scoop and pour"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "pancake",
+              "state": [
+                     {
+                            "physical_state": "partly cooked",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "plate"
+                     }
+              ],
+              "motion": [
+                     "flip",
+                     "pick-and-place",
+                     "sprinkle"
+              ],
+              "end_product": "cranberry-walnut pancake"
+       },
+       {
+              "ingredient": "whipped cream",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "scoop and pour"
+              ],
+              "end_product": "cranberry-walnut pancake"
+       },
+       {
+              "ingredient": "cranberry-walnut pancake",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "plate"
+                     }
+              ],
+              "motion": [
+                     "sprinkle"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "powdered sugar",
+              "state": [
+                     {
+                            "physical_state": "powder",
+                            "location": "cup"
+                     }
+              ],
+              "motion": [
+                     "sprinkle"
+              ],
+              "end_product": "cranberry-walnut pancake"
+       }
+]

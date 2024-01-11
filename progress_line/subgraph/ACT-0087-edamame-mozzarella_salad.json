@@ -1,0 +1,156 @@
+[
+       {
+              "ingredient": "soybean",
+              "state": [
+                     {
+                            "physical_state": "sealed",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "shelled,uncooked",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "rip open",
+                     "pour",
+                     "pour and scrape",
+                     "sprinkle"
+              ],
+              "end_product": "edamame-mozzarella salad"
+       },
+       {
+              "ingredient": "bowl",
+              "state": [
+                     {
+                            "physical_state": "off",
+                            "location": "microwave"
+                     },
+                     {
+                            "physical_state": "on",
+                            "location": "microwave"
+                     },
+                     {
+                            "physical_state": "off",
+                            "location": "microwave"
+                     }
+              ],
+              "motion": [
+                     "turn on",
+                     "cook",
+                     "remove"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "mozzarella",
+              "state": [
+                     {
+                            "physical_state": "diced",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "diced",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour and scrape",
+                     "sprinkle"
+              ],
+              "end_product": "edamame-mozzarella salad"
+       },
+       {
+              "ingredient": "sesame oil",
+              "state": [
+                     {
+                            "physical_state": "liquid",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "sprinkle"
+              ],
+              "end_product": "edamame-mozzarella salad"
+       },
+       {
+              "ingredient": "soy sauce",
+              "state": [
+                     {
+                            "physical_state": "liquid",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "sprinkle"
+              ],
+              "end_product": "edamame-mozzarella salad"
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "sprinkle"
+              ],
+              "end_product": "edamame-mozzarella salad"
+       },
+       {
+              "ingredient": "sesame seed",
+              "state": [
+                     {
+                            "physical_state": "seed",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "sprinkle"
+              ],
+              "end_product": "edamame-mozzarella salad"
+       },
+       {
+              "ingredient": "edamame-mozzarella salad",
+              "state": [
+                     {
+                            "physical_state": "mixed",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "sprinkle"
+              ],
+              "end_product": null
+       }
+]

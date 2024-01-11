@@ -1,0 +1,426 @@
+[
+       {
+              "ingredient": "sweet pepper",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "chopped,sauteed",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "chop",
+                     "pick-and-place",
+                     "pour and scrape",
+                     "cook and stir",
+                     "pour",
+                     "cook",
+                     "bake"
+              ],
+              "end_product": "frittata"
+       },
+       {
+              "ingredient": "mushroom",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "chopped,sauteed",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "chop",
+                     "pick-and-place",
+                     "pour and scrape",
+                     "pour and scrape",
+                     "cook and stir",
+                     "pour",
+                     "cook",
+                     "bake"
+              ],
+              "end_product": "frittata"
+       },
+       {
+              "ingredient": "onion",
+              "state": [
+                     {
+                            "physical_state": "whole,unpeeled",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole,peeled",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole,peeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "chopped,sauteed",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "peel",
+                     "pick-and-place",
+                     "chop",
+                     "pick-and-place",
+                     "pour and scrape",
+                     "pour and scrape",
+                     "cook and stir",
+                     "pour",
+                     "cook",
+                     "bake"
+              ],
+              "end_product": "frittata"
+       },
+       {
+              "ingredient": "olive oil",
+              "state": [
+                     {
+                            "physical_state": "liquid",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "liquid",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour and scrape",
+                     "bake"
+              ],
+              "end_product": "frittata"
+       },
+       {
+              "ingredient": "green pepper",
+              "state": [
+                     {
+                            "physical_state": "chopped",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "chopped,sauteed",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pour and scrape",
+                     "pour and scrape",
+                     "cook and stir",
+                     "pour",
+                     "cook",
+                     "bake"
+              ],
+              "end_product": "frittata"
+       },
+       {
+              "ingredient": "black pepper",
+              "state": [
+                     {
+                            "physical_state": "peppercorn,whole",
+                            "location": "pepper mill"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "peppercorn",
+                            "location": "pepper mill"
+                     },
+                     {
+                            "physical_state": "ground",
+                            "location": "mixing bowl"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "grind",
+                     "sprinkle",
+                     "grind",
+                     "beat",
+                     "pour",
+                     "pour",
+                     "bake"
+              ],
+              "end_product": "frittata"
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "jar"
+                     },
+                     {
+                            "physical_state": "granulated",
+                            "location": "mixing bowl"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "beat",
+                     "pour",
+                     "pour",
+                     "bake"
+              ],
+              "end_product": "frittata"
+       },
+       {
+              "ingredient": "egg",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "beaten,uncooked",
+                            "location": "mixing bowl"
+                     },
+                     {
+                            "physical_state": "beaten,uncooked",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "crack",
+                     "pour",
+                     "cook",
+                     "bake"
+              ],
+              "end_product": "frittata"
+       },
+       {
+              "ingredient": "egg white",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "beat"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "egg yolk",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "beat"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "cheddar",
+              "state": [
+                     {
+                            "physical_state": "block",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "grated",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "grated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "grate",
+                     "pick-and-place",
+                     "pour",
+                     "pour"
+              ],
+              "end_product": "egg"
+       },
+       {
+              "ingredient": "frittata",
+              "state": [
+                     {
+                            "physical_state": "partly cooked",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "cooked,sliced",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "bake",
+                     "place",
+                     "slice",
+                     "pick-and-place"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "cooking pan",
+              "state": [
+                     {
+                            "physical_state": "on",
+                            "location": "oven"
+                     },
+                     {
+                            "physical_state": "off",
+                            "location": "oven"
+                     }
+              ],
+              "motion": [
+                     "turn off",
+                     "remove"
+              ],
+              "end_product": null
+       }
+]

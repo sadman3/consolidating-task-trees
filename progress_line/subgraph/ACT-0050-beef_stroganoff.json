@@ -1,0 +1,489 @@
+[
+       {
+              "ingredient": "carrot",
+              "state": [
+                     {
+                            "physical_state": "peeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "diced",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "diced",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "saucepan"
+                     }
+              ],
+              "motion": [
+                     "slice",
+                     "pick-and-place",
+                     "pour",
+                     "pour"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "beef stock",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "saucepan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "stir"
+              ],
+              "end_product": "beef stroganoff"
+       },
+       {
+              "ingredient": "thyme",
+              "state": [
+                     {
+                            "physical_state": "sprig",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "saucepan"
+                     },
+                     {
+                            "physical_state": "sprig",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "sprig",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "sprig",
+                            "location": "cutting board"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "pour",
+                     "pick-and-place",
+                     "pour",
+                     "cook and stir",
+                     "stir",
+                     "pick-and-place"
+              ],
+              "end_product": "beef stroganoff"
+       },
+       {
+              "ingredient": "bay leaf",
+              "state": [
+                     {
+                            "physical_state": "dried",
+                            "location": "jar"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "saucepan"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "pour"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "beef",
+              "state": [
+                     {
+                            "physical_state": "chopped",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "fried",
+                            "location": "pan"
+                     }
+              ],
+              "motion": [
+                     "scrape",
+                     "cook and stir",
+                     "pick-and-place",
+                     "scrape",
+                     "pour",
+                     "mix",
+                     "pour",
+                     "stir"
+              ],
+              "end_product": "beef stroganoff"
+       },
+       {
+              "ingredient": "vegetable oil",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "scrape"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "onion",
+              "state": [
+                     {
+                            "physical_state": "chopped",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "fried",
+                            "location": "pan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "mix",
+                     "pour",
+                     "stir"
+              ],
+              "end_product": "beef stroganoff"
+       },
+       {
+              "ingredient": "cognac",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "mix",
+                     "mix",
+                     "stir",
+                     "stir"
+              ],
+              "end_product": "beef stroganoff"
+       },
+       {
+              "ingredient": "mushroom",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "slice",
+                     "pick-and-place",
+                     "pour",
+                     "pour",
+                     "cook and stir",
+                     "stir"
+              ],
+              "end_product": "beef stroganoff"
+       },
+       {
+              "ingredient": "butter",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "cook and stir"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "garlic",
+              "state": [
+                     {
+                            "physical_state": "minced",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "minced",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "cook and stir",
+                     "stir"
+              ],
+              "end_product": "beef stroganoff"
+       },
+       {
+              "ingredient": "paprika",
+              "state": [
+                     {
+                            "physical_state": "ground",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "ground",
+                            "location": "pan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "cook and stir"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "beef stew mix",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pan"
+                     }
+              ],
+              "motion": [
+                     "stir",
+                     "stir",
+                     "stir",
+                     "stir",
+                     "stir",
+                     "stir"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "mayonnaise",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "scrape"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "mustard",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pan"
+                     }
+              ],
+              "motion": [
+                     "scrape",
+                     "stir",
+                     "stir"
+              ],
+              "end_product": "beef stroganoff"
+       },
+       {
+              "ingredient": "sour cream",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pan"
+                     }
+              ],
+              "motion": [
+                     "scrape",
+                     "stir",
+                     "stir"
+              ],
+              "end_product": "beef stroganoff"
+       },
+       {
+              "ingredient": "parsley",
+              "state": [
+                     {
+                            "physical_state": "chopped",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "pan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "stir"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "pasta",
+              "state": [
+                     {
+                            "physical_state": "cooked",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "plate"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "pick-and-place"
+              ],
+              "end_product": "beef stroganoff"
+       },
+       {
+              "ingredient": "beef stroganoff",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "plate"
+                     }
+              ],
+              "motion": [
+                     "scoop and pour",
+                     "scoop and pour",
+                     "pick-and-place"
+              ],
+              "end_product": null
+       }
+]

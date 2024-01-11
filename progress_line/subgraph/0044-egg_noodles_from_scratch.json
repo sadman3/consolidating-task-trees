@@ -1,0 +1,140 @@
+[
+       {
+              "ingredient": "flour",
+              "state": [
+                     {
+                            "physical_state": "powder",
+                            "location": "bag"
+                     },
+                     {
+                            "physical_state": "powder",
+                            "location": "strainer"
+                     },
+                     {
+                            "physical_state": "sifted",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "sifted",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "sifted",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "sifted",
+                            "location": "spoon"
+                     },
+                     {
+                            "physical_state": "sifted",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "powder",
+                            "location": "jar"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "sift",
+                     "scoop",
+                     "pour",
+                     "scoop",
+                     "pour",
+                     "stir",
+                     "sprinkle"
+              ],
+              "end_product": "egg noodle"
+       },
+       {
+              "ingredient": "egg",
+              "state": [
+                     {
+                            "physical_state": "uncracked",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "cracked",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "crack",
+                     "stir",
+                     "mix"
+              ],
+              "end_product": "egg noodle"
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "mix"
+              ],
+              "end_product": "egg noodle"
+       },
+       {
+              "ingredient": "milk",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "mix"
+              ],
+              "end_product": "egg noodle"
+       },
+       {
+              "ingredient": "egg mixture",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "stir"
+              ],
+              "end_product": "dough"
+       },
+       {
+              "ingredient": "dough",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "halved",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "flattened",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "stripped",
+                            "location": "cutting board"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "roll",
+                     "cut",
+                     "sprinkle"
+              ],
+              "end_product": null
+       }
+]

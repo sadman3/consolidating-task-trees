@@ -1,0 +1,37 @@
+{
+    "input_nodes": [
+        {
+            "label": "tea cup",
+            "states": ["unsweetend"],
+            "ingredients": ["tea", "sugar"],
+            "container": null
+        },
+        {
+            "label": "spoon",
+            "states": ["clean"],
+            "ingredients": [],
+            "container": null
+        }
+    ],
+    "motion_node": "stir",
+    "output_nodes": [
+        {
+            "label": "tea",
+            "states": ["sweetend tea"],
+            "ingredients": [],
+            "container": "tea cup"
+        },
+        {
+            "label": "tea cup",
+            "states": ["sweetend tea"],
+            "ingredients": ["tea", "sugar"],
+            "container": null
+        },
+        {
+            "label": "spoon",
+            "states": ["dirty"],
+            "ingredients": [],
+            "container": null
+        }
+    ]
+}

@@ -1,0 +1,323 @@
+[
+       {
+              "ingredient": "olive oil",
+              "state": [
+                     {
+                            "physical_state": "liquid",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "liquid",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour and scrape",
+                     "pour and scrape"
+              ],
+              "end_product": "shrimp mango salad"
+       },
+       {
+              "ingredient": "lemon",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "halved",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "juice",
+                            "location": "squeezer"
+                     },
+                     {
+                            "physical_state": "juice",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "cut",
+                     "squeeze",
+                     "pour",
+                     "pour",
+                     "mix"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "lemon juice",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "squeezer"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour and scrape",
+                     "pour and scrape"
+              ],
+              "end_product": "shrimp mango salad"
+       },
+       {
+              "ingredient": "salad greens",
+              "state": [
+                     {
+                            "physical_state": "washed,leaf",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "leaf,washed",
+                            "location": "salad bowl"
+                     }
+              ],
+              "motion": [
+                     "pour and scrape",
+                     "stir"
+              ],
+              "end_product": "shrimp mango salad"
+       },
+       {
+              "ingredient": "cilantro",
+              "state": [
+                     {
+                            "physical_state": "leaf,whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "leaf,whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "chop",
+                     "pick-and-place",
+                     "pour and scrape",
+                     "pour and scrape"
+              ],
+              "end_product": "shrimp mango salad"
+       },
+       {
+              "ingredient": "vinaigrette",
+              "state": [
+                     {
+                            "physical_state": "creamy",
+                            "location": "mixing bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "mix",
+                     "mix"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "shrimp",
+              "state": [
+                     {
+                            "physical_state": "cooked,whole",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "cooked,whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "cooked,chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "cooked,chopped",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "salad bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "chop",
+                     "pour and scrape",
+                     "pour and scrape",
+                     "stir"
+              ],
+              "end_product": "shrimp mango salad"
+       },
+       {
+              "ingredient": "mango",
+              "state": [
+                     {
+                            "physical_state": "unpeeled,whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "unpeeled,whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "halved,unpeeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "halved,cut with slits,unpeeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "diced",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "diced",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "diced",
+                            "location": "salad bowl"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "cut",
+                     "make slits",
+                     "cut off skin",
+                     "pour and scrape",
+                     "pour and scrape",
+                     "stir"
+              ],
+              "end_product": "shrimp mango salad"
+       },
+       {
+              "ingredient": "shallot",
+              "state": [
+                     {
+                            "physical_state": "whole,unpeeled",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole,peeled",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole,peeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "peel",
+                     "pick-and-place",
+                     "chop",
+                     "pour and scrape",
+                     "pour and scrape",
+                     "pour and scrape"
+              ],
+              "end_product": "salad dressing"
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "pour and scrape"
+              ],
+              "end_product": "shrimp mango salad"
+       },
+       {
+              "ingredient": "black pepper",
+              "state": [
+                     {
+                            "physical_state": "ground",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "pour and scrape"
+              ],
+              "end_product": "shrimp mango salad"
+       },
+       {
+              "ingredient": "salad dressing",
+              "state": [
+                     {
+                            "physical_state": "creamy,mixed",
+                            "location": "mixing bowl"
+                     },
+                     {
+                            "physical_state": "creamy,mixed",
+                            "location": "salad bowl"
+                     }
+              ],
+              "motion": [
+                     "pour and scrape",
+                     "stir"
+              ],
+              "end_product": null
+       }
+]

@@ -1,0 +1,227 @@
+[
+       {
+              "ingredient": "foil",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "box"
+                     }
+              ],
+              "motion": [
+                     "spread"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "green bean",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "sheet"
+                     },
+                     {
+                            "physical_state": "seasoned",
+                            "location": "sheet"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "aluminium foil"
+                     },
+                     {
+                            "physical_state": "seasoned",
+                            "location": "sheet"
+                     },
+                     {
+                            "physical_state": "uncooked,seasoned,wrapped",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "cooked,wrapped",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "sheet"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "plate"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "pick-and-place",
+                     "grind",
+                     "pour",
+                     "wrap",
+                     "cook",
+                     "unwrap",
+                     "pick-and-place",
+                     "sprinkle"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "garlic",
+              "state": [
+                     {
+                            "physical_state": "peeled",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "peeled",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "wrapped",
+                            "location": "aluminium foil"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "pick-and-place",
+                     "cook"
+              ],
+              "end_product": "green bean"
+       },
+       {
+              "ingredient": "onion",
+              "state": [
+                     {
+                            "physical_state": "sliced",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "wrapped",
+                            "location": "aluminium foil"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "pour",
+                     "cook"
+              ],
+              "end_product": "green bean"
+       },
+       {
+              "ingredient": "tarragon",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "wrapped",
+                            "location": "aluminium foil"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "chop",
+                     "pour",
+                     "pour",
+                     "cook"
+              ],
+              "end_product": "green bean"
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "shaker"
+                     },
+                     {
+                            "physical_state": "wrapped",
+                            "location": "aluminium foil"
+                     }
+              ],
+              "motion": [
+                     "grind",
+                     "cook"
+              ],
+              "end_product": "green bean"
+       },
+       {
+              "ingredient": "black pepper",
+              "state": [
+                     {
+                            "physical_state": "ground",
+                            "location": "shaker"
+                     }
+              ],
+              "motion": [
+                     "grind"
+              ],
+              "end_product": "green bean"
+       },
+       {
+              "ingredient": "pepper",
+              "state": [
+                     {
+                            "physical_state": "wrapped",
+                            "location": "aluminium foil"
+                     }
+              ],
+              "motion": [
+                     "cook"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "olive oil",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "cooking spray"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "spray can"
+                     },
+                     {
+                            "physical_state": "wrapped",
+                            "location": "aluminium foil"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "cook"
+              ],
+              "end_product": "green bean"
+       },
+       {
+              "ingredient": "sweet pepper",
+              "state": [
+                     {
+                            "physical_state": "chopped",
+                            "location": []
+                     }
+              ],
+              "motion": [
+                     "sprinkle"
+              ],
+              "end_product": "green bean"
+       }
+]

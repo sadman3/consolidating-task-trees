@@ -1,0 +1,46 @@
+[
+       {
+              "ingredient": "lentil",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "uncooked",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "cook"
+              ],
+              "end_product": "kofta mix"
+       },
+       {
+              "ingredient": "lentil mix",
+              "state": [
+                     {
+                            "physical_state": "cooked",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "stir"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "bulgur",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "stir"
+              ],
+              "end_product": "kofta mix"
+       }
+]

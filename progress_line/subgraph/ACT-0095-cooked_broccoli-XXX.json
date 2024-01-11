@@ -1,0 +1,215 @@
+[
+       {
+              "ingredient": "broccoli",
+              "state": [
+                     {
+                            "physical_state": "uncooked,whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "uncooked,whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "uncooked,whole,peeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "stem,uncooked,peeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "destemmed,floret,uncooked",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped,uncooked,stem",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "floret,pieces,uncooked",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "pieces,uncooked",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "pieces,steamed",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "mixed,pieces,steamed",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "pieces,steamed",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "pieces,sauted",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "skim",
+                     "cut off ends",
+                     "cut",
+                     "break apart",
+                     "pick-and-place",
+                     "pick-and-place",
+                     "cover",
+                     "cook",
+                     "uncover",
+                     "stir",
+                     "sprinkle",
+                     "stir",
+                     "squeeze",
+                     "cook and stir",
+                     "pour"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "olive oil",
+              "state": [
+                     {
+                            "physical_state": "liquid",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "liquid",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "liquid",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "liquid",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "uncover",
+                     "pour",
+                     "sprinkle",
+                     "stir",
+                     "squeeze",
+                     "cook and stir",
+                     "pour"
+              ],
+              "end_product": "broccoli"
+       },
+       {
+              "ingredient": "kettle",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": []
+                     }
+              ],
+              "motion": [
+                     "pour"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "granulated",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "granulated",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "stir",
+                     "squeeze",
+                     "cook and stir",
+                     "pour"
+              ],
+              "end_product": "broccoli"
+       },
+       {
+              "ingredient": "lemon",
+              "state": [
+                     {
+                            "physical_state": "halved",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "juiced",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "squeeze",
+                     "cook and stir"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "lemon juice",
+              "state": [
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pour"
+              ],
+              "end_product": "broccoli"
+       }
+]

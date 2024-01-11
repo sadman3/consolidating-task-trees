@@ -1,0 +1,56 @@
+[
+       {
+              "ingredient": "heavy cream",
+              "state": [
+                     {
+                            "physical_state": "creamy",
+                            "location": "carton"
+                     },
+                     {
+                            "physical_state": "creamy",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "creamy",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "mix"
+              ],
+              "end_product": "whipped cream"
+       },
+       {
+              "ingredient": "sugar",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "spoon"
+                     },
+                     {
+                            "physical_state": "granulated",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "mix"
+              ],
+              "end_product": "whipped cream"
+       },
+       {
+              "ingredient": "whipped cream",
+              "state": [
+                     {
+                            "physical_state": "creamy,whipped",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "scrape"
+              ],
+              "end_product": null
+       }
+]

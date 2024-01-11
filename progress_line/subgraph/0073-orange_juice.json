@@ -1,0 +1,53 @@
+[
+       {
+              "ingredient": "orange",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "colander"
+                     },
+                     {
+                            "physical_state": "washed,whole",
+                            "location": "colander"
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "halved",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "juice",
+                            "location": "squeezer"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "wash",
+                     "pick-and-place",
+                     "cut",
+                     "squeeze",
+                     "pour"
+              ],
+              "end_product": "orange juice"
+       },
+       {
+              "ingredient": "orange juice",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "squeezer"
+                     }
+              ],
+              "motion": [
+                     "pour"
+              ],
+              "end_product": null
+       }
+]

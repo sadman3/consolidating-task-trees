@@ -1,0 +1,147 @@
+[
+       {
+              "ingredient": "white rice",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "uncooked",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "uncooked",
+                            "location": "rice cooker"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "rice cooker"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "hand"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "cook",
+                     "scoop and pour",
+                     "scoop",
+                     "shape"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "rice",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "off",
+                            "location": "rice cooker"
+                     },
+                     {
+                            "physical_state": "on",
+                            "location": "rice cooker"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "hand"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "turn on",
+                     "scoop and pour",
+                     "scoop",
+                     "shape"
+              ],
+              "end_product": "onigiri"
+       },
+       {
+              "ingredient": "rice ball",
+              "state": [
+                     {
+                            "physical_state": "rolled",
+                            "location": "hand"
+                     },
+                     {
+                            "physical_state": "pressed",
+                            "location": "hand"
+                     },
+                     {
+                            "physical_state": "holed",
+                            "location": "hand"
+                     },
+                     {
+                            "physical_state": "rolled",
+                            "location": "hand"
+                     },
+                     {
+                            "physical_state": "pressed",
+                            "location": "hand"
+                     },
+                     {
+                            "physical_state": "pressed",
+                            "location": "seaweed"
+                     }
+              ],
+              "motion": [
+                     "press",
+                     "poke",
+                     "roll",
+                     "press",
+                     "place",
+                     "wrap"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "salmon",
+              "state": [
+                     {
+                            "physical_state": "cooked,flaked",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "flaked,cooked",
+                            "location": "rice ball"
+                     }
+              ],
+              "motion": [
+                     "scoop and pour",
+                     "roll"
+              ],
+              "end_product": "onigiri"
+       },
+       {
+              "ingredient": "seaweed",
+              "state": [
+                     {
+                            "physical_state": "sheet",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "sheet",
+                            "location": "cutting board"
+                     }
+              ],
+              "motion": [
+                     "remove",
+                     "wrap"
+              ],
+              "end_product": "onigiri"
+       }
+]

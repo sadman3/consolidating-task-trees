@@ -1,0 +1,161 @@
+[
+       {
+              "ingredient": "egg white and yolk",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "mix",
+                     "mix"
+              ],
+              "end_product": "chocolate sandwich"
+       },
+       {
+              "ingredient": "milk",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "spoon"
+                     },
+                     {
+                            "physical_state": "liquid",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "mix"
+              ],
+              "end_product": "chocolate sandwich"
+       },
+       {
+              "ingredient": "bread",
+              "state": [
+                     {
+                            "physical_state": "sliced",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "plate"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "pick-and-place"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "chocolate",
+              "state": [
+                     {
+                            "physical_state": "bar",
+                            "location": []
+                     }
+              ],
+              "motion": [
+                     "pick-and-place"
+              ],
+              "end_product": "chocolate sandwich"
+       },
+       {
+              "ingredient": "egg mixture",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pick-and-place",
+                     "pick-and-place"
+              ],
+              "end_product": "sandwich"
+       },
+       {
+              "ingredient": "sandwich",
+              "state": [
+                     {
+                            "physical_state": "soaked",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "soaked",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "partly toasted",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "toasted",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "toasted",
+                            "location": "plate"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "flip",
+                     "cook",
+                     "pick-and-place",
+                     "sprinkle"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "butter",
+              "state": [
+                     {
+                            "physical_state": "cubed",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "cubed",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "greased",
+                            "location": "skillet"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "heat",
+                     "pick-and-place"
+              ],
+              "end_product": "chocolate sandwich"
+       },
+       {
+              "ingredient": "powdered sugar",
+              "state": [
+                     {
+                            "physical_state": "powder",
+                            "location": []
+                     }
+              ],
+              "motion": [
+                     "sprinkle"
+              ],
+              "end_product": "chocolate sandwich"
+       }
+]

@@ -1,0 +1,290 @@
+[
+       {
+              "ingredient": "egg",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "beaten,uncooked",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "beaten,uncooked",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "crack",
+                     "pour",
+                     "cook"
+              ],
+              "end_product": "omelette"
+       },
+       {
+              "ingredient": "egg white",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "beat"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "egg yolk",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "beat"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "butter",
+              "state": [
+                     {
+                            "physical_state": "softened,unmelted,cube",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "softened,unmelted,cubed",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "spread",
+                     "cook"
+              ],
+              "end_product": "omelette"
+       },
+       {
+              "ingredient": "tomato",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "diced",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "diced",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "diced",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "diced,sauteed",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "chop",
+                     "scrape",
+                     "pour and scrape",
+                     "pour and scrape",
+                     "cook and stir",
+                     "pour",
+                     "cook"
+              ],
+              "end_product": "omelette"
+       },
+       {
+              "ingredient": "onion",
+              "state": [
+                     {
+                            "physical_state": "whole,peeled",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "peeled,whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "chopped,sauteed",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "chop",
+                     "pick-and-place",
+                     "pour and scrape",
+                     "cook and stir",
+                     "pour",
+                     "cook"
+              ],
+              "end_product": "omelette"
+       },
+       {
+              "ingredient": "green pepper",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "diced",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "diced",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "diced",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "diced,sauteed",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "dice",
+                     "scrape",
+                     "pour and scrape",
+                     "pour and scrape",
+                     "cook and stir",
+                     "pour",
+                     "cook"
+              ],
+              "end_product": "omelette"
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "shaker"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "granulated",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "pour",
+                     "cook"
+              ],
+              "end_product": "omelette"
+       },
+       {
+              "ingredient": "black pepper",
+              "state": [
+                     {
+                            "physical_state": "ground",
+                            "location": "shaker"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "ground",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "pour",
+                     "cook"
+              ],
+              "end_product": "omelette"
+       },
+       {
+              "ingredient": "cheese",
+              "state": [
+                     {
+                            "physical_state": "sliced",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "plate"
+                     }
+              ],
+              "motion": [
+                     "unwrap",
+                     "pick-and-place"
+              ],
+              "end_product": "omelette"
+       },
+       {
+              "ingredient": "omelette",
+              "state": [
+                     {
+                            "physical_state": "mixed,partly cooked",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "cooked,folded",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "fold",
+                     "pick-and-place"
+              ],
+              "end_product": null
+       }
+]

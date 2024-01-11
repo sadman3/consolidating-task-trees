@@ -1,0 +1,197 @@
+[
+       {
+              "ingredient": "bread",
+              "state": [
+                     {
+                            "physical_state": "whole,loaf",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole,loaf",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "baking tray"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "slice",
+                     "pick-and-place",
+                     "spread",
+                     "pick-and-place",
+                     "bake"
+              ],
+              "end_product": "garlic bread"
+       },
+       {
+              "ingredient": "parsley",
+              "state": [
+                     {
+                            "physical_state": "stem",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "stem",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "chop",
+                     "pour and scrape",
+                     "spread"
+              ],
+              "end_product": "garlic bread"
+       },
+       {
+              "ingredient": "butter",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "spread"
+              ],
+              "end_product": "garlic bread"
+       },
+       {
+              "ingredient": "garlic",
+              "state": [
+                     {
+                            "physical_state": "clove,peeled",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "clove,peeled",
+                            "location": "garlic press"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "insert",
+                     "squeeze and scrape",
+                     "spread"
+              ],
+              "end_product": "garlic bread"
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "shaker"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "spread"
+              ],
+              "end_product": "garlic bread"
+       },
+       {
+              "ingredient": "black pepper",
+              "state": [
+                     {
+                            "physical_state": "whole,peppercorn",
+                            "location": "pepper mill"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "grind",
+                     "spread"
+              ],
+              "end_product": "garlic bread"
+       },
+       {
+              "ingredient": "parchment paper",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "box"
+                     }
+              ],
+              "motion": [
+                     "tear and place"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "garlic butter",
+              "state": [
+                     {
+                            "physical_state": "mixed",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "mixed",
+                            "location": "bread"
+                     }
+              ],
+              "motion": [
+                     "spread",
+                     "bake"
+              ],
+              "end_product": "bread"
+       },
+       {
+              "ingredient": "baking tray",
+              "state": [
+                     {
+                            "physical_state": "on",
+                            "location": "oven"
+                     }
+              ],
+              "motion": [
+                     "bake"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "garlic bread",
+              "state": [
+                     {
+                            "physical_state": "baked",
+                            "location": "baking tray"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place"
+              ],
+              "end_product": null
+       }
+]

@@ -1,0 +1,186 @@
+[
+       {
+              "ingredient": "olive oil",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "partly cooked",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "covered",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "cover",
+                     "cook"
+              ],
+              "end_product": "cilantro-lime rice"
+       },
+       {
+              "ingredient": "rice",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "toasted",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "partly cooked",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "covered",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "fluffed",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "cook",
+                     "cover",
+                     "uncover",
+                     "stir",
+                     "pour",
+                     "stir"
+              ],
+              "end_product": "cilantro-lime rice"
+       },
+       {
+              "ingredient": "garlic",
+              "state": [
+                     {
+                            "physical_state": "minced",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "partly cooked",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "covered",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "scrape",
+                     "cover",
+                     "cook"
+              ],
+              "end_product": "cilantro-lime rice"
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "partly cooked",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "covered",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "cover",
+                     "cook"
+              ],
+              "end_product": "cilantro-lime rice"
+       },
+       {
+              "ingredient": "lime zest",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "partly cooked",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "covered",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "scrape",
+                     "cover",
+                     "cook"
+              ],
+              "end_product": "cilantro-lime rice"
+       },
+       {
+              "ingredient": "lime juice",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour"
+              ],
+              "end_product": "cilantro-lime rice"
+       },
+       {
+              "ingredient": "cilantro",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "measuring cup"
+                     }
+              ],
+              "motion": [
+                     "chop",
+                     "pick-and-place",
+                     "pour"
+              ],
+              "end_product": "cilantro-lime rice"
+       },
+       {
+              "ingredient": "cilantro-lime rice",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "scoop and pour"
+              ],
+              "end_product": null
+       }
+]

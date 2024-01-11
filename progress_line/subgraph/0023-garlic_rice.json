@@ -1,0 +1,142 @@
+[
+       {
+              "ingredient": "butter",
+              "state": [
+                     {
+                            "physical_state": "stick",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "covered",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "simmer"
+              ],
+              "end_product": "garlic rice"
+       },
+       {
+              "ingredient": "garlic",
+              "state": [
+                     {
+                            "physical_state": "clove",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "spread out",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "fried",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "fried",
+                            "location": "plate"
+                     }
+              ],
+              "motion": [
+                     "chop",
+                     "pour",
+                     "pour",
+                     "stir",
+                     "fry",
+                     "scoop and pour",
+                     "pour"
+              ],
+              "end_product": "garlic rice"
+       },
+       {
+              "ingredient": "rice",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "uncooked",
+                            "location": "cup"
+                     },
+                     {
+                            "physical_state": "partly cooked",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "covered",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "simmer",
+                     "uncover",
+                     "pour"
+              ],
+              "end_product": "garlic rice"
+       },
+       {
+              "ingredient": "scallion",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "cut",
+                     "sprinkle"
+              ],
+              "end_product": "garlic rice"
+       },
+       {
+              "ingredient": "cilantro",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "cut",
+                     "sprinkle"
+              ],
+              "end_product": "garlic rice"
+       }
+]

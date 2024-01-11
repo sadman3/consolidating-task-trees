@@ -1,0 +1,163 @@
+[
+       {
+              "ingredient": "cucumber",
+              "state": [
+                     {
+                            "physical_state": "unpeeled,halved",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "unpeeled,halved",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "slice",
+                     "chop",
+                     "pour and scrape",
+                     "pour"
+              ],
+              "end_product": "salad"
+       },
+       {
+              "ingredient": "apple",
+              "state": [
+                     {
+                            "physical_state": "unpeeled,whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "unpeeled,whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "halved",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "slice",
+                     "chop",
+                     "pour and scrape",
+                     "pour"
+              ],
+              "end_product": "salad"
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "shaker"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "shake",
+                     "pour"
+              ],
+              "end_product": "salad"
+       },
+       {
+              "ingredient": "black pepper",
+              "state": [
+                     {
+                            "physical_state": "ground",
+                            "location": "shaker"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "shake",
+                     "pour"
+              ],
+              "end_product": "salad"
+       },
+       {
+              "ingredient": "olive oil",
+              "state": [
+                     {
+                            "physical_state": "liquid",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour"
+              ],
+              "end_product": "salad"
+       },
+       {
+              "ingredient": "mozzarella",
+              "state": [
+                     {
+                            "physical_state": "block,whole",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "block,whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "slice",
+                     "pick-and-place",
+                     "pour"
+              ],
+              "end_product": "salad"
+       },
+       {
+              "ingredient": "salad dressing",
+              "state": [
+                     {
+                            "physical_state": "creamy",
+                            "location": "bottle"
+                     }
+              ],
+              "motion": [
+                     "pour"
+              ],
+              "end_product": "salad"
+       }
+]

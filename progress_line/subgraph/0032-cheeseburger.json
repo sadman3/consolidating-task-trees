@@ -1,0 +1,178 @@
+[
+       {
+              "ingredient": "onion",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "peeled,whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole,peeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "minced",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "minced",
+                            "location": "patty"
+                     }
+              ],
+              "motion": [
+                     "peel",
+                     "pick-and-place",
+                     "chop",
+                     "dip",
+                     "place"
+              ],
+              "end_product": "cheeseburger"
+       },
+       {
+              "ingredient": "garlic",
+              "state": [
+                     {
+                            "physical_state": "minced",
+                            "location": "jar"
+                     },
+                     {
+                            "physical_state": "minced",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "minced",
+                            "location": "patty"
+                     }
+              ],
+              "motion": [
+                     "scoop and pour",
+                     "dip",
+                     "place"
+              ],
+              "end_product": "cheeseburger"
+       },
+       {
+              "ingredient": "ground beef",
+              "state": [
+                     {
+                            "physical_state": "raw",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "raw",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "shape"
+              ],
+              "end_product": "cheeseburger"
+       },
+       {
+              "ingredient": "patty",
+              "state": [
+                     {
+                            "physical_state": "raw",
+                            "location": "hand"
+                     },
+                     {
+                            "physical_state": "raw",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "raw",
+                            "location": "grill"
+                     },
+                     {
+                            "physical_state": "partly cooked",
+                            "location": "grill"
+                     },
+                     {
+                            "physical_state": "partly cooked,flipped",
+                            "location": "grill"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "grill"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "hamburger bun"
+                     }
+              ],
+              "motion": [
+                     "place",
+                     "pick-and-place",
+                     "cook",
+                     "flip",
+                     "cook",
+                     "pick-and-place",
+                     "pick-and-place"
+              ],
+              "end_product": "hamburger bun"
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "shaker"
+                     }
+              ],
+              "motion": [
+                     "sprinkle"
+              ],
+              "end_product": "cheeseburger"
+       },
+       {
+              "ingredient": "cheese",
+              "state": [
+                     {
+                            "physical_state": "sliced",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "patty"
+                     }
+              ],
+              "motion": [
+                     "place",
+                     "melt"
+              ],
+              "end_product": "cheeseburger"
+       },
+       {
+              "ingredient": "hamburger bun",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "on",
+                            "location": "grill"
+                     },
+                     {
+                            "physical_state": "toasted",
+                            "location": "grill"
+                     },
+                     {
+                            "physical_state": "toasted",
+                            "location": "plate"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "toast",
+                     "pick-and-place",
+                     "pick-and-place"
+              ],
+              "end_product": null
+       }
+]

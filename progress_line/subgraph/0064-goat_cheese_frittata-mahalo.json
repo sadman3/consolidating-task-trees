@@ -1,0 +1,465 @@
+[
+       {
+              "ingredient": "olive oil",
+              "state": [
+                     {
+                            "physical_state": "liquid",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "liquid",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "liquid",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "scrape and pour",
+                     "cook and stir",
+                     "sprinkle",
+                     "cook and stir",
+                     "broil"
+              ],
+              "end_product": "frittata"
+       },
+       {
+              "ingredient": "butter",
+              "state": [
+                     {
+                            "physical_state": "softened,unmelted,cubed",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "softened,unmelted,cubed",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "melted,liquid",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "melted,liquid",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     }
+              ],
+              "motion": [
+                     "scrape and pour",
+                     "spread",
+                     "scrape and pour",
+                     "cook and stir",
+                     "sprinkle",
+                     "cook and stir",
+                     "broil"
+              ],
+              "end_product": "frittata"
+       },
+       {
+              "ingredient": "onion",
+              "state": [
+                     {
+                            "physical_state": "whole,unpeeled",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole,peeled",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole,peeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "sauteed,chopped",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     }
+              ],
+              "motion": [
+                     "peel",
+                     "pick-and-place",
+                     "chop",
+                     "pick-and-place",
+                     "scrape and pour",
+                     "cook and stir",
+                     "sprinkle",
+                     "cook",
+                     "broil"
+              ],
+              "end_product": "frittata"
+       },
+       {
+              "ingredient": "egg",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "beaten,uncooked",
+                            "location": "mixing bowl"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "beaten,uncooked",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     }
+              ],
+              "motion": [
+                     "crack",
+                     "pour",
+                     "sprinkle",
+                     "cook",
+                     "broil"
+              ],
+              "end_product": "frittata"
+       },
+       {
+              "ingredient": "egg white",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "uncooked",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "beat"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "egg yolk",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "uncooked",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "beat"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "half-and-half",
+              "state": [
+                     {
+                            "physical_state": "liquid",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour"
+              ],
+              "end_product": "frittata"
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "pour"
+              ],
+              "end_product": "frittata"
+       },
+       {
+              "ingredient": "black pepper",
+              "state": [
+                     {
+                            "physical_state": "ground",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "pour"
+              ],
+              "end_product": "frittata"
+       },
+       {
+              "ingredient": "zucchini",
+              "state": [
+                     {
+                            "physical_state": "chopped",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "sauteed,chopped",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "sprinkle",
+                     "cook and stir",
+                     "sprinkle",
+                     "cook",
+                     "broil"
+              ],
+              "end_product": "frittata"
+       },
+       {
+              "ingredient": "sweet pepper",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "sauteed,chopped",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "chop",
+                     "pick-and-place",
+                     "sprinkle",
+                     "cook and stir",
+                     "sprinkle",
+                     "cook",
+                     "broil"
+              ],
+              "end_product": "frittata"
+       },
+       {
+              "ingredient": "tomato",
+              "state": [
+                     {
+                            "physical_state": "sundried",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "sundried",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "sprinkle",
+                     "cook",
+                     "broil"
+              ],
+              "end_product": "frittata"
+       },
+       {
+              "ingredient": "goat cheese",
+              "state": [
+                     {
+                            "physical_state": "softened,crumbled",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "softened,crumbled",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "sprinkle",
+                     "cook",
+                     "broil"
+              ],
+              "end_product": "frittata"
+       },
+       {
+              "ingredient": "basil",
+              "state": [
+                     {
+                            "physical_state": "leaf",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "broil"
+              ],
+              "end_product": "frittata"
+       },
+       {
+              "ingredient": "frittata",
+              "state": [
+                     {
+                            "physical_state": "partly cooked",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "plate"
+                     }
+              ],
+              "motion": [
+                     "broil",
+                     "place",
+                     "flip and place",
+                     "slice"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "frying pan",
+              "state": [
+                     {
+                            "physical_state": "on",
+                            "location": "oven"
+                     },
+                     {
+                            "physical_state": "off",
+                            "location": "oven"
+                     }
+              ],
+              "motion": [
+                     "turn off",
+                     "remove"
+              ],
+              "end_product": null
+       }
+]

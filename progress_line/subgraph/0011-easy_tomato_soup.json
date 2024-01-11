@@ -1,0 +1,372 @@
+[
+       {
+              "ingredient": "broth",
+              "state": [
+                     {
+                            "physical_state": "liquid",
+                            "location": "carton"
+                     },
+                     {
+                            "physical_state": "liquid",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "blender jar"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "pour",
+                     "simmer"
+              ],
+              "end_product": "tomato soup"
+       },
+       {
+              "ingredient": "tomato",
+              "state": [
+                     {
+                            "physical_state": "sealed",
+                            "location": "can"
+                     },
+                     {
+                            "physical_state": "opened",
+                            "location": "can"
+                     },
+                     {
+                            "physical_state": "destemmed,whole",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "destemmed,whole",
+                            "location": "blender jar"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "blender jar"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "open",
+                     "scrape",
+                     "pour",
+                     "blend",
+                     "pour",
+                     "simmer"
+              ],
+              "end_product": "tomato soup"
+       },
+       {
+              "ingredient": "tomato paste",
+              "state": [
+                     {
+                            "physical_state": "sealed",
+                            "location": "can"
+                     },
+                     {
+                            "physical_state": "paste",
+                            "location": "can"
+                     },
+                     {
+                            "physical_state": "paste",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "blender jar"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "open",
+                     "scrape",
+                     "scoop and pour",
+                     "pour",
+                     "simmer"
+              ],
+              "end_product": "tomato soup"
+       },
+       {
+              "ingredient": "garlic",
+              "state": [
+                     {
+                            "physical_state": "clove,peeled",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "clove,peeled",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "blender jar"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "pour",
+                     "pour",
+                     "simmer"
+              ],
+              "end_product": "tomato soup"
+       },
+       {
+              "ingredient": "oregano",
+              "state": [
+                     {
+                            "physical_state": "dried",
+                            "location": "shaker"
+                     },
+                     {
+                            "physical_state": "dried",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "blender jar"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "pour",
+                     "simmer"
+              ],
+              "end_product": "tomato soup"
+       },
+       {
+              "ingredient": "sugar",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "blender jar"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "simmer"
+              ],
+              "end_product": "tomato soup"
+       },
+       {
+              "ingredient": "cinnamon",
+              "state": [
+                     {
+                            "physical_state": "ground",
+                            "location": "shaker"
+                     },
+                     {
+                            "physical_state": "ground",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "blender jar"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "scrape",
+                     "pour",
+                     "simmer"
+              ],
+              "end_product": "tomato soup"
+       },
+       {
+              "ingredient": "onion powder",
+              "state": [
+                     {
+                            "physical_state": "ground",
+                            "location": "shaker"
+                     },
+                     {
+                            "physical_state": "ground",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "blender jar"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "scrape",
+                     "pour",
+                     "simmer"
+              ],
+              "end_product": "tomato soup"
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "blender jar"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "scrape",
+                     "pour",
+                     "simmer"
+              ],
+              "end_product": "tomato soup"
+       },
+       {
+              "ingredient": "white pepper",
+              "state": [
+                     {
+                            "physical_state": "ground",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "blender jar"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "scrape",
+                     "pour",
+                     "simmer"
+              ],
+              "end_product": "tomato soup"
+       },
+       {
+              "ingredient": "mixture",
+              "state": [
+                     {
+                            "physical_state": "thick liquid,blended",
+                            "location": "blender jar"
+                     }
+              ],
+              "motion": [
+                     "pour"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "soup",
+              "state": [
+                     {
+                            "physical_state": "thick liquid,uncooked",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "thick liquid,partly cooked",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "cook and stir",
+                     "simmer",
+                     "scoop and pour",
+                     "sprinkle"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "tomato soup",
+              "state": [
+                     {
+                            "physical_state": "thick liquid,cooked",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "thick liquid",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "scoop and pour",
+                     "sprinkle"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "milk",
+              "state": [
+                     {
+                            "physical_state": "liquid",
+                            "location": "carton"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "sprinkle"
+              ],
+              "end_product": "tomato soup"
+       },
+       {
+              "ingredient": "coriander",
+              "state": [
+                     {
+                            "physical_state": "leaf",
+                            "location": "container"
+                     }
+              ],
+              "motion": [
+                     "sprinkle"
+              ],
+              "end_product": "tomato soup"
+       }
+]

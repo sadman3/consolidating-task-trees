@@ -1,0 +1,285 @@
+[
+       {
+              "ingredient": "butter",
+              "state": [
+                     {
+                            "physical_state": "softened,unmelted,cube",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "softened,unmelted,cube",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "liquid,melted",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "liquid,melted",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "spread",
+                     "scrape",
+                     "cook and stir",
+                     "pour",
+                     "cook and stir",
+                     "cook and stir"
+              ],
+              "end_product": "mushroom soup"
+       },
+       {
+              "ingredient": "mushroom",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "sliced,sauteed",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "slice",
+                     "pick-and-place",
+                     "pour",
+                     "cook and stir",
+                     "pour",
+                     "cook and stir",
+                     "cook and stir"
+              ],
+              "end_product": "mushroom soup"
+       },
+       {
+              "ingredient": "onion",
+              "state": [
+                     {
+                            "physical_state": "chopped",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "chopped,sauteed",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "scrape",
+                     "cook and stir",
+                     "pour",
+                     "cook and stir",
+                     "cook and stir"
+              ],
+              "end_product": "mushroom soup"
+       },
+       {
+              "ingredient": "chicken broth",
+              "state": [
+                     {
+                            "physical_state": "liquid",
+                            "location": "carton"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "cook and stir"
+              ],
+              "end_product": "mushroom soup"
+       },
+       {
+              "ingredient": "flour",
+              "state": [
+                     {
+                            "physical_state": "powder",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "cook and stir"
+              ],
+              "end_product": "mushroom soup"
+       },
+       {
+              "ingredient": "broth",
+              "state": [
+                     {
+                            "physical_state": "mixed,liquid",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "mixed,liquid",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "cook and stir"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "half-and-half",
+              "state": [
+                     {
+                            "physical_state": "liquid",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "liquid",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "cook and stir"
+              ],
+              "end_product": "mushroom soup"
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "granulated",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "cook and stir"
+              ],
+              "end_product": "mushroom soup"
+       },
+       {
+              "ingredient": "black pepper",
+              "state": [
+                     {
+                            "physical_state": "ground",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "ground",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "cook and stir"
+              ],
+              "end_product": "mushroom soup"
+       },
+       {
+              "ingredient": "soup",
+              "state": [
+                     {
+                            "physical_state": "thick liquid",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "cook and stir",
+                     "scoop and pour"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "mushroom soup",
+              "state": [
+                     {
+                            "physical_state": "thick liquid",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "scoop and pour"
+              ],
+              "end_product": null
+       }
+]

@@ -1,0 +1,61 @@
+[
+       {
+              "ingredient": "butter",
+              "state": [
+                     {
+                            "physical_state": "softened,unmelted,cube",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "softened,unmelted,cube",
+                            "location": "skillet"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "skillet"
+                     },
+                     {
+                            "physical_state": "softened,liquid,melted",
+                            "location": "skillet"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "spread",
+                     "pour",
+                     "stir"
+              ],
+              "end_product": "roux"
+       },
+       {
+              "ingredient": "flour",
+              "state": [
+                     {
+                            "physical_state": "powder",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "powder",
+                            "location": "skillet"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "stir"
+              ],
+              "end_product": "roux"
+       },
+       {
+              "ingredient": "roux",
+              "state": [
+                     {
+                            "physical_state": "thick liquid",
+                            "location": "skillet"
+                     }
+              ],
+              "motion": [
+                     "scoop"
+              ],
+              "end_product": null
+       }
+]

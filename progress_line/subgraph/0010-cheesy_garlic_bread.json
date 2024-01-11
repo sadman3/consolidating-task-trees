@@ -1,0 +1,194 @@
+[
+       {
+              "ingredient": "garlic",
+              "state": [
+                     {
+                            "physical_state": "bulb",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "unpeeled,clove",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "clove,peeled",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "clove,peeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "food processor bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "take apart",
+                     "peel",
+                     "pick-and-place",
+                     "pick-and-place",
+                     "scrape and pour",
+                     "scoop and spread"
+              ],
+              "end_product": "garlic bread"
+       },
+       {
+              "ingredient": "parsley",
+              "state": [
+                     {
+                            "physical_state": "leaf,chopped",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "food processor bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "scrape and pour",
+                     "scoop and spread"
+              ],
+              "end_product": "garlic bread"
+       },
+       {
+              "ingredient": "olive oil",
+              "state": [
+                     {
+                            "physical_state": "liquid",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "food processor bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "scrape and pour",
+                     "scoop and spread"
+              ],
+              "end_product": "garlic bread"
+       },
+       {
+              "ingredient": "bread",
+              "state": [
+                     {
+                            "physical_state": "whole,loaf",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole,loaf",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "halved",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "halved",
+                            "location": "baking tray"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "cut",
+                     "pick-and-place",
+                     "bake"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "garlic butter",
+              "state": [
+                     {
+                            "physical_state": "mixed",
+                            "location": "food processor bowl"
+                     },
+                     {
+                            "physical_state": "mixed",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "scrape and pour",
+                     "scoop and spread"
+              ],
+              "end_product": "bread"
+       },
+       {
+              "ingredient": "mozzarella",
+              "state": [
+                     {
+                            "physical_state": "grated",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "sprinkle"
+              ],
+              "end_product": "garlic bread"
+       },
+       {
+              "ingredient": "aluminium foil",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "box"
+                     }
+              ],
+              "motion": [
+                     "tear and place"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "garlic bread",
+              "state": [
+                     {
+                            "physical_state": "baked",
+                            "location": "baking tray"
+                     },
+                     {
+                            "physical_state": "baked",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "baked,divided",
+                            "location": "cutting board"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "slice",
+                     "pick-and-place"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "parmesan",
+              "state": [
+                     {
+                            "physical_state": "block,whole",
+                            "location": []
+                     }
+              ],
+              "motion": [
+                     "grate"
+              ],
+              "end_product": "garlic bread"
+       }
+]

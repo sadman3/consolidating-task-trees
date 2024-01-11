@@ -1,0 +1,153 @@
+[
+       {
+              "ingredient": "yogurt",
+              "state": [
+                     {
+                            "physical_state": "creamy",
+                            "location": "container"
+                     },
+                     {
+                            "physical_state": "creamy",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "blender cup"
+                     },
+                     {
+                            "physical_state": "creamy",
+                            "location": "measuring cup"
+                     }
+              ],
+              "motion": [
+                     "measure",
+                     "pour",
+                     "attach",
+                     "blend"
+              ],
+              "end_product": "protein shake"
+       },
+       {
+              "ingredient": "strawberry",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": "container"
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "washed,whole",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "washed,whole",
+                            "location": "blender cup"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "wash",
+                     "pour",
+                     "blend"
+              ],
+              "end_product": "protein shake"
+       },
+       {
+              "ingredient": "milk",
+              "state": [
+                     {
+                            "physical_state": "liquid",
+                            "location": "carton"
+                     },
+                     {
+                            "physical_state": "liquid",
+                            "location": "blender cup"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "blend"
+              ],
+              "end_product": "protein shake"
+       },
+       {
+              "ingredient": "flaxseed",
+              "state": [
+                     {
+                            "physical_state": "ground,powder",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "ground,powder",
+                            "location": "blender cup"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "blend"
+              ],
+              "end_product": "protein shake"
+       },
+       {
+              "ingredient": "whey powder",
+              "state": [
+                     {
+                            "physical_state": "powder",
+                            "location": "jar"
+                     },
+                     {
+                            "physical_state": "powder",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "powder",
+                            "location": "blender cup"
+                     }
+              ],
+              "motion": [
+                     "measure",
+                     "pour",
+                     "blend"
+              ],
+              "end_product": "protein shake"
+       },
+       {
+              "ingredient": "sweetener",
+              "state": [
+                     {
+                            "physical_state": "liquid",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "liquid",
+                            "location": "dropper"
+                     },
+                     {
+                            "physical_state": "liquid",
+                            "location": "blender cup"
+                     }
+              ],
+              "motion": [
+                     "squeeze",
+                     "drip",
+                     "blend"
+              ],
+              "end_product": "protein shake"
+       },
+       {
+              "ingredient": "protein shake",
+              "state": [
+                     {
+                            "physical_state": "blended",
+                            "location": "blender cup"
+                     }
+              ],
+              "motion": [
+                     "pour"
+              ],
+              "end_product": null
+       }
+]

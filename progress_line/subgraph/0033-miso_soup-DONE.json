@@ -1,0 +1,153 @@
+[
+       {
+              "ingredient": "green onion",
+              "state": [
+                     {
+                            "physical_state": "whole,stem",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole,stem",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "saucepan"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "slice",
+                     "pour",
+                     "pour",
+                     "cook and stir"
+              ],
+              "end_product": "miso soup"
+       },
+       {
+              "ingredient": "tofu",
+              "state": [
+                     {
+                            "physical_state": "block,whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "block,whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "diced",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "saucepan"
+                     },
+                     {
+                            "physical_state": "diced",
+                            "location": "saucepan"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "cut",
+                     "scrape",
+                     "pour",
+                     "cook and stir"
+              ],
+              "end_product": "miso soup"
+       },
+       {
+              "ingredient": "dashi",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "granulated",
+                            "location": "saucepan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "saucepan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "cook and stir",
+                     "cook and stir"
+              ],
+              "end_product": "miso soup"
+       },
+       {
+              "ingredient": "miso",
+              "state": [
+                     {
+                            "physical_state": "paste",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "paste",
+                            "location": "saucepan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "saucepan"
+                     }
+              ],
+              "motion": [
+                     "pour and scrape",
+                     "stir",
+                     "cook and stir"
+              ],
+              "end_product": "miso soup"
+       },
+       {
+              "ingredient": "broth",
+              "state": [
+                     {
+                            "physical_state": "mixed,liquid",
+                            "location": "saucepan"
+                     }
+              ],
+              "motion": [
+                     "cook and stir"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "miso soup",
+              "state": [
+                     {
+                            "physical_state": "thick liquid",
+                            "location": "saucepan"
+                     }
+              ],
+              "motion": [
+                     "scoop and pour"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "soup",
+              "state": [
+                     {
+                            "physical_state": "hot",
+                            "location": "saucepan"
+                     }
+              ],
+              "motion": [
+                     "scoop and pour"
+              ],
+              "end_product": null
+       }
+]

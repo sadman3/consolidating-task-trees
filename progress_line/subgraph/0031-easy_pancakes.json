@@ -1,0 +1,251 @@
+[
+       {
+              "ingredient": "flour",
+              "state": [
+                     {
+                            "physical_state": "powder",
+                            "location": "jar"
+                     },
+                     {
+                            "physical_state": "powder",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "scoop",
+                     "pour",
+                     "mix"
+              ],
+              "end_product": "pancake"
+       },
+       {
+              "ingredient": "sugar",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "jar"
+                     },
+                     {
+                            "physical_state": "granulated",
+                            "location": "spoon"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "scoop",
+                     "pour",
+                     "mix"
+              ],
+              "end_product": "pancake"
+       },
+       {
+              "ingredient": "baking powder",
+              "state": [
+                     {
+                            "physical_state": "powder",
+                            "location": "container"
+                     },
+                     {
+                            "physical_state": "powder",
+                            "location": "spoon"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "scoop",
+                     "pour",
+                     "mix"
+              ],
+              "end_product": "pancake"
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "granulated",
+                            "location": "spoon"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "scoop",
+                     "pour",
+                     "mix"
+              ],
+              "end_product": "pancake"
+       },
+       {
+              "ingredient": "milk",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "carton"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "mix"
+              ],
+              "end_product": "pancake"
+       },
+       {
+              "ingredient": "flour mixture",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "mix",
+                     "mix"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "egg",
+              "state": [
+                     {
+                            "physical_state": "uncracked",
+                            "location": []
+                     }
+              ],
+              "motion": [
+                     "crack"
+              ],
+              "end_product": "pancake"
+       },
+       {
+              "ingredient": "egg white and yolk",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "mix"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "vegetable oil",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "mix"
+              ],
+              "end_product": "pancake"
+       },
+       {
+              "ingredient": "butter",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "stick",
+                            "location": "plate"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "spread"
+              ],
+              "end_product": "pancake"
+       },
+       {
+              "ingredient": "pancake batter",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "flip",
+                     "flip"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "pancake",
+              "state": [
+                     {
+                            "physical_state": "partly cooked",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "plate"
+                     }
+              ],
+              "motion": [
+                     "cook",
+                     "pick-and-place",
+                     "pour"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "maple syrup",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour"
+              ],
+              "end_product": "pancake"
+       }
+]

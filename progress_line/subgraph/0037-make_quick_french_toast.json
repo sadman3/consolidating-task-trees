@@ -1,0 +1,171 @@
+[
+       {
+              "ingredient": "egg",
+              "state": [
+                     {
+                            "physical_state": "uncracked",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "cracked",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "crack",
+                     "pour",
+                     "flip"
+              ],
+              "end_product": "french toast"
+       },
+       {
+              "ingredient": "milk",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "flip"
+              ],
+              "end_product": "french toast"
+       },
+       {
+              "ingredient": "butter",
+              "state": [
+                     {
+                            "physical_state": "cubed",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "cubed",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "skillet"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "heat",
+                     "pick-and-place"
+              ],
+              "end_product": "french toast"
+       },
+       {
+              "ingredient": "bread",
+              "state": [
+                     {
+                            "physical_state": "sliced",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "partly soaked",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "soaked",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "soaked",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "skillet"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "flip",
+                     "pick-and-place",
+                     "flip",
+                     "cook"
+              ],
+              "end_product": "french toast"
+       },
+       {
+              "ingredient": "egg mixture",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place"
+              ],
+              "end_product": "french toast"
+       },
+       {
+              "ingredient": "french toast",
+              "state": [
+                     {
+                            "physical_state": "partly cooked",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "plate"
+                     }
+              ],
+              "motion": [
+                     "cook",
+                     "pick-and-place",
+                     "pick-and-place"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "maple syrup",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour"
+              ],
+              "end_product": "french toast"
+       },
+       {
+              "ingredient": "strawberry",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "chop",
+                     "pour",
+                     "pick-and-place"
+              ],
+              "end_product": "french toast"
+       }
+]

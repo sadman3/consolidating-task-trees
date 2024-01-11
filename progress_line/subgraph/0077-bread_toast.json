@@ -1,0 +1,79 @@
+[
+       {
+              "ingredient": "bread",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "toasted",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "pour"
+              ],
+              "end_product": "bread toast"
+       },
+       {
+              "ingredient": "butter",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "spread",
+                     "flip and stack"
+              ],
+              "end_product": "bread toast"
+       },
+       {
+              "ingredient": "sugar",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "spread",
+                     "flip and stack"
+              ],
+              "end_product": "bread toast"
+       },
+       {
+              "ingredient": "milk",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "cup"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cup"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "flip and stack",
+                     "pour"
+              ],
+              "end_product": "bread toast"
+       }
+]

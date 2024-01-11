@@ -1,0 +1,228 @@
+[
+       {
+              "ingredient": "vegetable oil",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "cooking spray"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "spray can"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "muffin pan"
+                     }
+              ],
+              "motion": [
+                     "spray",
+                     "spray",
+                     "sprinkle"
+              ],
+              "end_product": "breakfast muffin"
+       },
+       {
+              "ingredient": "bacon",
+              "state": [
+                     {
+                            "physical_state": "raw",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "on",
+                            "location": "griddle"
+                     },
+                     {
+                            "physical_state": "raw",
+                            "location": "griddle"
+                     },
+                     {
+                            "physical_state": "on,closed",
+                            "location": "griddle"
+                     },
+                     {
+                            "physical_state": "on",
+                            "location": "griddle"
+                     },
+                     {
+                            "physical_state": "fried",
+                            "location": "griddle"
+                     },
+                     {
+                            "physical_state": "fried",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "fried,chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "muffin pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "close",
+                     "cook",
+                     "open",
+                     "turn off",
+                     "pick-and-place",
+                     "chop",
+                     "pour",
+                     "sprinkle",
+                     "mix"
+              ],
+              "end_product": "breakfast muffin"
+       },
+       {
+              "ingredient": "egg",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "cracked",
+                            "location": "muffin pan"
+                     },
+                     {
+                            "physical_state": "beaten",
+                            "location": "muffin pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "crack",
+                     "mix",
+                     "sprinkle",
+                     "mix"
+              ],
+              "end_product": "breakfast muffin"
+       },
+       {
+              "ingredient": "potato",
+              "state": [
+                     {
+                            "physical_state": "whole,washed",
+                            "location": "strainer"
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "peeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "grated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "on",
+                            "location": "griddle"
+                     },
+                     {
+                            "physical_state": "grated,uncooked",
+                            "location": "griddle"
+                     },
+                     {
+                            "physical_state": "on,closed",
+                            "location": "griddle"
+                     },
+                     {
+                            "physical_state": "fried",
+                            "location": "griddle"
+                     },
+                     {
+                            "physical_state": "off",
+                            "location": "griddle"
+                     },
+                     {
+                            "physical_state": "fried",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "fried",
+                            "location": "muffin pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "peel",
+                     "grate",
+                     "place and spread",
+                     "close",
+                     "cook",
+                     "open",
+                     "turn off",
+                     "pick-and-place",
+                     "pour",
+                     "sprinkle",
+                     "mix"
+              ],
+              "end_product": "breakfast muffin"
+       },
+       {
+              "ingredient": "cheddar",
+              "state": [
+                     {
+                            "physical_state": "grated",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "grated",
+                            "location": "muffin pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "sprinkle",
+                     "mix"
+              ],
+              "end_product": "breakfast muffin"
+       },
+       {
+              "ingredient": "egg mixture",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": "muffin pan"
+                     }
+              ],
+              "motion": [
+                     "bake"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "muffin",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "muffin pan"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place"
+              ],
+              "end_product": null
+       }
+]

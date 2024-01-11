@@ -1,0 +1,202 @@
+[
+       {
+              "ingredient": "worcestershire sauce",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "mix",
+                     "mix"
+              ],
+              "end_product": "beef patty"
+       },
+       {
+              "ingredient": "ground beef",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "mix"
+              ],
+              "end_product": "meat mix"
+       },
+       {
+              "ingredient": "soy sauce",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "mix",
+                     "mix"
+              ],
+              "end_product": "beef patty"
+       },
+       {
+              "ingredient": "rice beer",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "mix",
+                     "mix"
+              ],
+              "end_product": "beef patty"
+       },
+       {
+              "ingredient": "white wine",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "mix",
+                     "mix"
+              ],
+              "end_product": "beef patty"
+       },
+       {
+              "ingredient": "hot sauce",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "mix",
+                     "mix"
+              ],
+              "end_product": "beef patty"
+       },
+       {
+              "ingredient": "sugar",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "mix"
+              ],
+              "end_product": "beef patty"
+       },
+       {
+              "ingredient": "meat mix",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "shape"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "beef patty",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "uncooked",
+                            "location": "grill"
+                     },
+                     {
+                            "physical_state": "partly cooked",
+                            "location": "grill"
+                     },
+                     {
+                            "physical_state": "flipped",
+                            "location": "grill"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "grill"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "cook",
+                     "flip",
+                     "cook",
+                     "pick-and-place"
+              ],
+              "end_product": "hamburger"
+       },
+       {
+              "ingredient": "bread",
+              "state": [
+                     {
+                            "physical_state": "bun",
+                            "location": "plate"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place"
+              ],
+              "end_product": null
+       }
+]

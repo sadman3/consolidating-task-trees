@@ -1,0 +1,181 @@
+[
+       {
+              "ingredient": "olive oil",
+              "state": [
+                     {
+                            "physical_state": "liquid",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "liquid",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "spread",
+                     "pour",
+                     "cook"
+              ],
+              "end_product": "omelette"
+       },
+       {
+              "ingredient": "butter",
+              "state": [
+                     {
+                            "physical_state": "softened,unmelted,cubed",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "softened,unmelted,cubed",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "melted,liquid",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "spread",
+                     "pour",
+                     "cook"
+              ],
+              "end_product": "omelette"
+       },
+       {
+              "ingredient": "egg",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "beaten,uncooked",
+                            "location": "mixing bowl"
+                     },
+                     {
+                            "physical_state": "beaten,uncooked",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "hot",
+                            "location": "frying pan"
+                     }
+              ],
+              "motion": [
+                     "crack",
+                     "pour",
+                     "cook and stir",
+                     "cook"
+              ],
+              "end_product": "omelette"
+       },
+       {
+              "ingredient": "egg white",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "uncooked",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "whisk"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "egg yolk",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "uncooked",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "whisk"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "pour"
+              ],
+              "end_product": "omelette"
+       },
+       {
+              "ingredient": "black pepper",
+              "state": [
+                     {
+                            "physical_state": "ground",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "pour"
+              ],
+              "end_product": "omelette"
+       },
+       {
+              "ingredient": "omelette",
+              "state": [
+                     {
+                            "physical_state": "mixed,partly cooked",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "folded,partly cooked",
+                            "location": "frying pan"
+                     },
+                     {
+                            "physical_state": "folded,cooked",
+                            "location": "frying pan"
+                     }
+              ],
+              "motion": [
+                     "fold",
+                     "cook",
+                     "pick-and-place"
+              ],
+              "end_product": null
+       }
+]

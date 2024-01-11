@@ -1,0 +1,181 @@
+[
+       {
+              "ingredient": "butter",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "baking tray"
+                     }
+              ],
+              "motion": [
+                     "spread",
+                     "pour"
+              ],
+              "end_product": "fudge"
+       },
+       {
+              "ingredient": "oreo cookie",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "crushed",
+                            "location": "blender jar"
+                     },
+                     {
+                            "physical_state": "crushed",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "crushed",
+                            "location": "pan"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "pour",
+                     "pour",
+                     "mix"
+              ],
+              "end_product": "fudge"
+       },
+       {
+              "ingredient": "white chocolate chip",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "melted",
+                            "location": "saucepan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "stir"
+              ],
+              "end_product": "fudge"
+       },
+       {
+              "ingredient": "condensed milk",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "tin can"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "saucepan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "stir"
+              ],
+              "end_product": "fudge"
+       },
+       {
+              "ingredient": "chocolate mixture",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "saucepan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "mix",
+                     "mix"
+              ],
+              "end_product": "fudge"
+       },
+       {
+              "ingredient": "vanilla extract",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cup"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "saucepan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "pour",
+                     "mix",
+                     "mix"
+              ],
+              "end_product": "fudge"
+       },
+       {
+              "ingredient": "fudge mixture",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "saucepan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "baking tray"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "chill"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "fudge",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "baking tray"
+                     }
+              ],
+              "motion": [
+                     "cut"
+              ],
+              "end_product": null
+       }
+]

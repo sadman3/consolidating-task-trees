@@ -1,0 +1,97 @@
+[
+       {
+              "ingredient": "beefsteak",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "uncooked",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "cut with slits,uncooked",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "uncooked",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "partly cooked",
+                            "location": "baking tray"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "baking tray"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "cut",
+                     "pick-and-place",
+                     "pick-and-place",
+                     "flip",
+                     "pick-and-place"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "garlic",
+              "state": [
+                     {
+                            "physical_state": "peeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "cutting board"
+                     }
+              ],
+              "motion": [
+                     "slice",
+                     "pick-and-place"
+              ],
+              "end_product": "beefsteak"
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "sprinkle"
+              ],
+              "end_product": "beefsteak"
+       },
+       {
+              "ingredient": "black pepper",
+              "state": [
+                     {
+                            "physical_state": "ground",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "sprinkle"
+              ],
+              "end_product": "beefsteak"
+       },
+       {
+              "ingredient": "pepper",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "sprinkle"
+              ],
+              "end_product": null
+       }
+]

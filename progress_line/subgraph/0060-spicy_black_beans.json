@@ -1,0 +1,241 @@
+[
+       {
+              "ingredient": "onion",
+              "state": [
+                     {
+                            "physical_state": "peeled",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "peeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "covered",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "chop",
+                     "scrape",
+                     "pour",
+                     "stir",
+                     "cook"
+              ],
+              "end_product": "black bean"
+       },
+       {
+              "ingredient": "garlic",
+              "state": [
+                     {
+                            "physical_state": "peeled",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "peeled",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "covered",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "chop",
+                     "scrape",
+                     "pour",
+                     "stir",
+                     "cook"
+              ],
+              "end_product": "black bean"
+       },
+       {
+              "ingredient": "jalapeno",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "covered",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "chop",
+                     "scrape",
+                     "pour",
+                     "stir",
+                     "cook"
+              ],
+              "end_product": "black bean"
+       },
+       {
+              "ingredient": "olive oil",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "covered",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "cook"
+              ],
+              "end_product": "black bean"
+       },
+       {
+              "ingredient": "black bean",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "uncooked",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "uncooked",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "partly cooked",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "covered",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "pan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "stir",
+                     "sprinkle",
+                     "stir",
+                     "put inside",
+                     "cook",
+                     "uncover",
+                     "scoop and pour"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "covered",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "cook"
+              ],
+              "end_product": "black bean"
+       },
+       {
+              "ingredient": "black pepper",
+              "state": [
+                     {
+                            "physical_state": "ground",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "covered",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "cook"
+              ],
+              "end_product": "black bean"
+       },
+       {
+              "ingredient": "bay leaf",
+              "state": [
+                     {
+                            "physical_state": "dried",
+                            "location": "jar"
+                     },
+                     {
+                            "physical_state": "covered",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pan"
+                     }
+              ],
+              "motion": [
+                     "put inside",
+                     "cook",
+                     "remove"
+              ],
+              "end_product": "black bean"
+       }
+]

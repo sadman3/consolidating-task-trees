@@ -1,0 +1,100 @@
+[
+       {
+              "ingredient": "flour",
+              "state": [
+                     {
+                            "physical_state": "powder",
+                            "location": "bag"
+                     },
+                     {
+                            "physical_state": "powder",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "mix"
+              ],
+              "end_product": "pancake batter"
+       },
+       {
+              "ingredient": "egg",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": "surface"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "crack",
+                     "mix"
+              ],
+              "end_product": "pancake batter"
+       },
+       {
+              "ingredient": "egg shell",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "surface"
+                     }
+              ],
+              "motion": [
+                     "throw away"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "garbage",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "trash bin"
+                     }
+              ],
+              "motion": [
+                     "throw away"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "milk",
+              "state": [
+                     {
+                            "physical_state": "liquid",
+                            "location": "measuring cup"
+                     },
+                     {
+                            "physical_state": "liquid",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "mix"
+              ],
+              "end_product": "pancake batter"
+       },
+       {
+              "ingredient": "egg white",
+              "state": [
+                     {
+                            "physical_state": "raw",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "mix"
+              ],
+              "end_product": null
+       }
+]

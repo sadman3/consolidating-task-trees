@@ -1,0 +1,164 @@
+[
+       {
+              "ingredient": "onion",
+              "state": [
+                     {
+                            "physical_state": "chopped",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "fried",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "fried",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "scrape",
+                     "cook",
+                     "pour",
+                     "stir"
+              ],
+              "end_product": "kofta"
+       },
+       {
+              "ingredient": "vegetable oil",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pour"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "kofta mix",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "kneaded",
+                            "location": "baking tray"
+                     },
+                     {
+                            "physical_state": "shaped",
+                            "location": []
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "shape",
+                     "pick-and-place"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "granulated",
+                            "location": "baking tray"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "knead"
+              ],
+              "end_product": "kofta"
+       },
+       {
+              "ingredient": "paprika",
+              "state": [
+                     {
+                            "physical_state": "ground",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "ground",
+                            "location": "baking tray"
+                     },
+                     {
+                            "physical_state": "ground",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "knead",
+                     "sprinkle"
+              ],
+              "end_product": "kofta"
+       },
+       {
+              "ingredient": "scallion",
+              "state": [
+                     {
+                            "physical_state": "chopped",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "baking tray"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "knead"
+              ],
+              "end_product": "kofta"
+       },
+       {
+              "ingredient": "glass tray",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": []
+                     }
+              ],
+              "motion": [
+                     "pick-and-place"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "lentil kofta",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "glass tray"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "pickle",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "jar"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place"
+              ],
+              "end_product": "kofta"
+       }
+]

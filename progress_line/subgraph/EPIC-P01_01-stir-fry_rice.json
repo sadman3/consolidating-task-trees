@@ -1,0 +1,429 @@
+[
+       {
+              "ingredient": "zucchini",
+              "state": [
+                     {
+                            "physical_state": "washed",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "washed",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "diced",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "diced",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "partly cooked",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "partly cooked",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "partly cooked",
+                            "location": "pan"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "slice",
+                     "dice",
+                     "scrape",
+                     "cook and stir",
+                     "shake",
+                     "stir",
+                     "stir",
+                     "stir",
+                     "pour",
+                     "stir"
+              ],
+              "end_product": "stir-fried rice"
+       },
+       {
+              "ingredient": "carrot",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "ends removed",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "grated",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "partly cooked",
+                            "location": "pan"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "cut",
+                     "grate",
+                     "stir",
+                     "pour",
+                     "stir"
+              ],
+              "end_product": "stir-fried rice"
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "container"
+                     },
+                     {
+                            "physical_state": "granulated",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "granulated",
+                            "location": "container"
+                     },
+                     {
+                            "physical_state": "granulated",
+                            "location": "spoon"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pot"
+                     }
+              ],
+              "motion": [
+                     "shake",
+                     "stir",
+                     "stir",
+                     "scoop",
+                     "stir",
+                     "stir",
+                     "pour"
+              ],
+              "end_product": "stir-fried rice"
+       },
+       {
+              "ingredient": "celery",
+              "state": [
+                     {
+                            "physical_state": "washed",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "washed",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "sliced",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "partly cooked",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "partly cooked",
+                            "location": "pan"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "slice",
+                     "scrape",
+                     "stir",
+                     "stir",
+                     "pour",
+                     "stir"
+              ],
+              "end_product": "stir-fried rice"
+       },
+       {
+              "ingredient": "onion",
+              "state": [
+                     {
+                            "physical_state": "halved",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "halved",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "fried",
+                            "location": "pan"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "chop",
+                     "scrape",
+                     "stir",
+                     "pour",
+                     "stir"
+              ],
+              "end_product": "stir-fried rice"
+       },
+       {
+              "ingredient": "kettle",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": []
+                     }
+              ],
+              "motion": [
+                     "pour"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "olive oil",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "stir"
+              ],
+              "end_product": "stir-fried rice"
+       },
+       {
+              "ingredient": "tofu",
+              "state": [
+                     {
+                            "physical_state": "diced",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "diced",
+                            "location": "pan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "stir"
+              ],
+              "end_product": "stir-fried rice"
+       },
+       {
+              "ingredient": "white rice",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "uncooked",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "partly cooked",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "strainer"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "pan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "cook and stir",
+                     "cook",
+                     "pour",
+                     "pour",
+                     "stir"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "rice",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "strainer"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "pour",
+                     "stir"
+              ],
+              "end_product": "stir-fried rice"
+       },
+       {
+              "ingredient": "sink",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": []
+                     }
+              ],
+              "motion": [
+                     "pour"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "vegetable mix",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pan"
+                     }
+              ],
+              "motion": [
+                     "cook and stir",
+                     "cook and stir",
+                     "stir",
+                     "stir"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "curry powder",
+              "state": [
+                     {
+                            "physical_state": "powder",
+                            "location": "container"
+                     },
+                     {
+                            "physical_state": "powder",
+                            "location": "pan"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "stir"
+              ],
+              "end_product": "stir-fried rice"
+       },
+       {
+              "ingredient": "stir-fried rice",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "cooking pan"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pan"
+                     }
+              ],
+              "motion": [
+                     "scoop and pour",
+                     "scoop and pour",
+                     "scrape",
+                     "scrape"
+              ],
+              "end_product": null
+       }
+]

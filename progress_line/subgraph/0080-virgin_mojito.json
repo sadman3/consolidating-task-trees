@@ -1,0 +1,112 @@
+[
+       {
+              "ingredient": "lime",
+              "state": [
+                     {
+                            "physical_state": "whole",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "whole",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "cutting board"
+                     },
+                     {
+                            "physical_state": "chopped",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "chopped,mashed",
+                            "location": "highball glass"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "chop",
+                     "pick-and-place",
+                     "pour",
+                     "stir"
+              ],
+              "end_product": "mojito"
+       },
+       {
+              "ingredient": "sugar",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "container"
+                     },
+                     {
+                            "physical_state": "granulated",
+                            "location": "spoon"
+                     },
+                     {
+                            "physical_state": "granulated",
+                            "location": "highball glass"
+                     }
+              ],
+              "motion": [
+                     "scoop",
+                     "pour",
+                     "stir"
+              ],
+              "end_product": "mojito"
+       },
+       {
+              "ingredient": "mint",
+              "state": [
+                     {
+                            "physical_state": "leaf",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "mashed,leaf",
+                            "location": "highball glass"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "stir"
+              ],
+              "end_product": "mojito"
+       },
+       {
+              "ingredient": "ice",
+              "state": [
+                     {
+                            "physical_state": "crushed,frozen",
+                            "location": "bucket"
+                     },
+                     {
+                            "physical_state": "crushed",
+                            "location": "highball glass"
+                     }
+              ],
+              "motion": [
+                     "scoop and pour",
+                     "stir"
+              ],
+              "end_product": "mojito"
+       },
+       {
+              "ingredient": "club soda",
+              "state": [
+                     {
+                            "physical_state": "liquid",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "liquid",
+                            "location": "highball glass"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "stir"
+              ],
+              "end_product": "mojito"
+       }
+]

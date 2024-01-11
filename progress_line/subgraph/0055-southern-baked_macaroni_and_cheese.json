@@ -1,0 +1,187 @@
+[
+       {
+              "ingredient": "macaroni",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "uncooked",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "partly cooked",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "partly cooked",
+                            "location": "strainer"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "cook and stir",
+                     "pour",
+                     "pour",
+                     "pour"
+              ],
+              "end_product": "macaroni and cheese"
+       },
+       {
+              "ingredient": "egg white and yolk",
+              "state": [
+                     {
+                            "physical_state": "beaten",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "stir"
+              ],
+              "end_product": "macaroni and cheese"
+       },
+       {
+              "ingredient": "milk",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "tin can"
+                     },
+                     {
+                            "physical_state": "liquid",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "stir"
+              ],
+              "end_product": "macaroni and cheese"
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "spoon"
+                     },
+                     {
+                            "physical_state": "granulated",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "stir"
+              ],
+              "end_product": "macaroni and cheese"
+       },
+       {
+              "ingredient": "black pepper",
+              "state": [
+                     {
+                            "physical_state": "ground",
+                            "location": "spoon"
+                     },
+                     {
+                            "physical_state": "ground",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "stir"
+              ],
+              "end_product": "macaroni and cheese"
+       },
+       {
+              "ingredient": "cheese",
+              "state": [
+                     {
+                            "physical_state": "grated",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "grated",
+                            "location": []
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "stir",
+                     "sprinkle"
+              ],
+              "end_product": "macaroni and cheese"
+       },
+       {
+              "ingredient": "cheese sauce",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour"
+              ],
+              "end_product": "macaroni and cheese"
+       },
+       {
+              "ingredient": "vegetable oil",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "cooking spray"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "spray bottle"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "baking tray"
+                     }
+              ],
+              "motion": [
+                     "spray",
+                     "spray",
+                     "pour"
+              ],
+              "end_product": "macaroni and cheese"
+       },
+       {
+              "ingredient": "pasta mix",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": "baking tray"
+                     }
+              ],
+              "motion": [
+                     "bake"
+              ],
+              "end_product": "macaroni and cheese"
+       },
+       {
+              "ingredient": "macaroni and cheese",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "baking tray"
+                     }
+              ],
+              "motion": [
+                     "scoop and pour"
+              ],
+              "end_product": null
+       }
+]

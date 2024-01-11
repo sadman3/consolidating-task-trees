@@ -1,0 +1,290 @@
+[
+       {
+              "ingredient": "butter",
+              "state": [
+                     {
+                            "physical_state": "stick",
+                            "location": "packet"
+                     },
+                     {
+                            "physical_state": "stick",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "mixed",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "beaten",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "stick",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "mix",
+                     "beat",
+                     "pour",
+                     "beat"
+              ],
+              "end_product": "brownie"
+       },
+       {
+              "ingredient": "sugar",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "mixed",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "beaten",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "granulated",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "mix",
+                     "beat",
+                     "pour",
+                     "beat"
+              ],
+              "end_product": "brownie"
+       },
+       {
+              "ingredient": "instant coffee",
+              "state": [
+                     {
+                            "physical_state": "powder",
+                            "location": "jar"
+                     },
+                     {
+                            "physical_state": "powder",
+                            "location": "plate"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "scoop and pour",
+                     "scrape",
+                     "mix",
+                     "mix"
+              ],
+              "end_product": "brownie"
+       },
+       {
+              "ingredient": "egg",
+              "state": [
+                     {
+                            "physical_state": "uncracked",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "cracked",
+                            "location": []
+                     }
+              ],
+              "motion": [
+                     "crack",
+                     "pour"
+              ],
+              "end_product": "egg mixture"
+       },
+       {
+              "ingredient": "egg white and yolk",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "beat"
+              ],
+              "end_product": "brownie"
+       },
+       {
+              "ingredient": "vanilla extract",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bottle"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "beat"
+              ],
+              "end_product": "brownie"
+       },
+       {
+              "ingredient": "egg mixture",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "beat"
+              ],
+              "end_product": "brownie"
+       },
+       {
+              "ingredient": "coffee",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "beat"
+              ],
+              "end_product": "brownie"
+       },
+       {
+              "ingredient": "cocoa powder",
+              "state": [
+                     {
+                            "physical_state": "powder",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "mix"
+              ],
+              "end_product": "brownie"
+       },
+       {
+              "ingredient": "flour",
+              "state": [
+                     {
+                            "physical_state": "powder",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "mix"
+              ],
+              "end_product": "brownie"
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "mix"
+              ],
+              "end_product": "brownie"
+       },
+       {
+              "ingredient": "chocolate",
+              "state": [
+                     {
+                            "physical_state": "melted",
+                            "location": "bowl"
+                     }
+              ],
+              "motion": [
+                     "mix"
+              ],
+              "end_product": "brownie"
+       },
+       {
+              "ingredient": "batter",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "mix",
+                     "mix"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "flour mixture",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "mixing bowl"
+                     }
+              ],
+              "motion": [
+                     "mix",
+                     "mix"
+              ],
+              "end_product": "brownie"
+       },
+       {
+              "ingredient": "brownie batter",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "bowl"
+                     },
+                     {
+                            "physical_state": "leveled",
+                            "location": "baking tray"
+                     }
+              ],
+              "motion": [
+                     "scrape",
+                     "cook"
+              ],
+              "end_product": "brownie"
+       },
+       {
+              "ingredient": "brownie",
+              "state": [
+                     {
+                            "physical_state": "baked",
+                            "location": "baking tray"
+                     },
+                     {
+                            "physical_state": "baked",
+                            "location": "cutting board"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "cut"
+              ],
+              "end_product": null
+       }
+]

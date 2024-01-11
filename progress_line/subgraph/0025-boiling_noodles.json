@@ -1,0 +1,76 @@
+[
+       {
+              "ingredient": "noodle",
+              "state": [
+                     {
+                            "physical_state": "uncooked",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "uncooked",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "cooked",
+                            "location": "strainer"
+                     }
+              ],
+              "motion": [
+                     "pick-and-place",
+                     "boil",
+                     "pour",
+                     "pour"
+              ],
+              "end_product": null
+       },
+       {
+              "ingredient": "salt",
+              "state": [
+                     {
+                            "physical_state": "granulated",
+                            "location": []
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "strainer"
+                     }
+              ],
+              "motion": [
+                     "sprinkle",
+                     "pour",
+                     "pour"
+              ],
+              "end_product": "noodle"
+       },
+       {
+              "ingredient": "olive oil",
+              "state": [
+                     {
+                            "physical_state": "",
+                            "location": "spoon"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "pot"
+                     },
+                     {
+                            "physical_state": "",
+                            "location": "strainer"
+                     }
+              ],
+              "motion": [
+                     "pour",
+                     "pour",
+                     "pour"
+              ],
+              "end_product": "noodle"
+       }
+]
