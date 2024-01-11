@@ -1,0 +1,292 @@
+[
+    {
+        "input_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "rolledoats"
+                ],
+                "container": null
+            },
+            {
+                "label": "rolledoats",
+                "states": [
+                    "oat"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "raisins",
+                "states": [
+                    "dried"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "pumpkin",
+                "states": [
+                    "ground"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "rolledoats",
+                    "raisins",
+                    "pumpkin"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "milk",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "rolledoats",
+                    "raisins",
+                    "pumpkin",
+                    "milk"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "rolledoats",
+                    "raisins",
+                    "pumpkin",
+                    "milk"
+                ],
+                "container": null
+            },
+            {
+                "label": "yogurt",
+                "states": [
+                    "creamy"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "rolledoats",
+                    "raisins",
+                    "pumpkin",
+                    "milk",
+                    "yogurt"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "rolledoats",
+                    "raisins",
+                    "pumpkin",
+                    "milk",
+                    "yogurt"
+                ],
+                "container": null
+            },
+            {
+                "label": "sugar",
+                "states": [
+                    "ground"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "rolledoats",
+                    "raisins",
+                    "pumpkin",
+                    "milk",
+                    "yogurt",
+                    "sugar"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "rolledoats",
+                    "raisins",
+                    "pumpkin",
+                    "milk",
+                    "yogurt",
+                    "sugar"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "blend",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "mixture"
+                ],
+                "container": null
+            },
+            {
+                "label": "mixture",
+                "states": [],
+                "ingredients": [
+                    "rolledoats",
+                    "raisins",
+                    "pumpkin",
+                    "milk",
+                    "yogurt",
+                    "sugar"
+                ],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "mixture"
+                ],
+                "container": null
+            },
+            {
+                "label": "mixture",
+                "states": [],
+                "ingredients": [
+                    "rolledoats",
+                    "raisins",
+                    "pumpkin",
+                    "milk",
+                    "yogurt",
+                    "sugar"
+                ],
+                "container": "blender"
+            },
+            {
+                "label": "glass",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "mixture"
+                ],
+                "container": null
+            },
+            {
+                "label": "glass",
+                "states": [],
+                "ingredients": [
+                    "mixture"
+                ],
+                "container": null
+            },
+            {
+                "label": "mixture",
+                "states": [],
+                "ingredients": [
+                    "rolledoats",
+                    "raisins",
+                    "pumpkin",
+                    "milk",
+                    "yogurt",
+                    "sugar"
+                ],
+                "container": "glass"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "glass",
+                "states": [],
+                "ingredients": [
+                    "mixture"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "drink",
+        "output_nodes": [
+            {
+                "label": "glass",
+                "states": [],
+                "ingredients": [
+                    "mixture"
+                ],
+                "container": null
+            }
+        ]
+    }
+]

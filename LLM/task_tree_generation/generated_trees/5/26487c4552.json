@@ -1,0 +1,402 @@
+[
+    {
+        "input_nodes": [
+            {
+                "label": "cuttingboard",
+                "states": [],
+                "ingredients": [
+                    "tofu"
+                ],
+                "container": null
+            },
+            {
+                "label": "tofu",
+                "states": [
+                    "cube"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            },
+            {
+                "label": "knife",
+                "states": [],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "cut",
+        "output_nodes": [
+            {
+                "label": "tofu",
+                "states": [
+                    "cube"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "tofu",
+                "states": [
+                    "cube"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            },
+            {
+                "label": "peach",
+                "states": [
+                    "flesh"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            },
+            {
+                "label": "knife",
+                "states": [],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "slice",
+        "output_nodes": [
+            {
+                "label": "peach",
+                "states": [
+                    "flesh"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [
+                    "tofu",
+                    "peach"
+                ],
+                "container": null
+            },
+            {
+                "label": "tofu",
+                "states": [
+                    "cube"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            },
+            {
+                "label": "peach",
+                "states": [
+                    "flesh"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            }
+        ],
+        "motion_node": "blend",
+        "output_nodes": [
+            {
+                "label": "mixture",
+                "states": [
+                    "mixed"
+                ],
+                "ingredients": [
+                    "tofu",
+                    "peach"
+                ],
+                "container": "blender"
+            },
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "mixture"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "mixture"
+                ],
+                "container": null
+            },
+            {
+                "label": "mixture",
+                "states": [
+                    "mixed"
+                ],
+                "ingredients": [
+                    "tofu",
+                    "peach"
+                ],
+                "container": "blender"
+            },
+            {
+                "label": "strawberry",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            },
+            {
+                "label": "knife",
+                "states": [],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "strawberry",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            },
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "mixture",
+                    "strawberry"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "mixture",
+                    "strawberry"
+                ],
+                "container": null
+            },
+            {
+                "label": "mixture",
+                "states": [
+                    "mixed"
+                ],
+                "ingredients": [
+                    "tofu",
+                    "peach",
+                    "strawberry"
+                ],
+                "container": "blender"
+            },
+            {
+                "label": "strawberry",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            }
+        ],
+        "motion_node": "blend",
+        "output_nodes": [
+            {
+                "label": "mixture",
+                "states": [
+                    "thickened"
+                ],
+                "ingredients": [
+                    "tofu",
+                    "peach",
+                    "strawberry"
+                ],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "mixture",
+                    "strawberry"
+                ],
+                "container": null
+            },
+            {
+                "label": "mixture",
+                "states": [
+                    "thickened"
+                ],
+                "ingredients": [
+                    "tofu",
+                    "peach",
+                    "strawberry"
+                ],
+                "container": "blender"
+            },
+            {
+                "label": "strawberry",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "mixture",
+                    "strawberry"
+                ],
+                "container": null
+            },
+            {
+                "label": "mixture",
+                "states": [
+                    "thickened"
+                ],
+                "ingredients": [
+                    "tofu",
+                    "peach",
+                    "strawberry",
+                    "strawberry"
+                ],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "mixture",
+                    "strawberry"
+                ],
+                "container": null
+            },
+            {
+                "label": "mixture",
+                "states": [
+                    "thickened"
+                ],
+                "ingredients": [
+                    "tofu",
+                    "peach",
+                    "strawberry",
+                    "strawberry"
+                ],
+                "container": "blender"
+            },
+            {
+                "label": "glass",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "mixture",
+                "states": [
+                    "thickened"
+                ],
+                "ingredients": [
+                    "tofu",
+                    "peach",
+                    "strawberry",
+                    "strawberry"
+                ],
+                "container": "blender"
+            },
+            {
+                "label": "glass",
+                "states": [],
+                "ingredients": [
+                    "strawberry",
+                    "mixture"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "mixture",
+                    "strawberry"
+                ],
+                "container": null
+            },
+            {
+                "label": "mixture",
+                "states": [
+                    "thickened"
+                ],
+                "ingredients": [
+                    "tofu",
+                    "peach",
+                    "strawberry",
+                    "strawberry"
+                ],
+                "container": "blender"
+            },
+            {
+                "label": "strawberry",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            }
+        ],
+        "motion_node": "garnish",
+        "output_nodes": [
+            {
+                "label": "drink",
+                "states": [
+                    "mixed",
+                    "liquid"
+                ],
+                "ingredients": [
+                    "strawberry",
+                    "mixture",
+                    "tofu",
+                    "peach"
+                ],
+                "container": "glass"
+            }
+        ]
+    }
+]

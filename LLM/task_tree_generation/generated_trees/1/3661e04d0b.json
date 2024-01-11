@@ -1,0 +1,348 @@
+[
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "raspberries",
+                "states": [
+                    "stem"
+                ],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "blender",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "raspberries"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "yogurt",
+                "states": [
+                    "creamy"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "raspberries"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "raspberries",
+                    "yogurt"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "jar",
+                "states": [],
+                "ingredients": [
+                    "syrup"
+                ],
+                "container": null
+            },
+            {
+                "label": "syrup",
+                "states": [],
+                "ingredients": [],
+                "container": "jar"
+            },
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "raspberries",
+                    "yogurt"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "raspberries",
+                    "yogurt",
+                    "syrup"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "raspberries",
+                    "yogurt",
+                    "syrup"
+                ],
+                "container": null
+            },
+            {
+                "label": "cocoa",
+                "states": [
+                    "ground"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "raspberries",
+                    "yogurt",
+                    "syrup",
+                    "cocoa"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "raspberries",
+                    "yogurt",
+                    "syrup",
+                    "cocoa"
+                ],
+                "container": null
+            },
+            {
+                "label": "mint",
+                "states": [
+                    "leaf"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "raspberries",
+                    "yogurt",
+                    "syrup",
+                    "cocoa",
+                    "mint"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "raspberries",
+                    "yogurt",
+                    "syrup",
+                    "cocoa",
+                    "mint"
+                ],
+                "container": null
+            },
+            {
+                "label": "liquid",
+                "states": [
+                    "extract"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "raspberries",
+                    "yogurt",
+                    "syrup",
+                    "cocoa",
+                    "mint",
+                    "extract"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "raspberries",
+                    "yogurt",
+                    "syrup",
+                    "cocoa",
+                    "mint",
+                    "extract"
+                ],
+                "container": null
+            },
+            {
+                "label": "mint",
+                "states": [
+                    "leaf"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "raspberries",
+                    "yogurt",
+                    "syrup",
+                    "cocoa",
+                    "mint"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "raspberries",
+                    "yogurt",
+                    "syrup",
+                    "cocoa",
+                    "mint"
+                ],
+                "container": null
+            },
+            {
+                "label": "raspberries",
+                "states": [
+                    "berry"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "blend",
+        "output_nodes": [
+            {
+                "label": "mixture",
+                "states": [
+                    "smooth",
+                    "creamy"
+                ],
+                "ingredients": [
+                    "raspberries",
+                    "yogurt",
+                    "syrup",
+                    "cocoa",
+                    "mint",
+                    "extract"
+                ],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "mixture",
+                "states": [
+                    "smooth",
+                    "creamy"
+                ],
+                "ingredients": [
+                    "raspberries",
+                    "yogurt",
+                    "syrup",
+                    "cocoa",
+                    "mint",
+                    "extract"
+                ],
+                "container": "blender"
+            },
+            {
+                "label": "glass",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "mixture",
+                "states": [
+                    "smooth",
+                    "creamy"
+                ],
+                "ingredients": [
+                    "raspberries",
+                    "yogurt",
+                    "syrup",
+                    "cocoa",
+                    "mint",
+                    "extract"
+                ],
+                "container": "glass"
+            }
+        ]
+    }
+]

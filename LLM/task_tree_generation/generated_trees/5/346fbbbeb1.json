@@ -1,0 +1,369 @@
+[
+    {
+        "input_nodes": [
+            {
+                "label": "cuttingboard",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "mango",
+                "states": [
+                    "ripe"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "cuttingboard",
+                "states": [],
+                "ingredients": [
+                    "mango"
+                ],
+                "container": null
+            },
+            {
+                "label": "mango",
+                "states": [
+                    "ripe"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "mango",
+                "states": [
+                    "ripe"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            },
+            {
+                "label": "knife",
+                "states": [],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "peel",
+        "output_nodes": [
+            {
+                "label": "mango",
+                "states": [
+                    "cut"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "mango",
+                "states": [
+                    "ripe"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            }
+        ],
+        "motion_node": "chop",
+        "output_nodes": [
+            {
+                "label": "mango",
+                "states": [
+                    "chopped"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "mango",
+                "states": [
+                    "chopped"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "mango"
+                ],
+                "container": null
+            },
+            {
+                "label": "mango",
+                "states": [
+                    "chopped"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "mango"
+                ],
+                "container": null
+            },
+            {
+                "label": "mango",
+                "states": [
+                    "chopped"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            },
+            {
+                "label": "groundsugarpowder",
+                "states": [
+                    "ground"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "sprinkle",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "mango",
+                    "groundsugarpowder"
+                ],
+                "container": null
+            },
+            {
+                "label": "mango",
+                "states": [
+                    "chopped"
+                ],
+                "ingredients": [
+                    "groundsugarpowder"
+                ],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "mango",
+                    "groundsugarpowder"
+                ],
+                "container": null
+            },
+            {
+                "label": "mango",
+                "states": [
+                    "chopped"
+                ],
+                "ingredients": [
+                    "groundsugarpowder"
+                ],
+                "container": "blender"
+            },
+            {
+                "label": "water",
+                "states": [
+                    "liquid"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "mango",
+                    "groundsugarpowder",
+                    "water"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "mango",
+                    "groundsugarpowder",
+                    "water"
+                ],
+                "container": null
+            },
+            {
+                "label": "mango",
+                "states": [
+                    "chopped"
+                ],
+                "ingredients": [
+                    "groundsugarpowder"
+                ],
+                "container": "blender"
+            },
+            {
+                "label": "sugarpowder",
+                "states": [
+                    "ground"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            }
+        ],
+        "motion_node": "blend",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "mango",
+                    "sugarpowder",
+                    "water"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "mango",
+                    "sugarpowder",
+                    "water"
+                ],
+                "container": null
+            },
+            {
+                "label": "mango",
+                "states": [
+                    "sugarpowder",
+                    "water"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            },
+            {
+                "label": "mango",
+                "states": [
+                    "chopped"
+                ],
+                "ingredients": [
+                    "groundsugarpowder"
+                ],
+                "container": "blender"
+            }
+        ],
+        "motion_node": "blend",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "mango",
+                    "sugarpowder"
+                ],
+                "container": null
+            },
+            {
+                "label": "mango",
+                "states": [
+                    "sugarpowder"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "mango",
+                    "sugarpowder"
+                ],
+                "container": null
+            },
+            {
+                "label": "mango",
+                "states": [
+                    "sugarpowder"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            },
+            {
+                "label": "mango",
+                "states": [
+                    "chopped"
+                ],
+                "ingredients": [
+                    "groundsugarpowder"
+                ],
+                "container": "blender"
+            }
+        ],
+        "motion_node": "blend",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "mango",
+                    "sugarpowder",
+                    "mango",
+                    "groundsugarpowder"
+                ],
+                "container": null
+            }
+        ]
+    }
+]

@@ -1,0 +1,360 @@
+[
+    {
+        "input_nodes": [
+            {
+                "label": "water",
+                "states": [
+                    "liquid"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "spinach",
+                "states": [
+                    "leaf"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "wash",
+        "output_nodes": [
+            {
+                "label": "spinach",
+                "states": [
+                    "washed",
+                    "leaf"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "spinach",
+                "states": [
+                    "washed",
+                    "leaf"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "cuttingboard",
+                "states": [],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "cuttingboard",
+                "states": [],
+                "ingredients": [
+                    "spinach"
+                ],
+                "container": null
+            },
+            {
+                "label": "spinach",
+                "states": [
+                    "washed",
+                    "leaf"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "spinach",
+                "states": [
+                    "washed",
+                    "leaf"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "spinach"
+                ],
+                "container": null
+            },
+            {
+                "label": "spinach",
+                "states": [
+                    "leaf"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "spinach"
+                ],
+                "container": null
+            },
+            {
+                "label": "apple",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "spinach",
+                    "apple"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "spinach",
+                    "apple"
+                ],
+                "container": null
+            },
+            {
+                "label": "apple",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            }
+        ],
+        "motion_node": "slice",
+        "output_nodes": [
+            {
+                "label": "apple",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "spinach",
+                    "apple"
+                ],
+                "container": null
+            },
+            {
+                "label": "apple",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "peeled",
+                    "sliced"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "spinach",
+                    "apple",
+                    "banana"
+                ],
+                "container": null
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "spinach",
+                    "apple",
+                    "banana"
+                ],
+                "container": null
+            },
+            {
+                "label": "liquidmilk",
+                "states": [
+                    "liquid"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "spinach",
+                    "apple",
+                    "banana",
+                    "milk"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "spinach",
+                    "apple",
+                    "banana",
+                    "milk"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "blend",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "smoothie"
+                ],
+                "container": null
+            },
+            {
+                "label": "smoothie",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "spinach",
+                    "apple",
+                    "banana",
+                    "milk"
+                ],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "smoothie"
+                ],
+                "container": null
+            },
+            {
+                "label": "smoothie",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "spinach",
+                    "apple",
+                    "banana",
+                    "milk"
+                ],
+                "container": "blender"
+            },
+            {
+                "label": "glass",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "glass",
+                "states": [],
+                "ingredients": [
+                    "smoothie"
+                ],
+                "container": null
+            },
+            {
+                "label": "smoothie",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "spinach",
+                    "apple",
+                    "banana",
+                    "milk"
+                ],
+                "container": "glass"
+            }
+        ]
+    }
+]

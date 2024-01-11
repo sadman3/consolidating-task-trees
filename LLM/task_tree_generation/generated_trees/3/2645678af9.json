@@ -1,0 +1,350 @@
+[
+    {
+        "input_nodes": [
+            {
+                "label": "faucet",
+                "states": [
+                    "on"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "water",
+                "states": [
+                    "liquid"
+                ],
+                "ingredients": [],
+                "container": "faucet"
+            },
+            {
+                "label": "peach",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "peach"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "rinse",
+        "output_nodes": [
+            {
+                "label": "peach",
+                "states": [
+                    "washed"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "peach",
+                "states": [
+                    "washed"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "cut",
+        "output_nodes": [
+            {
+                "label": "peach",
+                "states": [
+                    "cut"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "peach",
+                "states": [
+                    "cut"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "peach"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "liquidmilk",
+                "states": [
+                    "liquid"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "peach"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "peach",
+                    "liquidmilk"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "peach",
+                    "liquidmilk"
+                ],
+                "container": null
+            },
+            {
+                "label": "stick",
+                "states": [
+                    "butter"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "spatula",
+                "states": [],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "cinnamon",
+                "states": [
+                    "ground"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "scrapeout",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "peach",
+                    "liquidmilk",
+                    "butter",
+                    "cinnamon"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "peach",
+                    "liquidmilk",
+                    "butter",
+                    "cinnamon"
+                ],
+                "container": null
+            },
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "ice"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "peach",
+                    "liquidmilk",
+                    "butter",
+                    "cinnamon",
+                    "ice"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "peach",
+                    "liquidmilk",
+                    "butter",
+                    "cinnamon",
+                    "ice"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "blend",
+        "output_nodes": [
+            {
+                "label": "drink",
+                "states": [
+                    "liquid"
+                ],
+                "ingredients": [
+                    "peach",
+                    "liquidmilk",
+                    "butter",
+                    "cinnamon",
+                    "ice"
+                ],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "drink",
+                "states": [
+                    "liquid"
+                ],
+                "ingredients": [
+                    "peach",
+                    "liquidmilk",
+                    "butter",
+                    "cinnamon",
+                    "ice"
+                ],
+                "container": "blender"
+            },
+            {
+                "label": "glass",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "drink",
+                "states": [
+                    "liquid"
+                ],
+                "ingredients": [
+                    "peach",
+                    "liquidmilk",
+                    "butter",
+                    "cinnamon",
+                    "ice"
+                ],
+                "container": "glass"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "drink",
+                "states": [
+                    "liquid"
+                ],
+                "ingredients": [
+                    "peach",
+                    "liquidmilk",
+                    "butter",
+                    "cinnamon",
+                    "ice"
+                ],
+                "container": "glass"
+            },
+            {
+                "label": "almonds",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "sprinkle",
+        "output_nodes": [
+            {
+                "label": "drink",
+                "states": [
+                    "liquid"
+                ],
+                "ingredients": [
+                    "peach",
+                    "liquidmilk",
+                    "butter",
+                    "cinnamon",
+                    "ice",
+                    "almonds"
+                ],
+                "container": "glass"
+            },
+            {
+                "label": "almonds",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [],
+                "container": "drink"
+            }
+        ]
+    }
+]

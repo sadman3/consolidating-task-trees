@@ -1,0 +1,583 @@
+[
+    {
+        "input_nodes": [
+            {
+                "label": "banana",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": "hand"
+            },
+            {
+                "label": "knife",
+                "states": [],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "peel",
+        "output_nodes": [
+            {
+                "label": "banana",
+                "states": [
+                    "peeled"
+                ],
+                "ingredients": [],
+                "container": "hand"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "banana",
+                "states": [
+                    "peeled"
+                ],
+                "ingredients": [],
+                "container": "hand"
+            },
+            {
+                "label": "cuttingboard",
+                "states": [],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "cut",
+        "output_nodes": [
+            {
+                "label": "banana",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "banana",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            },
+            {
+                "label": "container",
+                "states": [],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "cuttingboard",
+                "states": [],
+                "ingredients": [
+                    "banana"
+                ],
+                "container": null
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "cuttingboard",
+                "states": [],
+                "ingredients": [
+                    "banana"
+                ],
+                "container": null
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            },
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "yogurt"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "cuttingboard",
+                "states": [],
+                "ingredients": [
+                    "banana"
+                ],
+                "container": null
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [
+                    "yogurt"
+                ],
+                "container": "bowl"
+            },
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "banana",
+                    "yogurt"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "cuttingboard",
+                "states": [],
+                "ingredients": [
+                    "banana"
+                ],
+                "container": null
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [
+                    "yogurt"
+                ],
+                "container": "bowl"
+            },
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "blueberries"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "cuttingboard",
+                "states": [],
+                "ingredients": [
+                    "banana",
+                    "yogurt"
+                ],
+                "container": null
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [
+                    "yogurt"
+                ],
+                "container": "bowl"
+            },
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "banana",
+                    "yogurt",
+                    "blueberries"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "cuttingboard",
+                "states": [],
+                "ingredients": [
+                    "banana",
+                    "yogurt"
+                ],
+                "container": null
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [
+                    "yogurt"
+                ],
+                "container": "bowl"
+            },
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "banana",
+                    "yogurt",
+                    "blueberries"
+                ],
+                "container": null
+            },
+            {
+                "label": "milk",
+                "states": [
+                    "liquid"
+                ],
+                "ingredients": [],
+                "container": "cup"
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "banana",
+                    "yogurt",
+                    "blueberries",
+                    "milk"
+                ],
+                "container": null
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [
+                    "yogurt",
+                    "blueberries",
+                    "milk"
+                ],
+                "container": "bowl"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "banana",
+                    "yogurt",
+                    "blueberries",
+                    "milk"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "banana",
+                    "yogurt",
+                    "blueberries",
+                    "milk"
+                ],
+                "container": null
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [
+                    "yogurt",
+                    "blueberries",
+                    "milk"
+                ],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "banana",
+                    "yogurt",
+                    "blueberries",
+                    "milk"
+                ],
+                "container": null
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [
+                    "yogurt",
+                    "blueberries",
+                    "milk"
+                ],
+                "container": "blender"
+            },
+            {
+                "label": "milk",
+                "states": [
+                    "liquid"
+                ],
+                "ingredients": [],
+                "container": "cup"
+            }
+        ],
+        "motion_node": "blend",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "banana",
+                    "yogurt",
+                    "blueberries",
+                    "milk"
+                ],
+                "container": null
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [
+                    "yogurt",
+                    "blueberries",
+                    "milk"
+                ],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "banana",
+                    "yogurt",
+                    "blueberries",
+                    "milk"
+                ],
+                "container": null
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [
+                    "yogurt",
+                    "blueberries",
+                    "milk"
+                ],
+                "container": "blender"
+            },
+            {
+                "label": "mango",
+                "states": [
+                    "halved"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "banana",
+                    "yogurt",
+                    "blueberries",
+                    "milk",
+                    "mango"
+                ],
+                "container": null
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [
+                    "yogurt",
+                    "blueberries",
+                    "milk",
+                    "mango"
+                ],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "banana",
+                    "yogurt",
+                    "blueberries",
+                    "milk",
+                    "mango"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "pulse",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "banana",
+                    "yogurt",
+                    "blueberries",
+                    "milk",
+                    "mango"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "banana",
+                    "yogurt",
+                    "blueberries",
+                    "milk",
+                    "mango"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "banana",
+                    "yogurt",
+                    "blueberries",
+                    "milk",
+                    "mango"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "banana",
+                    "yogurt",
+                    "blueberries",
+                    "milk",
+                    "mango"
+                ],
+                "container": null
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [
+                    "yogurt",
+                    "blueberries",
+                    "milk",
+                    "mango"
+                ],
+                "container": "blender"
+            },
+            {
+                "label": "mango",
+                "states": [
+                    "halved"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "banana",
+                    "yogurt",
+                    "blueberries",
+                    "milk",
+                    "mango"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "banana",
+                    "yogurt",
+                    "blueberries",
+                    "milk",
+                    "mango"
+                ],
+                "container": null
+            }
+        ]
+    }
+]

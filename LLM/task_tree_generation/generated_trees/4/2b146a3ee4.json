@@ -1,0 +1,312 @@
+[
+    {
+        "input_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "spinach"
+                ],
+                "container": null
+            },
+            {
+                "label": "spinach",
+                "states": [
+                    "leaf"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "cuttingboard",
+                "states": [],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "cuttingboard",
+                "states": [],
+                "ingredients": [
+                    "spinach"
+                ],
+                "container": null
+            },
+            {
+                "label": "spinach",
+                "states": [
+                    "leaf"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "cuttingboard",
+                "states": [],
+                "ingredients": [
+                    "spinach"
+                ],
+                "container": null
+            },
+            {
+                "label": "spinach",
+                "states": [
+                    "leaf"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            },
+            {
+                "label": "pear",
+                "states": [
+                    "pieces"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "cuttingboard",
+                "states": [],
+                "ingredients": [
+                    "spinach",
+                    "pear"
+                ],
+                "container": null
+            },
+            {
+                "label": "pear",
+                "states": [
+                    "pieces"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "cuttingboard",
+                "states": [],
+                "ingredients": [
+                    "spinach",
+                    "pear"
+                ],
+                "container": null
+            },
+            {
+                "label": "pear",
+                "states": [
+                    "pieces"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "chunk"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "cuttingboard",
+                "states": [],
+                "ingredients": [
+                    "spinach",
+                    "pear",
+                    "banana"
+                ],
+                "container": null
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "chunk"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "cuttingboard",
+                "states": [],
+                "ingredients": [
+                    "spinach",
+                    "pear",
+                    "banana"
+                ],
+                "container": null
+            },
+            {
+                "label": "spinnach",
+                "states": [
+                    "leaf"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            },
+            {
+                "label": "pear",
+                "states": [
+                    "pieces"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "chunk"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            }
+        ],
+        "motion_node": "pick-and-grind",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "spinach",
+                    "pear",
+                    "banana"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "spinach",
+                    "pear",
+                    "banana"
+                ],
+                "container": null
+            },
+            {
+                "label": "water",
+                "states": [
+                    "liquid"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "spinach",
+                    "pear",
+                    "banana",
+                    "water"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "spinach",
+                    "pear",
+                    "banana",
+                    "water"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "blend",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "smoothie",
+                    "spinach",
+                    "pear",
+                    "banana",
+                    "water"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "spinach",
+                    "pear",
+                    "banana",
+                    "water"
+                ],
+                "container": null
+            },
+            {
+                "label": "glass",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "smoothie",
+                    "spinach",
+                    "pear",
+                    "banana",
+                    "water"
+                ],
+                "container": null
+            },
+            {
+                "label": "glass",
+                "states": [],
+                "ingredients": [
+                    "smoothie",
+                    "spinach",
+                    "pear",
+                    "banana",
+                    "water"
+                ],
+                "container": null
+            }
+        ]
+    }
+]

@@ -1,0 +1,315 @@
+[
+    {
+        "input_nodes": [
+            {
+                "label": "apple",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "fruitbowl",
+                "states": [],
+                "ingredients": [
+                    "apple"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "grate",
+        "output_nodes": [
+            {
+                "label": "apple",
+                "states": [
+                    "grated"
+                ],
+                "ingredients": [],
+                "container": "fruitbowl"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "pineapple",
+                "states": [
+                    "fresh"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "fruitbowl",
+                "states": [],
+                "ingredients": [
+                    "apple"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "grate",
+        "output_nodes": [
+            {
+                "label": "pineapple",
+                "states": [
+                    "grated"
+                ],
+                "ingredients": [],
+                "container": "fruitbowl"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "apple",
+                "states": [
+                    "grated"
+                ],
+                "ingredients": [],
+                "container": "fruitbowl"
+            },
+            {
+                "label": "cabbage",
+                "states": [
+                    "shredded"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "add",
+        "output_nodes": [
+            {
+                "label": "mixingbowl",
+                "states": [],
+                "ingredients": [
+                    "apple",
+                    "cabbage"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "mixingbowl",
+                "states": [],
+                "ingredients": [
+                    "apple",
+                    "cabbage"
+                ],
+                "container": null
+            },
+            {
+                "label": "radish",
+                "states": [
+                    "shredded"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "add",
+        "output_nodes": [
+            {
+                "label": "mixingbowl",
+                "states": [],
+                "ingredients": [
+                    "apple",
+                    "cabbage",
+                    "radish"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "mixingbowl",
+                "states": [],
+                "ingredients": [
+                    "apple",
+                    "cabbage",
+                    "radish"
+                ],
+                "container": null
+            },
+            {
+                "label": "bakedpea",
+                "states": [
+                    "shredded"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "add",
+        "output_nodes": [
+            {
+                "label": "mixingbowl",
+                "states": [],
+                "ingredients": [
+                    "apple",
+                    "cabbage",
+                    "radish",
+                    "bakedpea"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "mixingbowl",
+                "states": [],
+                "ingredients": [
+                    "apple",
+                    "cabbage",
+                    "radish",
+                    "bakedpea"
+                ],
+                "container": null
+            },
+            {
+                "label": "groundsalt",
+                "states": [
+                    "ground"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "sprinkle",
+        "output_nodes": [
+            {
+                "label": "mixingbowl",
+                "states": [],
+                "ingredients": [
+                    "apple",
+                    "cabbage",
+                    "radish",
+                    "bakedpea",
+                    "salts"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "mixingbowl",
+                "states": [],
+                "ingredients": [
+                    "apple",
+                    "cabbage",
+                    "radish",
+                    "bakedpea",
+                    "salts"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "mix",
+        "output_nodes": [
+            {
+                "label": "salad",
+                "states": [
+                    "mixed"
+                ],
+                "ingredients": [
+                    "apple",
+                    "cabbage",
+                    "radish",
+                    "bakedpea",
+                    "salts"
+                ],
+                "container": "mixingbowl"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "salad",
+                "states": [
+                    "mixed"
+                ],
+                "ingredients": [
+                    "apple",
+                    "cabbage",
+                    "radish",
+                    "bakedpea",
+                    "salts"
+                ],
+                "container": "mixingbowl"
+            },
+            {
+                "label": "groundsalt",
+                "states": [
+                    "ground"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "sprinkle",
+        "output_nodes": [
+            {
+                "label": "salad",
+                "states": [
+                    "mixed"
+                ],
+                "ingredients": [
+                    "apple",
+                    "cabbage",
+                    "radish",
+                    "bakedpea",
+                    "salts"
+                ],
+                "container": "mixingbowl"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "salad",
+                "states": [
+                    "mixed"
+                ],
+                "ingredients": [
+                    "apple",
+                    "cabbage",
+                    "radish",
+                    "bakedpea",
+                    "salts"
+                ],
+                "container": "mixingbowl"
+            }
+        ],
+        "motion_node": "eat",
+        "output_nodes": [
+            {
+                "label": "salad",
+                "states": [
+                    "mixed"
+                ],
+                "ingredients": [
+                    "apple",
+                    "cabbage",
+                    "radish",
+                    "bakedpea",
+                    "salts"
+                ],
+                "container": "mixingbowl"
+            }
+        ]
+    }
+]

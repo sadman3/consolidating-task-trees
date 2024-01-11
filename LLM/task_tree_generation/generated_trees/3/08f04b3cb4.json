@@ -1,0 +1,444 @@
+[
+    {
+        "input_nodes": [
+            {
+                "label": "cuttingboard",
+                "states": [],
+                "ingredients": [
+                    "avocado"
+                ],
+                "container": null
+            },
+            {
+                "label": "avocado",
+                "states": [
+                    "ripe"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            },
+            {
+                "label": "knife",
+                "states": [],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "cut",
+        "output_nodes": [
+            {
+                "label": "avocado",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "avocado",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "avocado"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "avocado"
+                ],
+                "container": null
+            },
+            {
+                "label": "liquidmilk",
+                "states": [],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "avocado",
+                    "milk"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "avocado",
+                    "milk"
+                ],
+                "container": null
+            },
+            {
+                "label": "ice",
+                "states": [
+                    "powder",
+                    "frozen"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "avocado",
+                    "milk",
+                    "ice"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "avocado",
+                    "milk",
+                    "ice"
+                ],
+                "container": null
+            },
+            {
+                "label": "vanill",
+                "states": [
+                    "liquid"
+                ],
+                "ingredients": [],
+                "container": "jar"
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "avocado",
+                    "milk",
+                    "ice",
+                    "vanill"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "avocado",
+                    "milk",
+                    "ice",
+                    "vanill"
+                ],
+                "container": null
+            },
+            {
+                "label": "sugarmill",
+                "states": [
+                    "granulated"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "avocado",
+                    "milk",
+                    "ice",
+                    "vanill",
+                    "sugarmill"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "avocado",
+                    "milk",
+                    "ice",
+                    "vanill",
+                    "sugarmill"
+                ],
+                "container": null
+            },
+            {
+                "label": "straw",
+                "states": [
+                    "whipped"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "siphon",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "avocado",
+                    "milk",
+                    "ice",
+                    "vanill",
+                    "sugarmill",
+                    "straw"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "avocado",
+                    "milk",
+                    "ice",
+                    "vanill",
+                    "sugarmill",
+                    "straw"
+                ],
+                "container": null
+            },
+            {
+                "label": "avocado",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "avocado",
+                    "milk",
+                    "ice",
+                    "vanill",
+                    "sugarmill",
+                    "straw",
+                    "avocado"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "avocado",
+                    "milk",
+                    "ice",
+                    "vanill",
+                    "sugarmill",
+                    "straw",
+                    "avocado"
+                ],
+                "container": null
+            },
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "milk",
+                    "avocado",
+                    "ice",
+                    "vanill",
+                    "sugarmill",
+                    "straw"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "blend",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "avocadomilk",
+                    "milk",
+                    "ice",
+                    "vanill",
+                    "sugarmill",
+                    "straw"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "avocadomilk",
+                    "milk",
+                    "ice",
+                    "vanill",
+                    "sugarmill",
+                    "straw"
+                ],
+                "container": null
+            },
+            {
+                "label": "glass",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "glass",
+                "states": [],
+                "ingredients": [
+                    "avocadomilk",
+                    "milk",
+                    "ice",
+                    "vanill",
+                    "sugarmill",
+                    "straw"
+                ],
+                "container": null
+            },
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "avocadomilk",
+                    "milk",
+                    "ice",
+                    "vanill",
+                    "sugarmill",
+                    "straw"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "avocadomilk",
+                    "milk",
+                    "ice",
+                    "vanill",
+                    "sugarmill",
+                    "straw"
+                ],
+                "container": null
+            },
+            {
+                "label": "glass",
+                "states": [],
+                "ingredients": [
+                    "avocadomilk",
+                    "milk",
+                    "ice",
+                    "vanill",
+                    "sugarmill",
+                    "straw"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "glass",
+                "states": [],
+                "ingredients": [
+                    "avocadomilk",
+                    "milk",
+                    "ice",
+                    "vanill",
+                    "sugarmill",
+                    "straw"
+                ],
+                "container": null
+            },
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [],
+                "container": null
+            }
+        ]
+    }
+]

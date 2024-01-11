@@ -6,8 +6,7 @@ import os
 import json
 
 # Set up the OpenAI API client
-# openai.api_key = "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"
-openai.api_key = "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"
+openai.api_key = "OPENAI API KEY"
 
 selected_category = ["salad", "soup", "omelette", "drinks", "cake"]
 

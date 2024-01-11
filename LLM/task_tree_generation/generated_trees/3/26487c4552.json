@@ -1,0 +1,515 @@
+[
+    {
+        "input_nodes": [
+            {
+                "label": "tofu",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "knife",
+                "states": null
+            },
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "tofu"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "dice",
+        "output_nodes": [
+            {
+                "label": "tofu",
+                "states": [
+                    "diced"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "strawberry",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "knife",
+                "states": null
+            }
+        ],
+        "motion_node": "slice",
+        "output_nodes": [
+            {
+                "label": "strawberry",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "strawberry",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "strawberry"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "strawberry",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "strawberry"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "tofu"
+                ],
+                "container": null
+            },
+            {
+                "label": "strawberry",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "strawberry"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "mix",
+        "output_nodes": [
+            {
+                "label": "strawberry",
+                "states": [
+                    "tofu",
+                    "sliced"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "strawberry",
+                    "tofu"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "strawberry",
+                    "tofu"
+                ],
+                "container": null
+            },
+            {
+                "label": "peach",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "knife",
+                "states": null
+            }
+        ],
+        "motion_node": "slice",
+        "output_nodes": [
+            {
+                "label": "peach",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "peach",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "strawberry",
+                    "tofu"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "mix",
+        "output_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "strawberry",
+                    "tofu",
+                    "sliced",
+                    "peach"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "peach",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "strawberry",
+                    "tofu",
+                    "sliced"
+                ],
+                "container": null
+            },
+            {
+                "label": "blender",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "peach",
+                    "strawberry",
+                    "tofu",
+                    "sliced"
+                ],
+                "container": null
+            },
+            {
+                "label": "peach",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "peach",
+                    "strawberry",
+                    "tofu",
+                    "sliced"
+                ],
+                "container": null
+            },
+            {
+                "label": "tofu",
+                "states": [
+                    "diced"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "peach",
+                    "strawberry",
+                    "tofu",
+                    "sliced",
+                    "creamyyogurt"
+                ],
+                "container": null
+            },
+            {
+                "label": "tofu",
+                "states": [
+                    "diced"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "peach",
+                    "strawberry",
+                    "tofu",
+                    "sliced",
+                    "creamyyogurt"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "blend",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "smoothie"
+                ],
+                "container": null
+            },
+            {
+                "label": "smoothie",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "peach",
+                    "strawberry",
+                    "tofu",
+                    "sliced",
+                    "creamyyogurt"
+                ],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "smoothie"
+                ],
+                "container": null
+            },
+            {
+                "label": "smoothie",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "peach",
+                    "strawberry",
+                    "tofu",
+                    "sliced",
+                    "creamyyogurt"
+                ],
+                "container": "blender"
+            },
+            {
+                "label": "glass",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "glass",
+                "states": [],
+                "ingredients": [
+                    "smoothie",
+                    "strawberry",
+                    "tofu",
+                    "sliced",
+                    "peach"
+                ],
+                "container": null
+            },
+            {
+                "label": "smoothie",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "strawberry",
+                    "tofu",
+                    "sliced",
+                    "peach",
+                    "creamyyogurt"
+                ],
+                "container": "glass"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "glass",
+                "states": [],
+                "ingredients": [
+                    "smoothie",
+                    "strawberry",
+                    "tofu",
+                    "sliced",
+                    "peach"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "glass",
+                "states": [],
+                "ingredients": [
+                    "smoothie",
+                    "strawberry",
+                    "tofu",
+                    "sliced",
+                    "peach"
+                ],
+                "container": null
+            },
+            {
+                "label": "strawberry",
+                "states": [
+                    "tofu",
+                    "sliced"
+                ],
+                "ingredients": [],
+                "container": "glass"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "glass",
+                "states": [],
+                "ingredients": [
+                    "smoothie",
+                    "strawberry",
+                    "tofu",
+                    "sliced",
+                    "peach"
+                ],
+                "container": null
+            },
+            {
+                "label": "strawberry",
+                "states": [
+                    "tofu",
+                    "sliced"
+                ],
+                "ingredients": [],
+                "container": "glass"
+            }
+        ],
+        "motion_node": "garnish",
+        "output_nodes": [
+            {
+                "label": "glass",
+                "states": [],
+                "ingredients": [
+                    "smoothie",
+                    "strawberry",
+                    "tofu",
+                    "sliced",
+                    "peach",
+                    "strawberry"
+                ],
+                "container": null
+            },
+            {
+                "label": "strawberry",
+                "states": [
+                    "tofu",
+                    "sliced"
+                ],
+                "ingredients": [],
+                "container": "glass"
+            }
+        ]
+    }
+]

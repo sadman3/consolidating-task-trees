@@ -1,0 +1,318 @@
+[
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "liquidmilk",
+                "states": [
+                    "liquid"
+                ],
+                "ingredients": [],
+                "container": "cup"
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "liquidmilk"
+                ],
+                "container": null
+            },
+            {
+                "label": "liquidmilk",
+                "states": [
+                    "liquid"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "liquidmilk"
+                ],
+                "container": null
+            },
+            {
+                "label": "liquidmilk",
+                "states": [
+                    "liquid"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            },
+            {
+                "label": "yogurt",
+                "states": [
+                    "creamy"
+                ],
+                "ingredients": [],
+                "container": "jar"
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "liquidmilk",
+                    "yogurt"
+                ],
+                "container": null
+            },
+            {
+                "label": "yogurt",
+                "states": [
+                    "creamy"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "liquidmilk",
+                    "yogurt"
+                ],
+                "container": null
+            },
+            {
+                "label": "liquidmilk",
+                "states": [
+                    "liquid"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            },
+            {
+                "label": "yogurt",
+                "states": [
+                    "creamy"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            }
+        ],
+        "motion_node": "blend",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "milkshake"
+                ],
+                "container": null
+            },
+            {
+                "label": "milkshake",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "liquidmilk",
+                    "yogurt"
+                ],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "milkshake",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "liquidmilk",
+                    "yogurt"
+                ],
+                "container": "blender"
+            },
+            {
+                "label": "liquiddrink",
+                "states": [],
+                "ingredients": [],
+                "container": "cup"
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "milkshake",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "liquidmilk",
+                    "yogurt",
+                    "drink"
+                ],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "milkshake",
+                    "drink"
+                ],
+                "container": null
+            },
+            {
+                "label": "drink",
+                "states": [],
+                "ingredients": [],
+                "container": "blender"
+            }
+        ],
+        "motion_node": "blend",
+        "output_nodes": [
+            {
+                "label": "milkshake",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "liquidmilk",
+                    "yogurt",
+                    "drink"
+                ],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "milkshake",
+                    "drink"
+                ],
+                "container": null
+            },
+            {
+                "label": "milkshake",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "liquidmilk",
+                    "yogurt",
+                    "drink"
+                ],
+                "container": "blender"
+            },
+            {
+                "label": "peach",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "milkshake",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "liquidmilk",
+                    "yogurt",
+                    "drink",
+                    "peach"
+                ],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "milkshake",
+                    "drink"
+                ],
+                "container": null
+            },
+            {
+                "label": "milkshake",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "liquidmilk",
+                    "yogurt",
+                    "drink",
+                    "peach"
+                ],
+                "container": "blender"
+            },
+            {
+                "label": "strawberry",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "strawberry",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "milkshake",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "liquidmilk",
+                    "yogurt",
+                    "drink",
+                    "peach",
+                    "strawberry"
+                ],
+                "container": "blender"
+            }
+        ]
+    }
+]

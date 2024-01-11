@@ -1,0 +1,444 @@
+[
+    {
+        "input_nodes": [
+            {
+                "label": "banana",
+                "states": [
+                    "ripe"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            },
+            {
+                "label": "knife",
+                "states": [],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "peel",
+        "output_nodes": [
+            {
+                "label": "banana",
+                "states": [
+                    "peeled"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "banana",
+                "states": [
+                    "ripe"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            },
+            {
+                "label": "knife",
+                "states": [],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "cut",
+        "output_nodes": [
+            {
+                "label": "banana",
+                "states": [
+                    "chopped"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "chopped"
+                ],
+                "ingredients": [],
+                "container": "cuttingboard"
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "banana"
+                ],
+                "container": null
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "chopped"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "banana"
+                ],
+                "container": null
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "chopped"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            },
+            {
+                "label": "cream",
+                "states": [],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "banana",
+                    "cream"
+                ],
+                "container": null
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "chopped",
+                    "creamed"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "banana",
+                    "cream"
+                ],
+                "container": null
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "chopped",
+                    "creamed"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            },
+            {
+                "label": "milo",
+                "states": [
+                    "ground"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "banana",
+                    "cream",
+                    "milo"
+                ],
+                "container": null
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "chopped",
+                    "creamed",
+                    "miled"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "banana",
+                    "cream",
+                    "milo"
+                ],
+                "container": null
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "chopped",
+                    "creamed",
+                    "miled"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            },
+            {
+                "label": "liquidmilk",
+                "states": [],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "banana",
+                    "cream",
+                    "milo",
+                    "milk"
+                ],
+                "container": null
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "creamed",
+                    "miled",
+                    "milked"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "banana",
+                    "cream",
+                    "milo",
+                    "milk"
+                ],
+                "container": null
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "creamed",
+                    "miled",
+                    "milked"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            },
+            {
+                "label": "nutmeg",
+                "states": [
+                    "ground"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "grate",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "banana",
+                    "cream",
+                    "milo",
+                    "milk",
+                    "nutmeg"
+                ],
+                "container": null
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "creamed",
+                    "miled",
+                    "milked",
+                    "nutmegged"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "banana",
+                    "cream",
+                    "milo",
+                    "milk",
+                    "nutmeg"
+                ],
+                "container": null
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "creamed",
+                    "miled",
+                    "milked",
+                    "nutmegged"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            },
+            {
+                "label": "milk",
+                "states": [],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "blend",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "banana",
+                    "cream",
+                    "milo",
+                    "milk",
+                    "nutmeg"
+                ],
+                "container": null
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "creamed",
+                    "miled",
+                    "milked",
+                    "nutmegged"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "banana",
+                    "cream",
+                    "milo",
+                    "milk",
+                    "nutmeg"
+                ],
+                "container": null
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "creamed",
+                    "miled",
+                    "milked",
+                    "nutmegged"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            },
+            {
+                "label": "glass",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "banana",
+                    "cream",
+                    "milo",
+                    "milk",
+                    "nutmeg"
+                ],
+                "container": null
+            },
+            {
+                "label": "glass",
+                "states": [],
+                "ingredients": [
+                    "banana",
+                    "cream",
+                    "milk",
+                    "milo",
+                    "nutmeg"
+                ],
+                "container": null
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "creamed",
+                    "miled",
+                    "milked",
+                    "nutmegged"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            }
+        ]
+    }
+]

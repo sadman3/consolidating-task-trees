@@ -2,7 +2,7 @@ import openai
 import os
 import json
 import ast
-openai.api_key = "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"
+openai.api_key = "OPENAI API KEY"
 
 # This can be changed to gpt-4
 GPT_MODEL = "gpt-3.5-turbo-16k"
@@ -91,12 +91,7 @@ if __name__ == "__main__":
     for id in recipe_ids:
         if id.startswith("."):
             continue
-        cnt += 1
-        # if cnt <= 22:
-        #     continue
-        # if cnt == 50:
-        #     break
-        print(cnt)
+        
         id = id.split(".")[0]
         query = chatgpt_responses[id]
         call_api(query=query, id=id)

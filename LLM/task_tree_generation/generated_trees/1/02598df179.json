@@ -1,0 +1,594 @@
+[
+    {
+        "input_nodes": [
+            {
+                "label": "bowl",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "cherrytomatoes",
+                "states": [
+                    "halved"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "cherries",
+                "states": [
+                    "halved"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "cheese",
+                "states": [
+                    "creamy"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "mayonnaise",
+                "states": [
+                    "creamy"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "whippedcream",
+                "states": [
+                    "creamy"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "cherrytomatoes",
+                    "cherries",
+                    "cheese",
+                    "mayonnaise",
+                    "whippedcream"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "cherrytomatoes",
+                    "cherries",
+                    "cheese",
+                    "mayonnaise",
+                    "whippedcream"
+                ],
+                "container": null
+            },
+            {
+                "label": "cherrytomatoes",
+                "states": [
+                    "halved"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "cherries",
+                "states": [
+                    "halved"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "cheese",
+                "states": [
+                    "creamy"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "mayonnaise",
+                "states": [
+                    "creamy"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "whippedcream",
+                "states": [
+                    "creamy"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "cherrytomatoes",
+                    "cherries",
+                    "cheese",
+                    "mayonnaise",
+                    "whippedcream"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "cherrytomatoes",
+                    "cherries",
+                    "cheese",
+                    "mayonnaise",
+                    "whippedcream"
+                ],
+                "container": null
+            },
+            {
+                "label": "cherrytomatoes",
+                "states": [
+                    "halved"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "cherries",
+                "states": [
+                    "halved"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "cheese",
+                "states": [
+                    "creamy"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "mayonnaise",
+                "states": [
+                    "creamy"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "whippedcream",
+                "states": [
+                    "creamy"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "cherrytomatoes",
+                    "cherries",
+                    "cheese",
+                    "mayonnaise",
+                    "whippedcream"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "cherrytomatoes",
+                    "cherries",
+                    "cheese",
+                    "mayonnaise",
+                    "whippedcream"
+                ],
+                "container": null
+            },
+            {
+                "label": "cherrytomatoes",
+                "states": [
+                    "halved"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "cherries",
+                "states": [
+                    "halved"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "cheese",
+                "states": [
+                    "creamy"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "mayonnaise",
+                "states": [
+                    "creamy"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "whippedcream",
+                "states": [
+                    "creamy"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "cherrytomatoes",
+                    "cherries",
+                    "cheese",
+                    "mayonnaise",
+                    "whippedcream"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "cherrytomatoes",
+                    "cherries",
+                    "cheese",
+                    "mayonnaise",
+                    "whippedcream"
+                ],
+                "container": null
+            },
+            {
+                "label": "cherrytomatoes",
+                "states": [
+                    "halved"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "cherries",
+                "states": [
+                    "halved"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "cheese",
+                "states": [
+                    "creamy"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "mayonnaise",
+                "states": [
+                    "creamy"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "whippedcream",
+                "states": [
+                    "creamy"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "cherrytomatoes",
+                    "cherries",
+                    "cheese",
+                    "mayonnaise",
+                    "whippedcream"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "cherrytomatoes",
+                    "cherries",
+                    "cheese",
+                    "mayonnaise",
+                    "whippedcream"
+                ],
+                "container": null
+            },
+            {
+                "label": "cherries",
+                "states": [
+                    "halved"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "cherrytomatoes",
+                "states": [
+                    "halved"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "cheese",
+                "states": [
+                    "creamy"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "mayonnaise",
+                "states": [
+                    "creamy"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "whippedcream",
+                "states": [
+                    "creamy"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "cherrytomatoes",
+                    "cherries",
+                    "cheese",
+                    "mayonnaise",
+                    "whippedcream"
+                ],
+                "container": null
+            },
+            {
+                "label": "cherries",
+                "states": [
+                    "halved"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "cherrytomatoes",
+                    "cherries",
+                    "cheese",
+                    "mayonnaise",
+                    "whippedcream"
+                ],
+                "container": null
+            },
+            {
+                "label": "cherries",
+                "states": [
+                    "halved"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "marshmallows",
+                "states": [
+                    "diced"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "cherrytomatoes",
+                    "cherries",
+                    "cheese",
+                    "mayonnaise",
+                    "whippedcream",
+                    "marshmallows"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "cherrytomatoes",
+                    "cherries",
+                    "cheese",
+                    "mayonnaise",
+                    "whippedcream",
+                    "marshmallows"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "mix",
+        "output_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "cherrytomatoes",
+                    "cherries",
+                    "cheese",
+                    "mayonnaise",
+                    "whippedcream",
+                    "marshmallows"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "cherrytomatoes",
+                    "cherries",
+                    "cheese",
+                    "mayonnaise",
+                    "whippedcream",
+                    "marshmallows"
+                ],
+                "container": null
+            },
+            {
+                "label": "cherries",
+                "states": [
+                    "halved"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "cherrytomatoes",
+                "states": [
+                    "halved"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "cheese",
+                "states": [
+                    "creamy"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "mayonnaise",
+                "states": [
+                    "creamy"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "whippedcream",
+                "states": [
+                    "creamy"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "marshmallows",
+                "states": [
+                    "diced"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "cherrytomatoes",
+                    "cherries",
+                    "cheese",
+                    "mayonnaise",
+                    "whippedcream",
+                    "marshmallows"
+                ],
+                "container": null
+            }
+        ]
+    }
+]

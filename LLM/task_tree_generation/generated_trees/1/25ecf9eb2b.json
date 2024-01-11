@@ -1,0 +1,410 @@
+[
+    {
+        "input_nodes": [
+            {
+                "label": "strawberry",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "mango",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "wash",
+        "output_nodes": [
+            {
+                "label": "strawberry",
+                "states": [],
+                "ingredients": [],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "mango",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "clean",
+        "output_nodes": [
+            {
+                "label": "mango",
+                "states": [
+                    "whole",
+                    "washed"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "banana",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "knife",
+                "states": [],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "peel",
+        "output_nodes": [
+            {
+                "label": "banana",
+                "states": [
+                    "peeled"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "banana",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "knife",
+                "states": [],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "cut",
+        "output_nodes": [
+            {
+                "label": "banana",
+                "states": [
+                    "pieces"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "strawberry",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "mango",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "pieces"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "strawberry",
+                    "mango",
+                    "banana"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "strawberry",
+                    "mango",
+                    "banana"
+                ],
+                "container": null
+            },
+            {
+                "label": "whityogurt",
+                "states": [
+                    "creamy"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "strawberry",
+                    "mango",
+                    "banana",
+                    "whityogurt"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "strawberry",
+                    "mango",
+                    "banana",
+                    "whityogurt"
+                ],
+                "container": null
+            },
+            {
+                "label": "splenda",
+                "states": [
+                    "granular"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "strawberry",
+                    "mango",
+                    "banana",
+                    "whityogurt",
+                    "splenda"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "strawberry",
+                    "mango",
+                    "banana",
+                    "whityogurt",
+                    "splenda"
+                ],
+                "container": null
+            },
+            {
+                "label": "yeast",
+                "states": [
+                    "flakes"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "strawberry",
+                    "mango",
+                    "banana",
+                    "whityogurt",
+                    "splenda",
+                    "yeast"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "strawberry",
+                    "mango",
+                    "banana",
+                    "whityogurt",
+                    "splenda",
+                    "yeast"
+                ],
+                "container": null
+            },
+            {
+                "label": "groundsplendagranular",
+                "states": [
+                    "granular"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "strawberry",
+                    "mango",
+                    "banana",
+                    "whityogurt",
+                    "splenda",
+                    "yeast",
+                    "groundsplenda"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "strawberry",
+                    "mango",
+                    "banana",
+                    "whityogurt",
+                    "splenda",
+                    "yeast",
+                    "groundsplenda"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "blend",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "smoothie"
+                ],
+                "container": null
+            },
+            {
+                "label": "smoothie",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "strawberry",
+                    "mango",
+                    "banana",
+                    "whityogurt",
+                    "splenda",
+                    "yeast",
+                    "groundsplenda"
+                ],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "smoothie"
+                ],
+                "container": null
+            },
+            {
+                "label": "glass",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "smoothie",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "strawberry",
+                    "mango",
+                    "banana",
+                    "whityogurt",
+                    "splenda",
+                    "yeast",
+                    "groundsplenda"
+                ],
+                "container": "glass"
+            },
+            {
+                "label": "glass",
+                "states": [],
+                "ingredients": [
+                    "smoothie"
+                ],
+                "container": null
+            }
+        ]
+    }
+]

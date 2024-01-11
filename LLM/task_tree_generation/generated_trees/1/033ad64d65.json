@@ -1,0 +1,615 @@
+[
+    {
+        "input_nodes": [
+            {
+                "label": "watercress",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "watercress"
+                ],
+                "container": null
+            },
+            {
+                "label": "saladbowl",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "watercress",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "watercress"
+                ],
+                "container": null
+            },
+            {
+                "label": "water",
+                "states": [
+                    "liquid"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "watercress"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "saladbowl",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "watercress",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "saladbowl",
+                "states": [],
+                "ingredients": [
+                    "watercress"
+                ],
+                "container": null
+            },
+            {
+                "label": "watercress",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": "saladbowl"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "watercress"
+                ],
+                "container": null
+            },
+            {
+                "label": "grater",
+                "states": [],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "ginger",
+                "states": [
+                    "root"
+                ],
+                "ingredients": [],
+                "container": "grater"
+            }
+        ],
+        "motion_node": "grate",
+        "output_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "ginger"
+                ],
+                "container": null
+            },
+            {
+                "label": "ginger",
+                "states": [
+                    "shred"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "saladbowl",
+                "states": [],
+                "ingredients": [
+                    "watercress",
+                    "ginger"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "ginger"
+                ],
+                "container": null
+            },
+            {
+                "label": "saladbowl",
+                "states": [],
+                "ingredients": [
+                    "watercress",
+                    "ginger"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "saladbowl",
+                "states": [],
+                "ingredients": [
+                    "watercress",
+                    "ginger"
+                ],
+                "container": null
+            },
+            {
+                "label": "ginger",
+                "states": [
+                    "shred"
+                ],
+                "ingredients": [],
+                "container": "saladbowl"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "saladbowl",
+                "states": [],
+                "ingredients": [
+                    "watercress",
+                    "ginger"
+                ],
+                "container": null
+            },
+            {
+                "label": "pear",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "pear"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "saladbowl",
+                "states": [],
+                "ingredients": [
+                    "watercress",
+                    "ginger",
+                    "pear"
+                ],
+                "container": null
+            },
+            {
+                "label": "pear",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": "saladbowl"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "carrot",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "saladbowl",
+                "states": [],
+                "ingredients": [
+                    "watercress",
+                    "ginger",
+                    "pear",
+                    "carrot"
+                ],
+                "container": null
+            },
+            {
+                "label": "carrot",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": "saladbowl"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "sauce",
+                    "butter"
+                ],
+                "container": null
+            },
+            {
+                "label": "butter",
+                "states": [
+                    "cubed"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "liquidvinegar",
+                "states": [
+                    "liquid"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "mix",
+        "output_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "butterthemixtosauce"
+                ],
+                "container": null
+            },
+            {
+                "label": "butterthemixtosauce",
+                "states": [
+                    "liquid",
+                    "mixture"
+                ],
+                "ingredients": [
+                    "butter",
+                    "vinegar"
+                ],
+                "container": "bowl"
+            },
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "water",
+                    "sauce",
+                    "butter"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "butterthemixtosauce"
+                ],
+                "container": null
+            },
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "sugarcorn",
+                    "carrot",
+                    "salt"
+                ],
+                "container": null
+            },
+            {
+                "label": "liquidwater",
+                "states": [
+                    "liquid"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "butterthemixtosauce",
+                    "sugarcorn",
+                    "carrot",
+                    "salt"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "butterthemixtosauce",
+                    "sugarcorn",
+                    "carrot",
+                    "salt"
+                ],
+                "container": null
+            },
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "groundsalt"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "sprinkle",
+        "output_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "butterthemixtosauce",
+                    "sugarcorn",
+                    "carrot",
+                    "salt",
+                    "groundsalt"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "butterthemixtosauce",
+                    "sugarcorn",
+                    "carrot",
+                    "salt",
+                    "groundsalt"
+                ],
+                "container": null
+            },
+            {
+                "label": "liquidwater",
+                "states": [
+                    "liquid"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "butterthemixtosauce",
+                    "sugarcorn",
+                    "carrot",
+                    "salt",
+                    "groundsalt",
+                    "water"
+                ],
+                "container": null
+            },
+            {
+                "label": "butterthemixtosauce",
+                "states": [
+                    "liquid",
+                    "mixture"
+                ],
+                "ingredients": [
+                    "butter",
+                    "vinegar",
+                    "carrot",
+                    "salt",
+                    "water"
+                ],
+                "container": "bowl"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "salad",
+                    "butterthemixtosauce",
+                    "sugarcorn",
+                    "carrot",
+                    "salt",
+                    "water"
+                ],
+                "container": null
+            },
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "groundsalt"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "sprinkle",
+        "output_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "salad",
+                    "butterthemixtosauce",
+                    "carrot",
+                    "salt",
+                    "water",
+                    "groundsalt"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "salad",
+                    "butterthemixtosauce",
+                    "carrot",
+                    "salt",
+                    "water",
+                    "groundsalt"
+                ],
+                "container": null
+            },
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "liquidvinegar"
+                ],
+                "container": null
+            },
+            {
+                "label": "liquidvinegar",
+                "states": [
+                    "liquid"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "salad",
+                    "butterthemixtosauce",
+                    "carrot",
+                    "salt",
+                    "water",
+                    "groundsalt",
+                    "vinegar"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "salad",
+                    "carrot",
+                    "salt",
+                    "water",
+                    "groundsalt",
+                    "vinegar"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "toss",
+        "output_nodes": [
+            {
+                "label": "salad",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "butterthemixtosauce",
+                    "carrot",
+                    "salt",
+                    "water",
+                    "groundsalt",
+                    "vinegar"
+                ],
+                "container": "bowl"
+            }
+        ]
+    }
+]

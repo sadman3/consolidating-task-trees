@@ -1,0 +1,424 @@
+[
+    {
+        "input_nodes": [
+            {
+                "label": "banana",
+                "states": [
+                    "whole"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "knife",
+                "states": [
+                    "scraped"
+                ],
+                "candidate": "banana"
+            }
+        ],
+        "motion_node": "peel",
+        "output_nodes": [
+            {
+                "label": "banana",
+                "states": [
+                    "peeled"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "strawberry",
+                "states": [
+                    "halved"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "strawberry",
+                "states": [
+                    "halved"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "banana",
+                "states": [
+                    "peeled"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [
+                    "blender",
+                    "banana"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "strawberry",
+                "states": [
+                    "halved"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            },
+            {
+                "label": "blender",
+                "states": [
+                    "blender",
+                    "banana"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [
+                    "blender",
+                    "banana",
+                    "strawberry"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [
+                    "blender",
+                    "banana",
+                    "strawberry"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "strawberry",
+                "states": [
+                    "halved"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            },
+            {
+                "label": "blender",
+                "states": [
+                    "blender",
+                    "banana",
+                    "strawberry"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [
+                    "blender",
+                    "banana",
+                    "strawberry",
+                    "proteinpowder"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [
+                    "blender",
+                    "banana",
+                    "strawberry",
+                    "proteinpowder"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "proteinpowder",
+                "states": [],
+                "ingredients": [],
+                "container": "blender"
+            },
+            {
+                "label": "blender",
+                "states": [
+                    "blender",
+                    "banana",
+                    "strawberry",
+                    "proteinpowder"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "shake",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [
+                    "blender",
+                    "banana",
+                    "strawberry",
+                    "proteinpowder"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [
+                    "blender",
+                    "banana",
+                    "strawberry",
+                    "proteinpowder"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "sweetener",
+                "states": [
+                    "powder"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            },
+            {
+                "label": "blender",
+                "states": [
+                    "blender",
+                    "banana",
+                    "strawberry",
+                    "proteinpowder"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [
+                    "blender",
+                    "banana",
+                    "strawberry",
+                    "proteinpowder",
+                    "sweetener"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [
+                    "blender",
+                    "banana",
+                    "strawberry",
+                    "proteinpowder",
+                    "sweetener"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "blender",
+                "states": [
+                    "blender",
+                    "banana",
+                    "strawberry",
+                    "proteinpowder",
+                    "sweetener"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "cup",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [
+                    "blender",
+                    "banana",
+                    "strawberry",
+                    "proteinpowder",
+                    "sweetener",
+                    "milk"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [
+                    "blender",
+                    "banana",
+                    "strawberry",
+                    "proteinpowder",
+                    "sweetener",
+                    "milk"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "bowl",
+                "states": [
+                    "ice"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [
+                    "blender",
+                    "banana",
+                    "strawberry",
+                    "proteinpowder",
+                    "sweetener",
+                    "milk",
+                    "ice"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [
+                    "blender",
+                    "banana",
+                    "strawberry",
+                    "proteinpowder",
+                    "sweetener",
+                    "milk",
+                    "ice"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "blend",
+        "output_nodes": [
+            {
+                "label": "smoothie",
+                "states": [
+                    "liquid"
+                ],
+                "ingredients": [
+                    "banana",
+                    "strawberry",
+                    "milk",
+                    "ice",
+                    "proteinpowder",
+                    "sweetener"
+                ],
+                "container": "blender"
+            },
+            {
+                "label": "blender",
+                "states": [
+                    "blender"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [
+                    "blender"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [
+                    "blender",
+                    "smoothie"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ]
+    }
+]

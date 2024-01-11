@@ -1,0 +1,289 @@
+[
+    {
+        "input_nodes": [
+            {
+                "label": "faucet",
+                "states": [
+                    "on"
+                ],
+                "ingredients": [],
+                "water": [
+                    "water"
+                ],
+                "blueberry": "bowl"
+            },
+            {
+                "label": "bowl",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "water": [],
+                "blueberry": [
+                    "blueberry"
+                ],
+                "blackberry": [
+                    "blackberry"
+                ],
+                "wholeberry": [],
+                "berryseed": [
+                    "blackberry"
+                ],
+                "leaf": null
+            },
+            {
+                "label": "water",
+                "states": [
+                    "water"
+                ],
+                "ingredients": [],
+                "water": [],
+                "blueberry": [
+                    "blueberry"
+                ],
+                "blackberry": [
+                    "blackberry"
+                ],
+                "wholeberry": [],
+                "berryseed": [
+                    "blackberry"
+                ],
+                "leaf": null
+            }
+        ],
+        "motion_node": "rinse",
+        "output_nodes": [
+            {
+                "label": "blueberry",
+                "states": [
+                    "washed"
+                ],
+                "ingredients": [],
+                "water": [],
+                "bowl": null
+            },
+            {
+                "label": "blackberry",
+                "states": [
+                    "washed"
+                ],
+                "ingredients": [],
+                "water": [],
+                "bowl": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "bowl": null
+            },
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "blueberry"
+                ],
+                "bowl": null
+            },
+            {
+                "label": "blueberry",
+                "states": [
+                    "washed"
+                ],
+                "ingredients": [],
+                "water": [],
+                "bowl": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "blueberry"
+                ],
+                "bowl": null
+            },
+            {
+                "label": "blueberry",
+                "states": [
+                    "washed"
+                ],
+                "ingredients": [],
+                "water": [],
+                "blender": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "blueberry"
+                ],
+                "bowl": null
+            },
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "blackberry"
+                ],
+                "bowl": null
+            },
+            {
+                "label": "blackberry",
+                "states": [
+                    "washed"
+                ],
+                "ingredients": [],
+                "water": [],
+                "bowl": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "blueberry",
+                    "blackberry"
+                ],
+                "bowl": null
+            },
+            {
+                "label": "blackberry",
+                "states": [
+                    "washed"
+                ],
+                "ingredients": [],
+                "water": [],
+                "blender": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "blueberry",
+                    "blackberry"
+                ],
+                "bowl": null
+            }
+        ],
+        "motion_node": "blend",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "creamyyogurt"
+                ],
+                "bowl": null
+            },
+            {
+                "label": "creamyyogurt",
+                "states": [
+                    "mixture",
+                    "liquid"
+                ],
+                "ingredients": [
+                    "blueberry",
+                    "blackberry"
+                ],
+                "bowl": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "creamyyogurt"
+                ],
+                "bowl": null
+            },
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "blueberry"
+                ],
+                "bowl": null
+            },
+            {
+                "label": "blueberry",
+                "states": [
+                    "washed"
+                ],
+                "ingredients": [],
+                "water": [],
+                "bowl": null
+            },
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "blackberry"
+                ],
+                "bowl": null
+            },
+            {
+                "label": "blackberry",
+                "states": [
+                    "washed"
+                ],
+                "ingredients": [],
+                "water": [],
+                "bowl": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "creamyyogurt",
+                    "blueberry"
+                ],
+                "bowl": null
+            },
+            {
+                "label": "creamyyogurt",
+                "states": [
+                    "mixture",
+                    "liquid"
+                ],
+                "ingredients": [
+                    "blueberry"
+                ],
+                "blender": null
+            },
+            {
+                "label": "blueberry",
+                "states": [
+                    "washed"
+                ],
+                "ingredients": [],
+                "water": [],
+                "blender": null
+            }
+        ]
+    }
+]

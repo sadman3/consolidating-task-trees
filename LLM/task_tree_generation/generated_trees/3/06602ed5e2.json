@@ -1,0 +1,331 @@
+[
+    {
+        "input_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "rolled oats"
+                ],
+                "container": null
+            },
+            {
+                "label": "rolled oats",
+                "states": [
+                    "oat"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "raisins",
+                "states": [
+                    "dried"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "ground pumpkin",
+                "states": [
+                    "ground"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "rolled oats",
+                    "raisins",
+                    "ground pumpkin"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "rolled oats",
+                    "raisins",
+                    "ground pumpkin"
+                ],
+                "container": null
+            },
+            {
+                "label": "ground pumpkin",
+                "states": [
+                    "ground"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "rolled oats",
+                "states": [
+                    "rolled"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "raisins",
+                "states": [
+                    "dried"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "scoop-and-pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "rolled oats",
+                    "raisins",
+                    "ground pumpkin"
+                ],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "rolled oats",
+                    "raisins",
+                    "ground pumpkin"
+                ],
+                "container": null
+            },
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [
+                    "rolled oats",
+                    "raisins",
+                    "ground pumpkin"
+                ],
+                "container": null
+            },
+            {
+                "label": "whole milk",
+                "states": [
+                    "liquid"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "creamy yogurt",
+                "states": [
+                    "creamy"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            },
+            {
+                "label": "ground brown sugar",
+                "states": [
+                    "ground"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "blend",
+        "output_nodes": [
+            {
+                "label": "mixture",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "rolled oats",
+                    "raisins",
+                    "ground pumpkin",
+                    "whole milk",
+                    "creamy yogurt",
+                    "ground brown sugar"
+                ],
+                "container": "blender"
+            },
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "rolled oats",
+                    "raisins",
+                    "ground pumpkin",
+                    "whole milk",
+                    "creamy yogurt",
+                    "ground brown sugar"
+                ],
+                "container": null
+            },
+            {
+                "label": "mixture",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "rolled oats",
+                    "raisins",
+                    "ground pumpkin",
+                    "whole milk",
+                    "creamy yogurt",
+                    "ground brown sugar"
+                ],
+                "container": "blender"
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "mixture"
+                ],
+                "container": null
+            },
+            {
+                "label": "mixture",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "rolled oats",
+                    "raisins",
+                    "ground pumpkin",
+                    "whole milk",
+                    "creamy yogurt",
+                    "ground brown sugar"
+                ],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "mixture"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "blend",
+        "output_nodes": [
+            {
+                "label": "mixture",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "rolled oats",
+                    "raisins",
+                    "ground pumpkin",
+                    "whole milk",
+                    "creamy yogurt",
+                    "ground brown sugar"
+                ],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "mixture"
+                ],
+                "container": null
+            },
+            {
+                "label": "mixture",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "rolled oats",
+                    "raisins",
+                    "ground pumpkin",
+                    "whole milk",
+                    "creamy yogurt",
+                    "ground brown sugar"
+                ],
+                "container": "blender"
+            },
+            {
+                "label": "glass",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "glass",
+                "states": [],
+                "ingredients": [
+                    "mixture"
+                ],
+                "container": null
+            },
+            {
+                "label": "mixture",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "rolled oats",
+                    "raisins",
+                    "ground pumpkin",
+                    "whole milk",
+                    "creamy yogurt",
+                    "ground brown sugar"
+                ],
+                "container": "glass"
+            }
+        ]
+    }
+]

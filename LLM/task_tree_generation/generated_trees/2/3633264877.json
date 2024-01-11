@@ -1,0 +1,484 @@
+[
+    {
+        "input_nodes": [
+            {
+                "label": "faucet",
+                "states": [
+                    "on"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "water",
+                "states": [
+                    "liquid"
+                ],
+                "ingredients": [],
+                "container": "faucet"
+            },
+            {
+                "label": "hand",
+                "states": [],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "rinse",
+        "output_nodes": [
+            {
+                "label": "hand",
+                "states": [
+                    "washed"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "container": null
+            },
+            {
+                "label": "milk",
+                "states": [
+                    "liquid"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "milk"
+                ],
+                "container": null
+            },
+            {
+                "label": "milk",
+                "states": [
+                    "liquid"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "milk"
+                ],
+                "container": null
+            },
+            {
+                "label": "milk",
+                "states": [
+                    "liquid"
+                ],
+                "ingredients": [],
+                "container": "blender"
+            },
+            {
+                "label": "bowl",
+                "states": [],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "blend",
+        "output_nodes": [
+            {
+                "label": "milkmix",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "milk"
+                ],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "milkmix"
+                ],
+                "container": null
+            },
+            {
+                "label": "milkmix",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "milk"
+                ],
+                "container": "blender"
+            },
+            {
+                "label": "strawberry",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "strawberrymilkmix"
+                ],
+                "container": null
+            },
+            {
+                "label": "strawberrymilkmix",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "strawberry",
+                    "milk"
+                ],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [
+                    "strawberrymilkmix"
+                ],
+                "container": null
+            },
+            {
+                "label": "strawberrymilkmix",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "strawberry",
+                    "milk"
+                ],
+                "container": "blender"
+            },
+            {
+                "label": "blender",
+                "states": [],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "blend",
+        "output_nodes": [
+            {
+                "label": "strawberrymilkshake",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "strawberry",
+                    "milk"
+                ],
+                "container": "blender"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "strawberrymilkshake",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "strawberry",
+                    "milk"
+                ],
+                "container": "blender"
+            },
+            {
+                "label": "glass",
+                "states": [
+                    "empty"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "glass",
+                "states": [],
+                "ingredients": [
+                    "strawberrymilkshake"
+                ],
+                "container": null
+            },
+            {
+                "label": "strawberrymilkshake",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "strawberry",
+                    "milk"
+                ],
+                "container": "glass"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "strawberrymilkshake",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "strawberry",
+                    "milk"
+                ],
+                "container": "glass"
+            },
+            {
+                "label": "ice",
+                "states": [
+                    "cube",
+                    "small"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "glass",
+                "states": [],
+                "ingredients": [
+                    "strawberrymilkshakeice",
+                    "strawberrymilkshake"
+                ],
+                "container": null
+            },
+            {
+                "label": "strawberrymilkshakeice",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "strawberry",
+                    "milk",
+                    "ice"
+                ],
+                "container": "glass"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "strawberrymilkshakeice",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "strawberry",
+                    "milk",
+                    "ice"
+                ],
+                "container": "glass"
+            },
+            {
+                "label": "strawberry",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [],
+                "container": "bowl"
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "strawberrymilkshakeice",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "strawberry",
+                    "milk",
+                    "ice"
+                ],
+                "container": "glass"
+            },
+            {
+                "label": "strawberry",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [],
+                "container": "glass"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "glass",
+                "states": [],
+                "ingredients": [
+                    "strawberrymilkshakeice",
+                    "strawberry",
+                    "milk"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "pour",
+        "output_nodes": [
+            {
+                "label": "glass",
+                "states": [],
+                "ingredients": [
+                    "strawberrymilkshakeice",
+                    "strawberry",
+                    "milk",
+                    "ice"
+                ],
+                "container": null
+            },
+            {
+                "label": "strawberry",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [],
+                "container": "glass"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "strawberry",
+                "states": [
+                    "sliced"
+                ],
+                "ingredients": [],
+                "container": "glass"
+            },
+            {
+                "label": "strawberrymilkshakeice",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "strawberry",
+                    "milk",
+                    "ice"
+                ],
+                "container": "glass"
+            },
+            {
+                "label": "pickandplace",
+                "states": [
+                    "motion"
+                ],
+                "ingredients": [],
+                "container": null
+            }
+        ],
+        "motion_node": "pick-and-place",
+        "output_nodes": [
+            {
+                "label": "glass",
+                "states": [],
+                "ingredients": [
+                    "strawberry",
+                    "strawberrymilkshakeice",
+                    "strawberrymilkshake"
+                ],
+                "container": null
+            },
+            {
+                "label": "strawberrymilkshakeice",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "strawberry",
+                    "milk",
+                    "ice"
+                ],
+                "container": "glass"
+            }
+        ]
+    },
+    {
+        "input_nodes": [
+            {
+                "label": "glass",
+                "states": [],
+                "ingredients": [
+                    "strawberry",
+                    "strawberrymilkshakeice",
+                    "strawberrymilkshake"
+                ],
+                "container": null
+            }
+        ],
+        "motion_node": "drink",
+        "output_nodes": [
+            {
+                "label": "mouth",
+                "states": [],
+                "ingredients": [
+                    "strawberry",
+                    "strawberrymilkshakeice",
+                    "strawberrymilkshake"
+                ],
+                "container": null
+            },
+            {
+                "label": "strawberrymilkshakeice",
+                "states": [
+                    "mixture"
+                ],
+                "ingredients": [
+                    "strawberry",
+                    "milk",
+                    "ice"
+                ],
+                "container": "glass"
+            }
+        ]
+    }
+]

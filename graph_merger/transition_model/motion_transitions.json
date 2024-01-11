@@ -1,0 +1,2596 @@
+[
+    [
+        "pour",
+        "heat"
+    ],
+    [
+        "stir"
+    ],
+    [
+        "pour",
+        "stir"
+    ],
+    [
+        "pour",
+        "sit"
+    ],
+    [
+        "pour",
+        "rinse",
+        "pour and scrape",
+        "mix"
+    ],
+    [
+        "pour",
+        "rinse",
+        "sprinkle",
+        "mix"
+    ],
+    [
+        "pick-and-place",
+        "cut",
+        "pull apart",
+        "peel",
+        "dice",
+        "pour and scrape",
+        "sprinkle",
+        "mix"
+    ],
+    [
+        "pick-and-place",
+        "peel",
+        "dice",
+        "pour and scrape",
+        "sprinkle",
+        "mix"
+    ],
+    [
+        "pour",
+        "sprinkle",
+        "mix"
+    ],
+    [
+        "pour",
+        "mix"
+    ],
+    [
+        "sprinkle",
+        "mix"
+    ],
+    [
+        "pick-and-place",
+        "chop",
+        "scrape",
+        "pour",
+        "stir",
+        "cook"
+    ],
+    [
+        "pour",
+        "cook"
+    ],
+    [
+        "pour",
+        "stir",
+        "sprinkle",
+        "put inside",
+        "cook",
+        "uncover",
+        "scoop and pour"
+    ],
+    [
+        "sprinkle",
+        "cook"
+    ],
+    [
+        "put inside",
+        "cook",
+        "remove"
+    ],
+    [
+        "peel",
+        "grate",
+        "pour",
+        "pour and scrape",
+        "mix"
+    ],
+    [
+        "pour",
+        "pour and scrape",
+        "mix"
+    ],
+    [
+        "scoop and pour",
+        "pour and scrape",
+        "mix"
+    ],
+    [
+        "pour",
+        "scoop and pour",
+        "pour and scrape",
+        "mix"
+    ],
+    [
+        "scoop and pour",
+        "mix"
+    ],
+    [
+        "scoop and pour"
+    ],
+    [
+        "pick-and-place",
+        "slice",
+        "dice",
+        "scrape",
+        "cook and stir",
+        "shake",
+        "stir",
+        "pour"
+    ],
+    [
+        "pick-and-place",
+        "cut",
+        "grate",
+        "stir",
+        "pour"
+    ],
+    [
+        "shake",
+        "stir",
+        "scoop",
+        "pour"
+    ],
+    [
+        "pick-and-place",
+        "slice",
+        "scrape",
+        "stir",
+        "pour"
+    ],
+    [
+        "pick-and-place",
+        "chop",
+        "scrape",
+        "stir",
+        "pour"
+    ],
+    [
+        "pour"
+    ],
+    [
+        "pour",
+        "cook and stir",
+        "cook",
+        "stir"
+    ],
+    [
+        "cook and stir",
+        "stir"
+    ],
+    [
+        "scoop and pour",
+        "scrape"
+    ],
+    [
+        "scoop",
+        "pour",
+        "mix"
+    ],
+    [
+        "mix"
+    ],
+    [
+        "crack"
+    ],
+    [
+        "pour",
+        "spread"
+    ],
+    [
+        "pour",
+        "flip"
+    ],
+    [
+        "cook",
+        "pick-and-place",
+        "pour"
+    ],
+    [
+        "pour",
+        "pour and stir"
+    ],
+    [
+        "shake",
+        "mix"
+    ],
+    [
+        "pour",
+        "shake",
+        "mix"
+    ],
+    [
+        "grind"
+    ],
+    [
+        "grind and sprinkle",
+        "pour and stir"
+    ],
+    [
+        "pour and stir"
+    ],
+    [
+        "pour",
+        "spread",
+        "stir"
+    ],
+    [
+        "scoop"
+    ],
+    [
+        "sprinkle",
+        "cook",
+        "scoop and pour"
+    ],
+    [
+        "pour",
+        "cook",
+        "scoop and pour"
+    ],
+    [
+        "pick-and-place",
+        "chop",
+        "scoop",
+        "pour",
+        "scoop and pour"
+    ],
+    [
+        "pour",
+        "grind",
+        "simmer",
+        "scoop and pour"
+    ],
+    [
+        "grind",
+        "scoop and pour"
+    ],
+    [
+        "cut",
+        "grate",
+        "pick-and-place",
+        "scoop and pour"
+    ],
+    [
+        "pick-and-place",
+        "chop",
+        "fry",
+        "scoop and pour"
+    ],
+    [
+        "scoop and pour",
+        "sprinkle"
+    ],
+    [
+        "pick-and-place",
+        "chop",
+        "sprinkle"
+    ],
+    [
+        "pour",
+        "cover",
+        "cook"
+    ],
+    [
+        "pour",
+        "cook",
+        "cover",
+        "uncover",
+        "stir"
+    ],
+    [
+        "scrape",
+        "cover",
+        "cook"
+    ],
+    [
+        "chop",
+        "pick-and-place",
+        "pour"
+    ],
+    [
+        "pick-and-place",
+        "mix"
+    ],
+    [
+        "pour",
+        "bake"
+    ],
+    [
+        "crack",
+        "pour",
+        "flip"
+    ],
+    [
+        "flip"
+    ],
+    [
+        "pour",
+        "heat",
+        "pick-and-place"
+    ],
+    [
+        "pick-and-place",
+        "flip",
+        "cook"
+    ],
+    [
+        "pick-and-place"
+    ],
+    [
+        "cook",
+        "pick-and-place"
+    ],
+    [
+        "scoop",
+        "pour",
+        "stir"
+    ],
+    [
+        "grate",
+        "stir"
+    ],
+    [
+        "pick-and-place",
+        "cook",
+        "scoop and pour"
+    ],
+    [
+        "scrape"
+    ],
+    [
+        "open",
+        "pour",
+        "roll"
+    ],
+    [
+        "pour",
+        "press",
+        "remove",
+        "pick-and-place",
+        "cook",
+        "flip"
+    ],
+    [
+        "peel",
+        "cut",
+        "chop",
+        "scrape",
+        "pour",
+        "roll"
+    ],
+    [
+        "insert",
+        "squeeze and scrape",
+        "roll"
+    ],
+    [
+        "pick-and-place",
+        "chop",
+        "scrape",
+        "pour",
+        "roll"
+    ],
+    [
+        "pour",
+        "roll"
+    ],
+    [
+        "beat",
+        "pour",
+        "roll"
+    ],
+    [
+        "roll",
+        "press"
+    ],
+    [
+        "spray",
+        "sprinkle"
+    ],
+    [
+        "pick-and-place",
+        "close",
+        "cook",
+        "open",
+        "turn off",
+        "chop",
+        "pour",
+        "sprinkle",
+        "mix"
+    ],
+    [
+        "crack",
+        "mix",
+        "sprinkle"
+    ],
+    [
+        "pick-and-place",
+        "peel",
+        "grate",
+        "place and spread",
+        "close",
+        "cook",
+        "open",
+        "turn off",
+        "pour",
+        "sprinkle",
+        "mix"
+    ],
+    [
+        "bake"
+    ],
+    [
+        "pick-and-place",
+        "chop",
+        "cook and stir"
+    ],
+    [
+        "take out",
+        "cut",
+        "pick-and-place",
+        "scoop and pour",
+        "stir and fry",
+        "pour and scrape",
+        "mix"
+    ],
+    [
+        "pour",
+        "pour and mix",
+        "pour and scrape",
+        "mix"
+    ],
+    [
+        "pour",
+        "pick-and-place",
+        "cook and stir"
+    ],
+    [
+        "pick-and-place",
+        "cook and stir",
+        "turn off",
+        "pour"
+    ],
+    [
+        "pour",
+        "scrape",
+        "cook and stir",
+        "scoop and pour"
+    ],
+    [
+        "scrape",
+        "spread",
+        "cook and stir",
+        "scoop and pour"
+    ],
+    [
+        "pick-and-place",
+        "chop",
+        "scrape",
+        "cook and stir",
+        "scoop and pour",
+        "sprinkle"
+    ],
+    [
+        "grind",
+        "scrape"
+    ],
+    [
+        "sprinkle",
+        "scrape"
+    ],
+    [
+        "pour",
+        "sprinkle"
+    ],
+    [
+        "pour",
+        "brush"
+    ],
+    [
+        "sprinkle"
+    ],
+    [
+        "pick-and-place",
+        "press and cook",
+        "cut"
+    ],
+    [
+        "pick-and-place",
+        "blend"
+    ],
+    [
+        "pour",
+        "blend"
+    ],
+    [
+        "pour and blend",
+        "blend"
+    ],
+    [
+        "blend"
+    ],
+    [
+        "stir",
+        "pour",
+        "insert",
+        "pour and spread",
+        "chill"
+    ],
+    [
+        "pour",
+        "stir",
+        "pour and spread"
+    ],
+    [
+        "peel",
+        "pick-and-place",
+        "chop"
+    ],
+    [
+        "insert"
+    ],
+    [
+        "cover",
+        "chill"
+    ],
+    [
+        "slice",
+        "pick-and-place",
+        "pour"
+    ],
+    [
+        "pick-and-place",
+        "pour",
+        "cook and stir",
+        "stir"
+    ],
+    [
+        "pick-and-place",
+        "pour"
+    ],
+    [
+        "scrape",
+        "cook and stir",
+        "pick-and-place",
+        "pour",
+        "mix",
+        "stir"
+    ],
+    [
+        "pour",
+        "mix",
+        "stir"
+    ],
+    [
+        "pick-and-place",
+        "slice",
+        "pour",
+        "cook and stir",
+        "stir"
+    ],
+    [
+        "cook and stir"
+    ],
+    [
+        "pour",
+        "cook and stir",
+        "stir"
+    ],
+    [
+        "pour",
+        "cook and stir"
+    ],
+    [
+        "scrape",
+        "stir"
+    ],
+    [
+        "scoop and pour",
+        "pick-and-place"
+    ],
+    [
+        "remove",
+        "pour",
+        "sprinkle",
+        "mix"
+    ],
+    [
+        "cover"
+    ],
+    [
+        "tear apart",
+        "rinse",
+        "pick-and-place",
+        "sprinkle",
+        "mix"
+    ],
+    [
+        "cut open",
+        "pick-and-place",
+        "peel",
+        "wash",
+        "dice",
+        "pour",
+        "cook and stir",
+        "scoop and pour"
+    ],
+    [
+        "grind and pour",
+        "mix",
+        "pour"
+    ],
+    [
+        "peel",
+        "grate",
+        "mix"
+    ],
+    [
+        "pour",
+        "mix",
+        "scoop and pour"
+    ],
+    [
+        "cut",
+        "attach",
+        "pick-and-place",
+        "put inside",
+        "bake"
+    ],
+    [
+        "pour",
+        "scoop and spread"
+    ],
+    [
+        "remove"
+    ],
+    [
+        "scoop and pour",
+        "scoop and spread"
+    ],
+    [
+        "sprinkle",
+        "scoop and spread"
+    ],
+    [
+        "scoop and spread",
+        "bake"
+    ],
+    [
+        "tear"
+    ],
+    [
+        "turn off",
+        "remove",
+        "pick-and-place"
+    ],
+    [
+        "pick-and-place",
+        "simmer"
+    ],
+    [
+        "chop",
+        "pour",
+        "stir",
+        "fry",
+        "scoop and pour"
+    ],
+    [
+        "pour",
+        "simmer",
+        "uncover"
+    ],
+    [
+        "pick-and-place",
+        "cut",
+        "sprinkle"
+    ],
+    [
+        "pick-and-place",
+        "squeeze"
+    ],
+    [
+        "sprinkle",
+        "insert"
+    ],
+    [
+        "measure",
+        "pour",
+        "insert"
+    ],
+    [
+        "pour",
+        "insert"
+    ],
+    [
+        "grind",
+        "insert"
+    ],
+    [
+        "open",
+        "drain",
+        "pour",
+        "spread"
+    ],
+    [
+        "drain",
+        "spread"
+    ],
+    [
+        "throw away"
+    ],
+    [
+        "add",
+        "spread"
+    ],
+    [
+        "mash"
+    ],
+    [
+        "sprinkle",
+        "mash"
+    ],
+    [
+        "pick-and-place",
+        "cut",
+        "pull apart",
+        "peel",
+        "slice"
+    ],
+    [
+        "pick-and-place",
+        "turn on",
+        "heat",
+        "turn off"
+    ],
+    [
+        "peel",
+        "pick-and-place",
+        "slice"
+    ],
+    [
+        "pick-and-place",
+        "spread",
+        "scrape",
+        "cook and stir",
+        "pour"
+    ],
+    [
+        "pick-and-place",
+        "slice",
+        "pour",
+        "cook and stir"
+    ],
+    [
+        "scrape",
+        "cook and stir",
+        "pour"
+    ],
+    [
+        "cook and stir",
+        "scoop and pour"
+    ],
+    [
+        "crack",
+        "pour",
+        "cook"
+    ],
+    [
+        "beat"
+    ],
+    [
+        "pour",
+        "spread",
+        "cook"
+    ],
+    [
+        "chop",
+        "scrape",
+        "pour and scrape",
+        "cook and stir",
+        "pour",
+        "cook"
+    ],
+    [
+        "pick-and-place",
+        "chop",
+        "pour and scrape",
+        "cook and stir",
+        "pour",
+        "cook"
+    ],
+    [
+        "pick-and-place",
+        "dice",
+        "scrape",
+        "pour and scrape",
+        "cook and stir",
+        "pour",
+        "cook"
+    ],
+    [
+        "sprinkle",
+        "pour",
+        "cook"
+    ],
+    [
+        "unwrap",
+        "pick-and-place"
+    ],
+    [
+        "fold",
+        "pick-and-place"
+    ],
+    [
+        "sprinkle",
+        "stir"
+    ],
+    [
+        "pour",
+        "stir",
+        "sprinkle"
+    ],
+    [
+        "spray",
+        "pour"
+    ],
+    [
+        "pick-and-place",
+        "slice",
+        "dice",
+        "pour"
+    ],
+    [
+        "peel",
+        "pick-and-place",
+        "dice",
+        "pour"
+    ],
+    [
+        "pick-and-place",
+        "core",
+        "dice",
+        "cut",
+        "pour"
+    ],
+    [
+        "pick-and-place",
+        "core",
+        "dice",
+        "pour"
+    ],
+    [
+        "grind",
+        "pour"
+    ],
+    [
+        "squeeze",
+        "pour"
+    ],
+    [
+        "scoop",
+        "pour"
+    ],
+    [
+        "pick-and-place",
+        "break",
+        "press",
+        "grind",
+        "mix"
+    ],
+    [
+        "pour",
+        "grind",
+        "mix"
+    ],
+    [
+        "pour",
+        "scrape"
+    ],
+    [
+        "scrape",
+        "spread",
+        "cook"
+    ],
+    [
+        "open",
+        "scrape",
+        "mix"
+    ],
+    [
+        "remove",
+        "pick-and-place"
+    ],
+    [
+        "spread"
+    ],
+    [
+        "pick-and-place",
+        "brush",
+        "close",
+        "cook",
+        "open",
+        "turn off"
+    ],
+    [
+        "turn off",
+        "remove"
+    ],
+    [
+        "pick-and-place",
+        "roll"
+    ],
+    [
+        "pick-and-place",
+        "bake"
+    ],
+    [
+        "pick-and-place",
+        "rinse",
+        "cut",
+        "peel",
+        "add",
+        "shake",
+        "pour"
+    ],
+    [
+        "scoop",
+        "add",
+        "shake",
+        "pick-and-place"
+    ],
+    [
+        "add",
+        "shake",
+        "pick-and-place"
+    ],
+    [
+        "add"
+    ],
+    [
+        "pick-and-place",
+        "mix",
+        "beat",
+        "pour"
+    ],
+    [
+        "mix",
+        "beat",
+        "pour"
+    ],
+    [
+        "scoop and pour",
+        "scrape",
+        "mix"
+    ],
+    [
+        "crack",
+        "pour"
+    ],
+    [
+        "pour",
+        "beat"
+    ],
+    [
+        "scrape",
+        "cook"
+    ],
+    [
+        "pick-and-place",
+        "cut"
+    ],
+    [
+        "pick-and-place",
+        "grind",
+        "pour",
+        "wrap",
+        "cook",
+        "unwrap",
+        "sprinkle"
+    ],
+    [
+        "pick-and-place",
+        "chop",
+        "pour",
+        "cook"
+    ],
+    [
+        "grind",
+        "cook"
+    ],
+    [
+        "cook"
+    ],
+    [
+        "pour",
+        "cook",
+        "scoop and pour",
+        "scoop",
+        "shape"
+    ],
+    [
+        "pour",
+        "turn on",
+        "scoop and pour",
+        "scoop",
+        "shape"
+    ],
+    [
+        "press",
+        "poke",
+        "roll",
+        "place",
+        "wrap"
+    ],
+    [
+        "scoop and pour",
+        "roll"
+    ],
+    [
+        "remove",
+        "wrap"
+    ],
+    [
+        "pick-and-place",
+        "slice",
+        "chop",
+        "insert",
+        "pour",
+        "blend"
+    ],
+    [
+        "insert",
+        "remove"
+    ],
+    [
+        "scoop and pour",
+        "blend"
+    ],
+    [
+        "pick-and-place",
+        "chop",
+        "scoop",
+        "spread"
+    ],
+    [
+        "pick-and-place",
+        "slice"
+    ],
+    [
+        "pick-and-place",
+        "sprinkle"
+    ],
+    [
+        "pick-and-place",
+        "wash",
+        "roll",
+        "grate",
+        "pour",
+        "cook and stir",
+        "cut",
+        "squeeze"
+    ],
+    [
+        "pour",
+        "cook and stir",
+        "pour and strain"
+    ],
+    [
+        "pour",
+        "pour and strain",
+        "remove"
+    ],
+    [
+        "pour and strain"
+    ],
+    [
+        "pick-and-place",
+        "dice",
+        "pour and scrape",
+        "pour and mix"
+    ],
+    [
+        "cut",
+        "unwrap",
+        "pour",
+        "melt",
+        "pour and mix"
+    ],
+    [
+        "peel",
+        "pick-and-place",
+        "chop",
+        "pour and scrape",
+        "pour and mix"
+    ],
+    [
+        "scrape",
+        "pour and scrape",
+        "pour and mix"
+    ],
+    [
+        "pick-and-place",
+        "chop",
+        "scrape",
+        "pour and scrape",
+        "pour and mix"
+    ],
+    [
+        "sprinkle",
+        "pour and mix"
+    ],
+    [
+        "scoop",
+        "pour",
+        "pour and mix"
+    ],
+    [
+        "pour",
+        "pour and mix"
+    ],
+    [
+        "grate",
+        "pour and mix"
+    ],
+    [
+        "pour and mix"
+    ],
+    [
+        "slice",
+        "scoop and pour",
+        "pick-and-place",
+        "attach",
+        "blend",
+        "pour",
+        "stir and strain"
+    ],
+    [
+        "pick-and-place",
+        "cut",
+        "insert",
+        "squeeze",
+        "stir"
+    ],
+    [
+        "pour",
+        "stir and strain"
+    ],
+    [
+        "scoop and pour",
+        "pour"
+    ],
+    [
+        "pick-and-place",
+        "cook and stir",
+        "pour",
+        "sprinkle"
+    ],
+    [
+        "pour",
+        "pick-and-place",
+        "sprinkle"
+    ],
+    [
+        "pour",
+        "pick-and-place",
+        "bake"
+    ],
+    [
+        "scoop",
+        "pour",
+        "chop",
+        "sprinkle"
+    ],
+    [
+        "pick-and-place",
+        "scrape",
+        "stir"
+    ],
+    [
+        "scoop and pour",
+        "stir"
+    ],
+    [
+        "squeeze"
+    ],
+    [
+        "pick-and-place",
+        "stir"
+    ],
+    [
+        "boil",
+        "cook and stir"
+    ],
+    [
+        "scoop",
+        "pour",
+        "cook and stir"
+    ],
+    [
+        "crack",
+        "pour",
+        "cook and stir",
+        "cook"
+    ],
+    [
+        "pour",
+        "whisk"
+    ],
+    [
+        "fold",
+        "cook",
+        "pick-and-place"
+    ],
+    [
+        "scrape",
+        "cook",
+        "pour",
+        "stir"
+    ],
+    [
+        "pick-and-place",
+        "shape"
+    ],
+    [
+        "sprinkle",
+        "knead"
+    ],
+    [
+        "pour",
+        "simmer"
+    ],
+    [
+        "open",
+        "scrape",
+        "pour",
+        "blend",
+        "simmer"
+    ],
+    [
+        "open",
+        "scrape",
+        "scoop and pour",
+        "pour",
+        "simmer"
+    ],
+    [
+        "pick-and-place",
+        "pour",
+        "simmer"
+    ],
+    [
+        "sprinkle",
+        "scrape",
+        "pour",
+        "simmer"
+    ],
+    [
+        "scrape",
+        "pour",
+        "simmer"
+    ],
+    [
+        "cook and stir",
+        "simmer",
+        "scoop and pour",
+        "sprinkle"
+    ],
+    [
+        "pour",
+        "scrape and pour",
+        "cook and stir",
+        "sprinkle",
+        "broil"
+    ],
+    [
+        "scrape and pour",
+        "spread",
+        "cook and stir",
+        "sprinkle",
+        "broil"
+    ],
+    [
+        "peel",
+        "pick-and-place",
+        "chop",
+        "scrape and pour",
+        "cook and stir",
+        "sprinkle",
+        "cook",
+        "broil"
+    ],
+    [
+        "crack",
+        "pour",
+        "sprinkle",
+        "cook",
+        "broil"
+    ],
+    [
+        "sprinkle",
+        "cook and stir",
+        "cook",
+        "broil"
+    ],
+    [
+        "pick-and-place",
+        "chop",
+        "sprinkle",
+        "cook and stir",
+        "cook",
+        "broil"
+    ],
+    [
+        "sprinkle",
+        "cook",
+        "broil"
+    ],
+    [
+        "sprinkle",
+        "broil"
+    ],
+    [
+        "broil",
+        "place",
+        "flip and place",
+        "slice"
+    ],
+    [
+        "spray",
+        "sprinkle",
+        "pour",
+        "mix"
+    ],
+    [
+        "sprinkle",
+        "spread",
+        "mix",
+        "pour"
+    ],
+    [
+        "pour",
+        "mix",
+        "sprinkle",
+        "knead"
+    ],
+    [
+        "pour",
+        "mix",
+        "ferment"
+    ],
+    [
+        "knead",
+        "ferment"
+    ],
+    [
+        "tear and cover"
+    ],
+    [
+        "scrape",
+        "press",
+        "pick-and-place",
+        "pour and spread"
+    ],
+    [
+        "insert",
+        "turn off",
+        "remove",
+        "pick-and-place"
+    ],
+    [
+        "scoop",
+        "pour and spread"
+    ],
+    [
+        "divide",
+        "pick-and-place"
+    ],
+    [
+        "take apart",
+        "peel",
+        "pick-and-place",
+        "scrape and pour",
+        "scoop and spread"
+    ],
+    [
+        "pour",
+        "scrape and pour",
+        "scoop and spread"
+    ],
+    [
+        "pick-and-place",
+        "cut",
+        "bake"
+    ],
+    [
+        "scrape and pour",
+        "scoop and spread"
+    ],
+    [
+        "tear and place"
+    ],
+    [
+        "grate"
+    ],
+    [
+        "cut open",
+        "pour",
+        "turn on"
+    ],
+    [
+        "cut open",
+        "cut",
+        "cook and stir"
+    ],
+    [
+        "pick-and-place",
+        "tuck ends"
+    ],
+    [
+        "spread",
+        "pick-and-place"
+    ],
+    [
+        "scrape",
+        "pick-and-place"
+    ],
+    [
+        "slice",
+        "squeeze",
+        "pick-and-place"
+    ],
+    [
+        "pick-and-place",
+        "boil",
+        "pour"
+    ],
+    [
+        "pour",
+        "scrape",
+        "mix"
+    ],
+    [
+        "scrape",
+        "mix"
+    ],
+    [
+        "fold"
+    ],
+    [
+        "scoop and pour",
+        "cook"
+    ],
+    [
+        "press",
+        "pick-and-place",
+        "cover",
+        "cook"
+    ],
+    [
+        "uncover",
+        "scoop and pour"
+    ],
+    [
+        "rip open",
+        "pour",
+        "pour and scrape",
+        "sprinkle"
+    ],
+    [
+        "turn on",
+        "cook",
+        "remove"
+    ],
+    [
+        "pour",
+        "pour and scrape",
+        "sprinkle"
+    ],
+    [
+        "scoop and pour",
+        "bake"
+    ],
+    [
+        "pick-and-place",
+        "cut",
+        "pour",
+        "cook"
+    ],
+    [
+        "pick-and-place",
+        "cut",
+        "scrape",
+        "pour",
+        "cook and stir"
+    ],
+    [
+        "pour and scrape",
+        "stir",
+        "cook and stir"
+    ],
+    [
+        "pick-and-place",
+        "core",
+        "slice"
+    ],
+    [
+        "toast",
+        "pick-and-place",
+        "spread"
+    ],
+    [
+        "crack",
+        "mix"
+    ],
+    [
+        "spray",
+        "pick-and-place"
+    ],
+    [
+        "mince",
+        "scrape",
+        "coat"
+    ],
+    [
+        "pour",
+        "coat"
+    ],
+    [
+        "measure",
+        "pour",
+        "mix",
+        "coat"
+    ],
+    [
+        "measure",
+        "pour",
+        "coat"
+    ],
+    [
+        "scoop",
+        "pour",
+        "coat"
+    ],
+    [
+        "coat",
+        "pick-and-place",
+        "bake"
+    ],
+    [
+        "peel",
+        "pick-and-place",
+        "chop",
+        "mash",
+        "pour",
+        "scrape",
+        "mix"
+    ],
+    [
+        "drain"
+    ],
+    [
+        "pour",
+        "scrape",
+        "cook"
+    ],
+    [
+        "scrape",
+        "sprinkle",
+        "mix"
+    ],
+    [
+        "scrape",
+        "cook and stir",
+        "pour",
+        "sprinkle",
+        "mix"
+    ],
+    [
+        "roll"
+    ],
+    [
+        "dip"
+    ],
+    [
+        "peel",
+        "pick-and-place",
+        "chop",
+        "dip",
+        "place"
+    ],
+    [
+        "scoop and pour",
+        "dip",
+        "place"
+    ],
+    [
+        "place",
+        "pick-and-place",
+        "cook",
+        "flip"
+    ],
+    [
+        "place",
+        "melt"
+    ],
+    [
+        "pick-and-place",
+        "toast"
+    ],
+    [
+        "peel",
+        "pick-and-place",
+        "cut",
+        "chop",
+        "scrape",
+        "mix"
+    ],
+    [
+        "scrape",
+        "blend"
+    ],
+    [
+        "pick-and-place",
+        "chop",
+        "pour",
+        "stir"
+    ],
+    [
+        "spray",
+        "scoop and pour"
+    ],
+    [
+        "pick-and-place",
+        "wash",
+        "cut",
+        "squeeze",
+        "pour"
+    ],
+    [
+        "pick-and-place",
+        "skim",
+        "cut off ends",
+        "cut",
+        "break apart",
+        "cover",
+        "cook",
+        "uncover",
+        "stir",
+        "sprinkle",
+        "squeeze",
+        "cook and stir",
+        "pour"
+    ],
+    [
+        "pour",
+        "uncover",
+        "sprinkle",
+        "stir",
+        "squeeze",
+        "cook and stir"
+    ],
+    [
+        "sprinkle",
+        "stir",
+        "squeeze",
+        "cook and stir",
+        "pour"
+    ],
+    [
+        "squeeze",
+        "cook and stir"
+    ],
+    [
+        "pick-and-place",
+        "sprinkle",
+        "cook",
+        "uncover"
+    ],
+    [
+        "scoop and pour",
+        "spread",
+        "pick-and-place"
+    ],
+    [
+        "pick-and-place",
+        "pour",
+        "soak",
+        "slice",
+        "stir",
+        "cook and stir"
+    ],
+    [
+        "peel",
+        "pick-and-place",
+        "cut",
+        "pour",
+        "cook and stir",
+        "stir"
+    ],
+    [
+        "cut",
+        "pick-and-place",
+        "pour",
+        "stir"
+    ],
+    [
+        "pick-and-place",
+        "wrap"
+    ],
+    [
+        "wrap"
+    ],
+    [
+        "pick-and-place",
+        "cook and stir"
+    ],
+    [
+        "spread",
+        "bake"
+    ],
+    [
+        "peel",
+        "pick-and-place",
+        "slice",
+        "scrape",
+        "cook and stir",
+        "pour",
+        "sprinkle",
+        "mix"
+    ],
+    [
+        "scoop",
+        "stir"
+    ],
+    [
+        "cut",
+        "pick-and-place",
+        "cook and flip",
+        "scrape",
+        "sprinkle",
+        "mix"
+    ],
+    [
+        "crack",
+        "pour",
+        "cook and stir"
+    ],
+    [
+        "scoop and pour",
+        "spread",
+        "cook and stir"
+    ],
+    [
+        "pick-and-place",
+        "pour",
+        "mix"
+    ],
+    [
+        "pour",
+        "chill"
+    ],
+    [
+        "cut"
+    ],
+    [
+        "pick-and-place",
+        "slice",
+        "chop",
+        "pour and scrape",
+        "pour"
+    ],
+    [
+        "shake",
+        "pour"
+    ],
+    [
+        "pick-and-place",
+        "chop",
+        "scoop and pour",
+        "pour and scrape",
+        "mix"
+    ],
+    [
+        "peel",
+        "pick-and-place",
+        "chop",
+        "scoop and pour",
+        "pour and scrape",
+        "mix"
+    ],
+    [
+        "pick-and-place",
+        "chop",
+        "pour and scrape",
+        "cook and stir",
+        "pour",
+        "cook",
+        "bake"
+    ],
+    [
+        "peel",
+        "pick-and-place",
+        "chop",
+        "pour and scrape",
+        "cook and stir",
+        "pour",
+        "cook",
+        "bake"
+    ],
+    [
+        "pour",
+        "pour and scrape",
+        "bake"
+    ],
+    [
+        "pour and scrape",
+        "cook and stir",
+        "pour",
+        "cook",
+        "bake"
+    ],
+    [
+        "grind",
+        "sprinkle",
+        "beat",
+        "pour",
+        "bake"
+    ],
+    [
+        "sprinkle",
+        "beat",
+        "pour",
+        "bake"
+    ],
+    [
+        "crack",
+        "pour",
+        "cook",
+        "bake"
+    ],
+    [
+        "grate",
+        "pick-and-place",
+        "pour"
+    ],
+    [
+        "bake",
+        "place",
+        "slice",
+        "pick-and-place"
+    ],
+    [
+        "pour",
+        "soak",
+        "scrape",
+        "mix"
+    ],
+    [
+        "scoop and pour",
+        "flip"
+    ],
+    [
+        "pick-and-place",
+        "chop",
+        "mix"
+    ],
+    [
+        "flip",
+        "pick-and-place",
+        "sprinkle"
+    ],
+    [
+        "pick-and-place",
+        "cut",
+        "scrape",
+        "cook",
+        "pour",
+        "sprinkle"
+    ],
+    [
+        "crack",
+        "pour",
+        "cook and spread",
+        "cook"
+    ],
+    [
+        "pour",
+        "beat",
+        "cook"
+    ],
+    [
+        "scoop and pour",
+        "melt",
+        "cook"
+    ],
+    [
+        "pour",
+        "cook and shake",
+        "cook"
+    ],
+    [
+        "flip",
+        "cook",
+        "pour"
+    ],
+    [
+        "pour",
+        "sift",
+        "scoop",
+        "stir",
+        "sprinkle"
+    ],
+    [
+        "crack",
+        "stir",
+        "mix"
+    ],
+    [
+        "pick-and-place",
+        "roll",
+        "cut",
+        "sprinkle"
+    ],
+    [
+        "peel",
+        "pick-and-place",
+        "cut",
+        "slice",
+        "sprinkle"
+    ],
+    [
+        "pour",
+        "sprinkle",
+        "cut with slits"
+    ],
+    [
+        "pour",
+        "brush",
+        "bake"
+    ],
+    [
+        "pick-and-place",
+        "roll",
+        "bake"
+    ],
+    [
+        "scoop",
+        "spread"
+    ],
+    [
+        "peel",
+        "pick-and-place",
+        "chop",
+        "pour",
+        "cook and stir",
+        "stir"
+    ],
+    [
+        "pick-and-place",
+        "chop",
+        "pour",
+        "cook and stir",
+        "stir"
+    ],
+    [
+        "pick-and-place",
+        "chop",
+        "pour",
+        "cook and stir",
+        "cook"
+    ],
+    [
+        "cook and stir",
+        "cook"
+    ],
+    [
+        "pour",
+        "cook and stir",
+        "cover",
+        "cook"
+    ],
+    [
+        "pour",
+        "stir",
+        "grate",
+        "scoop and pour"
+    ],
+    [
+        "sprinkle",
+        "stir",
+        "blend"
+    ],
+    [
+        "pick-and-place",
+        "cook and stir",
+        "pour",
+        "mix"
+    ],
+    [
+        "grind",
+        "blend"
+    ],
+    [
+        "grate",
+        "cut",
+        "squeeze"
+    ],
+    [
+        "pour and blend"
+    ],
+    [
+        "scoop",
+        "pour",
+        "sprinkle"
+    ],
+    [
+        "scoop",
+        "pour and spread",
+        "sprinkle"
+    ],
+    [
+        "measure",
+        "pour",
+        "sprinkle"
+    ],
+    [
+        "pick-and-place",
+        "mix",
+        "shape"
+    ],
+    [
+        "place",
+        "scoop and place",
+        "cook",
+        "flip",
+        "pick-and-place"
+    ],
+    [
+        "remove",
+        "tear apart",
+        "pick-and-place"
+    ],
+    [
+        "pour",
+        "pour and scrape"
+    ],
+    [
+        "pick-and-place",
+        "cut",
+        "squeeze",
+        "pour",
+        "mix"
+    ],
+    [
+        "pour and scrape",
+        "stir"
+    ],
+    [
+        "pick-and-place",
+        "chop",
+        "pour and scrape"
+    ],
+    [
+        "pour",
+        "chop",
+        "pour and scrape",
+        "stir"
+    ],
+    [
+        "pick-and-place",
+        "cut",
+        "make slits",
+        "cut off skin",
+        "pour and scrape",
+        "stir"
+    ],
+    [
+        "peel",
+        "pick-and-place",
+        "chop",
+        "pour and scrape"
+    ],
+    [
+        "sprinkle",
+        "pour and scrape"
+    ],
+    [
+        "peel",
+        "grate",
+        "pour"
+    ],
+    [
+        "pick-and-place",
+        "grate"
+    ],
+    [
+        "remove",
+        "tear apart",
+        "wash",
+        "place",
+        "pick-and-place",
+        "chop",
+        "pour and scrape",
+        "sprinkle",
+        "mix"
+    ],
+    [
+        "pour",
+        "dice",
+        "pour and scrape",
+        "sprinkle",
+        "mix"
+    ],
+    [
+        "wash",
+        "pick-and-place",
+        "cut",
+        "grate",
+        "sprinkle",
+        "mix"
+    ],
+    [
+        "open",
+        "pick-and-place",
+        "wash",
+        "cut",
+        "scrape",
+        "mix"
+    ],
+    [
+        "pick-and-place",
+        "slice",
+        "scrape",
+        "sprinkle",
+        "mix"
+    ],
+    [
+        "spread",
+        "flip and stack"
+    ],
+    [
+        "pour",
+        "flip and stack"
+    ],
+    [
+        "pick-and-place",
+        "flip",
+        "cook",
+        "sprinkle"
+    ],
+    [
+        "pick-and-place",
+        "heat"
+    ],
+    [
+        "peel",
+        "pick-and-place",
+        "cut",
+        "close",
+        "shake",
+        "pour",
+        "sprinkle",
+        "mix"
+    ],
+    [
+        "scoop and pour",
+        "spread"
+    ],
+    [
+        "measure",
+        "pour",
+        "attach",
+        "blend"
+    ],
+    [
+        "pick-and-place",
+        "wash",
+        "pour",
+        "blend"
+    ],
+    [
+        "measure",
+        "pour",
+        "blend"
+    ],
+    [
+        "squeeze",
+        "drip",
+        "blend"
+    ],
+    [
+        "pour",
+        "rinse",
+        "grind",
+        "pick-and-place",
+        "close",
+        "cook",
+        "open",
+        "turn off"
+    ],
+    [
+        "grind and sprinkle"
+    ],
+    [
+        "slice",
+        "pour",
+        "cook and stir"
+    ],
+    [
+        "chop",
+        "pour",
+        "cook and stir"
+    ],
+    [
+        "pick-and-place",
+        "flip",
+        "cut",
+        "scrape",
+        "cook and stir"
+    ],
+    [
+        "sprinkle",
+        "cook and stir"
+    ],
+    [
+        "shape"
+    ],
+    [
+        "chop",
+        "fry"
+    ],
+    [
+        "pour",
+        "dip"
+    ],
+    [
+        "fry"
+    ],
+    [
+        "pick-and-place",
+        "cut",
+        "flip"
+    ],
+    [
+        "pick-and-place",
+        "slice",
+        "spread",
+        "bake"
+    ],
+    [
+        "pick-and-place",
+        "chop",
+        "pour and scrape",
+        "spread"
+    ],
+    [
+        "insert",
+        "squeeze and scrape",
+        "spread"
+    ],
+    [
+        "sprinkle",
+        "spread"
+    ],
+    [
+        "grind",
+        "spread"
+    ],
+    [
+        "grate",
+        "pour",
+        "sprinkle",
+        "scoop and pour"
+    ],
+    [
+        "pour",
+        "sprinkle",
+        "scoop and pour"
+    ],
+    [
+        "sprinkle",
+        "heat",
+        "scoop and pour"
+    ],
+    [
+        "pick-and-place",
+        "heat",
+        "flip",
+        "remove"
+    ],
+    [
+        "spray"
+    ],
+    [
+        "heat"
+    ],
+    [
+        "remove",
+        "mash"
+    ],
+    [
+        "pour",
+        "pick-and-place",
+        "cook and stir",
+        "turn off",
+        "pour and scrape",
+        "mash"
+    ],
+    [
+        "pour",
+        "pour and scrape",
+        "mash"
+    ],
+    [
+        "scoop",
+        "pour",
+        "pick-and-place",
+        "cook and stir",
+        "turn off",
+        "pour and scrape",
+        "mash"
+    ],
+    [
+        "open",
+        "pick-and-place",
+        "pour and scrape",
+        "mash"
+    ],
+    [
+        "pick-and-place",
+        "cook and stir",
+        "turn off",
+        "pour and scrape",
+        "mash"
+    ],
+    [
+        "pick-and-place",
+        "cut in half",
+        "cut off ends",
+        "peel",
+        "throw away",
+        "chop",
+        "pour and scrape",
+        "mash"
+    ],
+    [
+        "pick-and-place",
+        "cut off ends",
+        "peel",
+        "throw away",
+        "chop",
+        "scrape",
+        "mash"
+    ],
+    [
+        "pour and scrape",
+        "mash"
+    ],
+    [
+        "rip open",
+        "pick-and-place",
+        "cut off ends",
+        "peel",
+        "slice",
+        "mash"
+    ],
+    [
+        "cut",
+        "squeeze",
+        "pour",
+        "mash"
+    ],
+    [
+        "open",
+        "scoop",
+        "pour",
+        "mash"
+    ],
+    [
+        "pour",
+        "mash"
+    ],
+    [
+        "shake",
+        "mash"
+    ],
+    [
+        "peel",
+        "pick-and-place",
+        "chop",
+        "pour",
+        "cook"
+    ],
+    [
+        "pick-and-place",
+        "slice",
+        "pour",
+        "cook"
+    ],
+    [
+        "pour and stir",
+        "cook",
+        "pour",
+        "scoop and pour",
+        "mix"
+    ],
+    [
+        "pour and stir",
+        "cook"
+    ],
+    [
+        "cool down",
+        "scoop",
+        "pour",
+        "fold and pinch"
+    ],
+    [
+        "remove",
+        "scoop",
+        "scrape",
+        "pour",
+        "mix"
+    ],
+    [
+        "pour",
+        "shape",
+        "cut",
+        "roll",
+        "fold",
+        "cut off ends",
+        "fold and pinch"
+    ],
+    [
+        "cut off ends"
+    ],
+    [
+        "pick-and-place",
+        "fry and flip"
+    ],
+    [
+        "pick-and-place",
+        "spread",
+        "mix and pour",
+        "cook and stir"
+    ],
+    [
+        "mix and pour",
+        "cook and stir"
+    ],
+    [
+        "pour",
+        "mix and pour",
+        "cook and stir"
+    ],
+    [
+        "scrape and pour",
+        "cook and stir"
+    ],
+    [
+        "sprinkle",
+        "grind",
+        "cook and stir"
+    ],
+    [
+        "grind",
+        "cook and stir"
+    ],
+    [
+        "pick-and-place",
+        "dice",
+        "scrape and pour",
+        "cook and stir"
+    ],
+    [
+        "pick-and-place",
+        "wash",
+        "peel",
+        "cut",
+        "chop",
+        "pour",
+        "pour and stir"
+    ],
+    [
+        "scoop and pour",
+        "heat",
+        "pour",
+        "pour and stir"
+    ],
+    [
+        "sprinkle",
+        "pour and stir"
+    ],
+    [
+        "pour",
+        "pour and stir",
+        "sprinkle"
+    ],
+    [
+        "pick-and-place",
+        "roll",
+        "fold and pinch",
+        "fold"
+    ],
+    [
+        "pick-and-place",
+        "brush",
+        "sprinkle",
+        "poke",
+        "bake"
+    ],
+    [
+        "dip",
+        "brush"
+    ],
+    [
+        "crack",
+        "shake"
+    ],
+    [
+        "scoop",
+        "pour and scrape",
+        "roll and shape"
+    ],
+    [
+        "pour",
+        "roll and shape"
+    ],
+    [
+        "blend",
+        "roll and shape"
+    ],
+    [
+        "place",
+        "insert",
+        "chill",
+        "remove"
+    ],
+    [
+        "pour",
+        "rinse",
+        "boil",
+        "drain",
+        "pick-and-place",
+        "slice",
+        "mix"
+    ],
+    [
+        "pour",
+        "boil",
+        "drain",
+        "mix"
+    ],
+    [
+        "pick-and-place",
+        "boil",
+        "drain",
+        "pour",
+        "peel",
+        "mix"
+    ],
+    [
+        "squeeze",
+        "pour",
+        "mix"
+    ],
+    [
+        "wash",
+        "pick-and-place",
+        "chop",
+        "scrape",
+        "pour",
+        "mix"
+    ],
+    [
+        "chill",
+        "mix"
+    ]
+]
