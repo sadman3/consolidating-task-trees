@@ -1,0 +1,54 @@
+{
+       "id": "0194e04697",
+       "type": "salad",
+       "ingredients": [
+              {
+                     "object": "bread",
+                     "state": "whole"
+              },
+              {
+                     "object": "tomato",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "cucumber",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "onion",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "celery",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "caper",
+                     "state": "juice"
+              },
+              {
+                     "object": "olive",
+                     "state": "berries"
+              },
+              {
+                     "object": "garlic",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "vinegar",
+                     "state": "juice"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "basil",
+                     "state": "minced"
+              }
+       ]
+}

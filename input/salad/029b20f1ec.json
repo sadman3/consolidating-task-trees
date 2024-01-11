@@ -1,0 +1,38 @@
+{
+       "id": "029b20f1ec",
+       "type": "salad",
+       "ingredients": [
+              {
+                     "object": "potato",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "scallion",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "mayonnaise",
+                     "state": "creamy"
+              },
+              {
+                     "object": "cream",
+                     "state": "creamy"
+              },
+              {
+                     "object": "mustard",
+                     "state": "thick sauce"
+              },
+              {
+                     "object": "garlic",
+                     "state": "chopped"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              }
+       ]
+}

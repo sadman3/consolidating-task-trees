@@ -1,0 +1,58 @@
+{
+       "id": "1cafe32761",
+       "type": "noodle",
+       "ingredients": [
+              {
+                     "object": "stick",
+                     "state": "baked"
+              },
+              {
+                     "object": "tofu",
+                     "state": "diced"
+              },
+              {
+                     "object": "miso",
+                     "state": "thick sauce"
+              },
+              {
+                     "object": "ginger",
+                     "state": "minced"
+              },
+              {
+                     "object": "oil",
+                     "state": "halved"
+              },
+              {
+                     "object": "chili",
+                     "state": "chopped"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "eggplant",
+                     "state": "steaks"
+              },
+              {
+                     "object": "pepper",
+                     "state": "sliced"
+              },
+              {
+                     "object": "pea",
+                     "state": "steaks"
+              },
+              {
+                     "object": "mushroom",
+                     "state": "sliced"
+              },
+              {
+                     "object": "onion",
+                     "state": "chopped"
+              },
+              {
+                     "object": "seed",
+                     "state": "grain"
+              }
+       ]
+}

@@ -1,0 +1,26 @@
+{
+       "id": "31a1708b1e",
+       "type": "drinks",
+       "ingredients": [
+              {
+                     "object": "soymilk",
+                     "state": "juice"
+              },
+              {
+                     "object": "yogurt",
+                     "state": "creamy"
+              },
+              {
+                     "object": "raspberry",
+                     "state": "berries"
+              },
+              {
+                     "object": "strawberry",
+                     "state": "berries"
+              },
+              {
+                     "object": "oil",
+                     "state": "grain"
+              }
+       ]
+}

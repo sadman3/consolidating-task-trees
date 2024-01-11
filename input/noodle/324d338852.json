@@ -1,0 +1,34 @@
+{
+       "id": "324d338852",
+       "type": "noodle",
+       "ingredients": [
+              {
+                     "object": "chicken",
+                     "state": "baked"
+              },
+              {
+                     "object": "rib",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "carrot",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "onion",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "noodle",
+                     "state": "uncooked"
+              },
+              {
+                     "object": "broth",
+                     "state": "thick liquid"
+              },
+              {
+                     "object": "chicken",
+                     "state": "solid"
+              }
+       ]
+}

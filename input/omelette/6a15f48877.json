@@ -1,0 +1,42 @@
+{
+       "id": "6a15f48877",
+       "type": "omelette",
+       "ingredients": [
+              {
+                     "object": "butter",
+                     "state": "juice"
+              },
+              {
+                     "object": "apple",
+                     "state": "peeled"
+              },
+              {
+                     "object": "walnut",
+                     "state": "chopped"
+              },
+              {
+                     "object": "nutmeg",
+                     "state": "whole nuts"
+              },
+              {
+                     "object": "cinnamon",
+                     "state": "ground"
+              },
+              {
+                     "object": "sugar",
+                     "state": "ground"
+              },
+              {
+                     "object": "egg",
+                     "state": "whole raw"
+              },
+              {
+                     "object": "water",
+                     "state": "juice"
+              },
+              {
+                     "object": "cheese",
+                     "state": "creamy"
+              }
+       ]
+}

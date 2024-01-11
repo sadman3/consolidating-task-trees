@@ -1,0 +1,30 @@
+{
+       "id": "019fa650e2",
+       "type": "salad",
+       "ingredients": [
+              {
+                     "object": "poblano chile",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "ground chuck",
+                     "state": "ground"
+              },
+              {
+                     "object": "cheese",
+                     "state": "sliced"
+              },
+              {
+                     "object": "seed",
+                     "state": "sliced"
+              }
+       ]
+}

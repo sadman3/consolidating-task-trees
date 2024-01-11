@@ -1,0 +1,30 @@
+{
+       "id": "02fa895941",
+       "type": "salad",
+       "ingredients": [
+              {
+                     "object": "chicken",
+                     "state": "breaded"
+              },
+              {
+                     "object": "green",
+                     "state": "leaves"
+              },
+              {
+                     "object": "orange",
+                     "state": "peel"
+              },
+              {
+                     "object": "noodle",
+                     "state": "processed raw"
+              },
+              {
+                     "object": "almond",
+                     "state": "sliced"
+              },
+              {
+                     "object": "sesame",
+                     "state": "baked"
+              }
+       ]
+}

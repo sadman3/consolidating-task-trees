@@ -1,0 +1,82 @@
+{
+       "id": "0004dbbc43",
+       "type": "salad",
+       "ingredients": [
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "shallot",
+                     "state": "sliced"
+              },
+              {
+                     "object": "ginger",
+                     "state": "minced"
+              },
+              {
+                     "object": "apple",
+                     "state": "chopped"
+              },
+              {
+                     "object": "zucchini",
+                     "state": "chopped"
+              },
+              {
+                     "object": "pepper",
+                     "state": "chopped"
+              },
+              {
+                     "object": "pepper",
+                     "state": "chopped"
+              },
+              {
+                     "object": "carrot",
+                     "state": "chopped"
+              },
+              {
+                     "object": "crabmeat",
+                     "state": "small meat"
+              },
+              {
+                     "object": "mayonnaise",
+                     "state": "creamy"
+              },
+              {
+                     "object": "chive",
+                     "state": "chopped"
+              },
+              {
+                     "object": "tomato",
+                     "state": "peeled"
+              },
+              {
+                     "object": "cilantro",
+                     "state": "chopped"
+              },
+              {
+                     "object": "vinegar",
+                     "state": "juice"
+              },
+              {
+                     "object": "garlic",
+                     "state": "chopped"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "endive",
+                     "state": "steaks"
+              },
+              {
+                     "object": "chive",
+                     "state": "chopped"
+              }
+       ]
+}

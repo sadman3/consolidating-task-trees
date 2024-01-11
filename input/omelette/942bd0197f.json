@@ -1,0 +1,30 @@
+{
+       "id": "942bd0197f",
+       "type": "omelette",
+       "ingredients": [
+              {
+                     "object": "egg",
+                     "state": "whole raw"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "cheese",
+                     "state": "creamy"
+              },
+              {
+                     "object": "ham",
+                     "state": "sliced"
+              },
+              {
+                     "object": "preserve",
+                     "state": "preserved"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              }
+       ]
+}

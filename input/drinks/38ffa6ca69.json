@@ -1,0 +1,14 @@
+{
+       "id": "38ffa6ca69",
+       "type": "drinks",
+       "ingredients": [
+              {
+                     "object": "blueberry",
+                     "state": "berries"
+              },
+              {
+                     "object": "honey",
+                     "state": "thick sauce"
+              }
+       ]
+}

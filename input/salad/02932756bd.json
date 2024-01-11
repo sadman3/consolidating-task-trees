@@ -1,0 +1,70 @@
+{
+       "id": "02932756bd",
+       "type": "salad",
+       "ingredients": [
+              {
+                     "object": "shallot",
+                     "state": "sliced"
+              },
+              {
+                     "object": "raisin",
+                     "state": "dried"
+              },
+              {
+                     "object": "dry sherry",
+                     "state": "dried"
+              },
+              {
+                     "object": "vinegar",
+                     "state": "juice"
+              },
+              {
+                     "object": "syrup",
+                     "state": "thick sauce"
+              },
+              {
+                     "object": "thyme",
+                     "state": "chopped"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              },
+              {
+                     "object": "lemon",
+                     "state": "grated"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "garlic",
+                     "state": "minced"
+              },
+              {
+                     "object": "pepper",
+                     "state": "crushed"
+              },
+              {
+                     "object": "rosemary",
+                     "state": "chopped"
+              },
+              {
+                     "object": "broccoli",
+                     "state": "peeled"
+              },
+              {
+                     "object": "ciabatta",
+                     "state": "sliced"
+              },
+              {
+                     "object": "nut",
+                     "state": "baked"
+              }
+       ]
+}

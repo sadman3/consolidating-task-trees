@@ -1,0 +1,14 @@
+{
+       "id": "27451fb342",
+       "type": "drinks",
+       "ingredients": [
+              {
+                     "object": "raspberry",
+                     "state": "berries"
+              },
+              {
+                     "object": "yogurt",
+                     "state": "creamy"
+              }
+       ]
+}

@@ -1,0 +1,38 @@
+{
+       "id": "01b50562d4",
+       "type": "salad",
+       "ingredients": [
+              {
+                     "object": "spinach",
+                     "state": "whole leafy"
+              },
+              {
+                     "object": "strawberry",
+                     "state": "sliced"
+              },
+              {
+                     "object": "orange",
+                     "state": "halved"
+              },
+              {
+                     "object": "olive",
+                     "state": "sliced"
+              },
+              {
+                     "object": "nut",
+                     "state": "chopped"
+              },
+              {
+                     "object": "honey",
+                     "state": "thick sauce"
+              },
+              {
+                     "object": "mustard",
+                     "state": "thick sauce"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              }
+       ]
+}

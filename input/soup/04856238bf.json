@@ -1,0 +1,58 @@
+{
+       "id": "04856238bf",
+       "type": "soup",
+       "ingredients": [
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "onion",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "pepper",
+                     "state": "chopped"
+              },
+              {
+                     "object": "garlic",
+                     "state": "minced"
+              },
+              {
+                     "object": "carrot",
+                     "state": "sliced"
+              },
+              {
+                     "object": "potato",
+                     "state": "peeled"
+              },
+              {
+                     "object": "pumpkin",
+                     "state": "peeled"
+              },
+              {
+                     "object": "lentil",
+                     "state": "peel"
+              },
+              {
+                     "object": "stock",
+                     "state": "thick liquid"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "curry",
+                     "state": "ground"
+              },
+              {
+                     "object": "ginger",
+                     "state": "whole veg"
+              }
+       ]
+}

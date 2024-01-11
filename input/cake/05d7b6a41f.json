@@ -1,0 +1,30 @@
+{
+       "id": "05d7b6a41f",
+       "type": "cake",
+       "ingredients": [
+              {
+                     "object": "chocolate",
+                     "state": "solid"
+              },
+              {
+                     "object": "butter",
+                     "state": "creamy"
+              },
+              {
+                     "object": "chestnut",
+                     "state": "baked"
+              },
+              {
+                     "object": "milk",
+                     "state": "juice"
+              },
+              {
+                     "object": "egg",
+                     "state": "whole raw"
+              },
+              {
+                     "object": "sugar",
+                     "state": "ground"
+              }
+       ]
+}

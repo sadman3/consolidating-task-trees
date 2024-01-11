@@ -1,0 +1,50 @@
+{
+       "id": "042d1d83d6",
+       "type": "cake",
+       "ingredients": [
+              {
+                     "object": "egg",
+                     "state": "thick liquid"
+              },
+              {
+                     "object": "cherry",
+                     "state": "berries"
+              },
+              {
+                     "object": "pineapple",
+                     "state": "whole fruit"
+              },
+              {
+                     "object": "raisin",
+                     "state": "dried"
+              },
+              {
+                     "object": "pecan",
+                     "state": "chopped"
+              },
+              {
+                     "object": "flour",
+                     "state": "ground"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              },
+              {
+                     "object": "butter",
+                     "state": "creamy"
+              },
+              {
+                     "object": "sugar",
+                     "state": "ground"
+              },
+              {
+                     "object": "coconut",
+                     "state": "grated"
+              },
+              {
+                     "object": "extract",
+                     "state": "juice"
+              }
+       ]
+}

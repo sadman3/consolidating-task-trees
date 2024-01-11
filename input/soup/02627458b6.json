@@ -1,0 +1,54 @@
+{
+       "id": "02627458b6",
+       "type": "soup",
+       "ingredients": [
+              {
+                     "object": "mushroom",
+                     "state": "dried"
+              },
+              {
+                     "object": "onion",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "butter",
+                     "state": "ground"
+              },
+              {
+                     "object": "parsnip",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "rib",
+                     "state": "chopped"
+              },
+              {
+                     "object": "garlic",
+                     "state": "peeled"
+              },
+              {
+                     "object": "mushroom",
+                     "state": "dried"
+              },
+              {
+                     "object": "parsley",
+                     "state": "leaves"
+              },
+              {
+                     "object": "garlic",
+                     "state": "ground"
+              },
+              {
+                     "object": "walnut",
+                     "state": "chopped"
+              },
+              {
+                     "object": "butter",
+                     "state": "creamy"
+              }
+       ]
+}

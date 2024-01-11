@@ -1,0 +1,46 @@
+{
+       "id": "0317dd7772",
+       "type": "soup",
+       "ingredients": [
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "garlic",
+                     "state": "minced"
+              },
+              {
+                     "object": "broth",
+                     "state": "thick liquid"
+              },
+              {
+                     "object": "salsa",
+                     "state": "thick sauce"
+              },
+              {
+                     "object": "water",
+                     "state": "juice"
+              },
+              {
+                     "object": "hot sauce",
+                     "state": "sauce"
+              },
+              {
+                     "object": "chicken",
+                     "state": "baked"
+              },
+              {
+                     "object": "corn",
+                     "state": "whole"
+              },
+              {
+                     "object": "chip",
+                     "state": "pieces"
+              },
+              {
+                     "object": "cheese",
+                     "state": "shredded"
+              }
+       ]
+}

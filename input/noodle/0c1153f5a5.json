@@ -1,0 +1,66 @@
+{
+       "id": "0c1153f5a5",
+       "type": "noodle",
+       "ingredients": [
+              {
+                     "object": "broth",
+                     "state": "thick liquid"
+              },
+              {
+                     "object": "shrimp",
+                     "state": "peeled"
+              },
+              {
+                     "object": "soy sauce",
+                     "state": "sauce"
+              },
+              {
+                     "object": "fish",
+                     "state": "sauce"
+              },
+              {
+                     "object": "mushroom",
+                     "state": "sliced"
+              },
+              {
+                     "object": "mushroom",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "carrot",
+                     "state": "shredded"
+              },
+              {
+                     "object": "garlic",
+                     "state": "grated"
+              },
+              {
+                     "object": "ginger",
+                     "state": "grated"
+              },
+              {
+                     "object": "scallion",
+                     "state": "sliced"
+              },
+              {
+                     "object": "meat",
+                     "state": "shredded"
+              },
+              {
+                     "object": "cilantro",
+                     "state": "leaves"
+              },
+              {
+                     "object": "sprout",
+                     "state": "bean"
+              },
+              {
+                     "object": "egg",
+                     "state": "whipped"
+              },
+              {
+                     "object": "lime",
+                     "state": "juice"
+              }
+       ]
+}

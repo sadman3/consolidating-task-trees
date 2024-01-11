@@ -1,0 +1,42 @@
+{
+       "id": "2d054bfe74",
+       "type": "noodle",
+       "ingredients": [
+              {
+                     "object": "noodle",
+                     "state": "baked"
+              },
+              {
+                     "object": "butter",
+                     "state": "softened"
+              },
+              {
+                     "object": "flour",
+                     "state": "ground"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              },
+              {
+                     "object": "milk",
+                     "state": "juice"
+              },
+              {
+                     "object": "cheddar",
+                     "state": "shredded"
+              },
+              {
+                     "object": "water",
+                     "state": "minced"
+              },
+              {
+                     "object": "pea",
+                     "state": "berries"
+              },
+              {
+                     "object": "broccoli",
+                     "state": "whole veg"
+              }
+       ]
+}

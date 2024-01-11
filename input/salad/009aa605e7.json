@@ -1,0 +1,42 @@
+{
+       "id": "009aa605e7",
+       "type": "salad",
+       "ingredients": [
+              {
+                     "object": "cooking spray",
+                     "state": "oily"
+              },
+              {
+                     "object": "corn",
+                     "state": "peeled"
+              },
+              {
+                     "object": "pepper",
+                     "state": "halved"
+              },
+              {
+                     "object": "pepper",
+                     "state": "halved"
+              },
+              {
+                     "object": "bean",
+                     "state": "bean"
+              },
+              {
+                     "object": "cilantro",
+                     "state": "chopped"
+              },
+              {
+                     "object": "chipotle powder",
+                     "state": "ground"
+              },
+              {
+                     "object": "cumin",
+                     "state": "ground"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              }
+       ]
+}

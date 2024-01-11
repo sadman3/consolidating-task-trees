@@ -1,0 +1,66 @@
+{
+       "id": "0271a73b58",
+       "type": "salad",
+       "ingredients": [
+              {
+                     "object": "spinach",
+                     "state": "leaves"
+              },
+              {
+                     "object": "lettuce",
+                     "state": "leaves"
+              },
+              {
+                     "object": "bean",
+                     "state": "bean"
+              },
+              {
+                     "object": "tomato",
+                     "state": "chopped"
+              },
+              {
+                     "object": "sprout",
+                     "state": "sprout"
+              },
+              {
+                     "object": "onion",
+                     "state": "sliced"
+              },
+              {
+                     "object": "bacon",
+                     "state": "sliced"
+              },
+              {
+                     "object": "egg",
+                     "state": "baked"
+              },
+              {
+                     "object": "salad dressing",
+                     "state": "creamy"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "vinegar",
+                     "state": "juice"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              },
+              {
+                     "object": "mustard",
+                     "state": "ground"
+              },
+              {
+                     "object": "oregano",
+                     "state": "ground"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              }
+       ]
+}

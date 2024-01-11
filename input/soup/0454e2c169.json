@@ -1,0 +1,66 @@
+{
+       "id": "0454e2c169",
+       "type": "soup",
+       "ingredients": [
+              {
+                     "object": "ham",
+                     "state": "processed meat"
+              },
+              {
+                     "object": "ham",
+                     "state": "pieces"
+              },
+              {
+                     "object": "onion",
+                     "state": "chopped"
+              },
+              {
+                     "object": "carrot",
+                     "state": "sliced"
+              },
+              {
+                     "object": "rib",
+                     "state": "chopped"
+              },
+              {
+                     "object": "potato",
+                     "state": "diced"
+              },
+              {
+                     "object": "barley",
+                     "state": "grain"
+              },
+              {
+                     "object": "tomato",
+                     "state": "chopped"
+              },
+              {
+                     "object": "parsley",
+                     "state": "chopped"
+              },
+              {
+                     "object": "beef",
+                     "state": "solid"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "broth",
+                     "state": "thick liquid"
+              },
+              {
+                     "object": "broth",
+                     "state": "thick liquid"
+              },
+              {
+                     "object": "bean",
+                     "state": "bean"
+              },
+              {
+                     "object": "bean",
+                     "state": "bean"
+              }
+       ]
+}

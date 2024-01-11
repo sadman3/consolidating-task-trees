@@ -1,0 +1,46 @@
+{
+       "id": "032f575ca9",
+       "type": "soup",
+       "ingredients": [
+              {
+                     "object": "lentil",
+                     "state": "bean"
+              },
+              {
+                     "object": "butter",
+                     "state": "softened"
+              },
+              {
+                     "object": "onion",
+                     "state": "diced"
+              },
+              {
+                     "object": "bay leaf",
+                     "state": "leaves"
+              },
+              {
+                     "object": "stock",
+                     "state": "thick liquid"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "garlic",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "walnut",
+                     "state": "baked"
+              },
+              {
+                     "object": "creme fraiche",
+                     "state": "creamy"
+              },
+              {
+                     "object": "parsley",
+                     "state": "minced"
+              }
+       ]
+}

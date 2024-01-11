@@ -1,0 +1,70 @@
+{
+       "id": "0049525d87",
+       "type": "soup",
+       "ingredients": [
+              {
+                     "object": "fish",
+                     "state": "meat"
+              },
+              {
+                     "object": "water",
+                     "state": "juice"
+              },
+              {
+                     "object": "rib",
+                     "state": "steaks"
+              },
+              {
+                     "object": "onion",
+                     "state": "sliced"
+              },
+              {
+                     "object": "parsley",
+                     "state": "minced"
+              },
+              {
+                     "object": "tomato",
+                     "state": "peeled"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              },
+              {
+                     "object": "garlic",
+                     "state": "crushed"
+              },
+              {
+                     "object": "parsley",
+                     "state": "minced"
+              },
+              {
+                     "object": "tabasco sauce",
+                     "state": "sauce"
+              },
+              {
+                     "object": "crabmeat",
+                     "state": "small meat"
+              },
+              {
+                     "object": "squid",
+                     "state": "small meat"
+              },
+              {
+                     "object": "mussel",
+                     "state": "small meat"
+              },
+              {
+                     "object": "lobster",
+                     "state": "meat"
+              },
+              {
+                     "object": "clam",
+                     "state": "small meat"
+              },
+              {
+                     "object": "red snapper",
+                     "state": "pieces"
+              }
+       ]
+}

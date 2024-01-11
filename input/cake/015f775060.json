@@ -1,0 +1,46 @@
+{
+       "id": "015f775060",
+       "type": "cake",
+       "ingredients": [
+              {
+                     "object": "banana",
+                     "state": "mashed"
+              },
+              {
+                     "object": "butter",
+                     "state": "softened"
+              },
+              {
+                     "object": "egg",
+                     "state": "whole raw"
+              },
+              {
+                     "object": "water",
+                     "state": "juice"
+              },
+              {
+                     "object": "flour",
+                     "state": "ground"
+              },
+              {
+                     "object": "baking powder",
+                     "state": "ground"
+              },
+              {
+                     "object": "baking soda",
+                     "state": "ground"
+              },
+              {
+                     "object": "cinnamon",
+                     "state": "ground"
+              },
+              {
+                     "object": "pecan",
+                     "state": "chopped"
+              },
+              {
+                     "object": "raisin",
+                     "state": "dried"
+              }
+       ]
+}

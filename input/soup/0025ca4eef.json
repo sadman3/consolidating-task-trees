@@ -1,0 +1,34 @@
+{
+       "id": "0025ca4eef",
+       "type": "soup",
+       "ingredients": [
+              {
+                     "object": "corn",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "capsicum",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "onion",
+                     "state": "chopped"
+              },
+              {
+                     "object": "garlic",
+                     "state": "crushed"
+              },
+              {
+                     "object": "stock",
+                     "state": "thick liquid"
+              },
+              {
+                     "object": "coriander",
+                     "state": "leaves"
+              }
+       ]
+}

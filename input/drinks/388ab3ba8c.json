@@ -1,0 +1,18 @@
+{
+       "id": "388ab3ba8c",
+       "type": "drinks",
+       "ingredients": [
+              {
+                     "object": "avocado",
+                     "state": "whole fruit"
+              },
+              {
+                     "object": "sugar",
+                     "state": "ground"
+              },
+              {
+                     "object": "milk",
+                     "state": "juice"
+              }
+       ]
+}

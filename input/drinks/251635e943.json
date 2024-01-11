@@ -1,0 +1,22 @@
+{
+       "id": "251635e943",
+       "type": "drinks",
+       "ingredients": [
+              {
+                     "object": "banana",
+                     "state": "whole fruit"
+              },
+              {
+                     "object": "yogurt",
+                     "state": "creamy"
+              },
+              {
+                     "object": "seed",
+                     "state": "grain"
+              },
+              {
+                     "object": "soymilk",
+                     "state": "juice"
+              }
+       ]
+}

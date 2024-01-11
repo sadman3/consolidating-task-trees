@@ -1,0 +1,22 @@
+{
+       "id": "5be1813b70",
+       "type": "omelette",
+       "ingredients": [
+              {
+                     "object": "strawberry",
+                     "state": "berries"
+              },
+              {
+                     "object": "extract",
+                     "state": "juice"
+              },
+              {
+                     "object": "egg",
+                     "state": "whole raw"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              }
+       ]
+}

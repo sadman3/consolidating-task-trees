@@ -1,0 +1,58 @@
+{
+       "id": "01dac09429",
+       "type": "soup",
+       "ingredients": [
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "onion",
+                     "state": "chopped"
+              },
+              {
+                     "object": "garlic",
+                     "state": "minced"
+              },
+              {
+                     "object": "carrot",
+                     "state": "chopped"
+              },
+              {
+                     "object": "rib",
+                     "state": "chopped"
+              },
+              {
+                     "object": "tomato",
+                     "state": "thick sauce"
+              },
+              {
+                     "object": "chili",
+                     "state": "ground"
+              },
+              {
+                     "object": "basil",
+                     "state": "dried"
+              },
+              {
+                     "object": "oregano",
+                     "state": "dried"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "tomato",
+                     "state": "crushed"
+              },
+              {
+                     "object": "broth",
+                     "state": "thick liquid"
+              },
+              {
+                     "object": "cabbage",
+                     "state": "chopped"
+              }
+       ]
+}

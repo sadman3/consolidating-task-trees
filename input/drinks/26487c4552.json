@@ -1,0 +1,22 @@
+{
+       "id": "26487c4552",
+       "type": "drinks",
+       "ingredients": [
+              {
+                     "object": "tofu",
+                     "state": "diced"
+              },
+              {
+                     "object": "strawberry",
+                     "state": "berries"
+              },
+              {
+                     "object": "peach",
+                     "state": "sliced"
+              },
+              {
+                     "object": "yogurt",
+                     "state": "creamy"
+              }
+       ]
+}

@@ -1,0 +1,66 @@
+{
+       "id": "09dab9b6bd",
+       "type": "noodle",
+       "ingredients": [
+              {
+                     "object": "noodle",
+                     "state": "processed raw"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "honey",
+                     "state": "thick sauce"
+              },
+              {
+                     "object": "soy sauce",
+                     "state": "sauce"
+              },
+              {
+                     "object": "vinegar",
+                     "state": "juice"
+              },
+              {
+                     "object": "vinegar",
+                     "state": "juice"
+              },
+              {
+                     "object": "cayenne",
+                     "state": "ground"
+              },
+              {
+                     "object": "ginger",
+                     "state": "grated"
+              },
+              {
+                     "object": "pepper",
+                     "state": "sliced"
+              },
+              {
+                     "object": "pea",
+                     "state": "berries"
+              },
+              {
+                     "object": "onion",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "peanut",
+                     "state": "thick sauce"
+              },
+              {
+                     "object": "cilantro",
+                     "state": "chopped"
+              },
+              {
+                     "object": "lime",
+                     "state": "halved"
+              }
+       ]
+}

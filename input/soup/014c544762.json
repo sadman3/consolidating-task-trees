@@ -1,0 +1,38 @@
+{
+       "id": "014c544762",
+       "type": "soup",
+       "ingredients": [
+              {
+                     "object": "egg",
+                     "state": "whole raw"
+              },
+              {
+                     "object": "stock",
+                     "state": "thick liquid"
+              },
+              {
+                     "object": "onion",
+                     "state": "minced"
+              },
+              {
+                     "object": "fat",
+                     "state": "juice"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "carrot",
+                     "state": "peeled"
+              },
+              {
+                     "object": "parsley",
+                     "state": "chopped"
+              }
+       ]
+}

@@ -1,0 +1,30 @@
+{
+       "id": "07ce20cc81",
+       "type": "rice",
+       "ingredients": [
+              {
+                     "object": "bean",
+                     "state": "bean"
+              },
+              {
+                     "object": "tomato",
+                     "state": "diced"
+              },
+              {
+                     "object": "tomato",
+                     "state": "sauce"
+              },
+              {
+                     "object": "water",
+                     "state": "juice"
+              },
+              {
+                     "object": "chili",
+                     "state": "ground"
+              },
+              {
+                     "object": "rice",
+                     "state": "uncooked"
+              }
+       ]
+}

@@ -1,0 +1,38 @@
+{
+       "id": "d43ff0263a",
+       "type": "omelette",
+       "ingredients": [
+              {
+                     "object": "sausage",
+                     "state": "processed meat"
+              },
+              {
+                     "object": "potato",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "egg",
+                     "state": "whole raw"
+              },
+              {
+                     "object": "garlic",
+                     "state": "ground"
+              },
+              {
+                     "object": "butter",
+                     "state": "creamy"
+              },
+              {
+                     "object": "mustard",
+                     "state": "thick sauce"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              }
+       ]
+}

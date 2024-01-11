@@ -1,0 +1,34 @@
+{
+       "id": "00a37a38c1",
+       "type": "salad",
+       "ingredients": [
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "sprout",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "arugula",
+                     "state": "whole leafy"
+              },
+              {
+                     "object": "endive",
+                     "state": "pieces"
+              },
+              {
+                     "object": "almond",
+                     "state": "sliced"
+              },
+              {
+                     "object": "cheese",
+                     "state": "grated"
+              }
+       ]
+}

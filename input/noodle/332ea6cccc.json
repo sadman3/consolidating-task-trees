@@ -1,0 +1,42 @@
+{
+       "id": "332ea6cccc",
+       "type": "noodle",
+       "ingredients": [
+              {
+                     "object": "noodle",
+                     "state": "baked"
+              },
+              {
+                     "object": "sugar",
+                     "state": "ground"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              },
+              {
+                     "object": "egg",
+                     "state": "whipped"
+              },
+              {
+                     "object": "cottage cheese",
+                     "state": "creamy"
+              },
+              {
+                     "object": "cheese",
+                     "state": "softened"
+              },
+              {
+                     "object": "butter",
+                     "state": "softened"
+              },
+              {
+                     "object": "cream",
+                     "state": "creamy"
+              },
+              {
+                     "object": "raisin",
+                     "state": "dried"
+              }
+       ]
+}

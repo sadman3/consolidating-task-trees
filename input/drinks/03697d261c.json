@@ -1,0 +1,22 @@
+{
+       "id": "03697d261c",
+       "type": "drinks",
+       "ingredients": [
+              {
+                     "object": "strawberry",
+                     "state": "berries"
+              },
+              {
+                     "object": "coconut",
+                     "state": "creamy"
+              },
+              {
+                     "object": "banana",
+                     "state": "whole"
+              },
+              {
+                     "object": "ice",
+                     "state": "solid"
+              }
+       ]
+}

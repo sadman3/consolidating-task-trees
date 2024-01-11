@@ -1,0 +1,34 @@
+{
+       "id": "25ecf9eb2b",
+       "type": "drinks",
+       "ingredients": [
+              {
+                     "object": "strawberry",
+                     "state": "whole"
+              },
+              {
+                     "object": "mango",
+                     "state": "whole fruit"
+              },
+              {
+                     "object": "yogurt",
+                     "state": "creamy"
+              },
+              {
+                     "object": "banana",
+                     "state": "whole"
+              },
+              {
+                     "object": "diet v splash",
+                     "state": "berries"
+              },
+              {
+                     "object": "yeast",
+                     "state": "flakes"
+              },
+              {
+                     "object": "splenda granular",
+                     "state": "ground"
+              }
+       ]
+}

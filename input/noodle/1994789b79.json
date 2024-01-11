@@ -1,0 +1,50 @@
+{
+       "id": "1994789b79",
+       "type": "noodle",
+       "ingredients": [
+              {
+                     "object": "broth",
+                     "state": "thick liquid"
+              },
+              {
+                     "object": "mushroom",
+                     "state": "sliced"
+              },
+              {
+                     "object": "frank",
+                     "state": "sliced"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "shallot",
+                     "state": "sliced"
+              },
+              {
+                     "object": "pepper",
+                     "state": "sliced"
+              },
+              {
+                     "object": "garlic",
+                     "state": "crushed"
+              },
+              {
+                     "object": "pasta",
+                     "state": "uncooked"
+              },
+              {
+                     "object": "spinach",
+                     "state": "chopped"
+              },
+              {
+                     "object": "sprout",
+                     "state": "bean"
+              },
+              {
+                     "object": "cilantro",
+                     "state": "ground"
+              }
+       ]
+}

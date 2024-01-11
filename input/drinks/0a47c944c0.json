@@ -1,0 +1,22 @@
+{
+       "id": "0a47c944c0",
+       "type": "drinks",
+       "ingredients": [
+              {
+                     "object": "papaya",
+                     "state": "diced"
+              },
+              {
+                     "object": "milk",
+                     "state": "juice"
+              },
+              {
+                     "object": "honey",
+                     "state": "thick sauce"
+              },
+              {
+                     "object": "ice",
+                     "state": "whole"
+              }
+       ]
+}

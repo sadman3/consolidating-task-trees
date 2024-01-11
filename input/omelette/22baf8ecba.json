@@ -1,0 +1,70 @@
+{
+       "id": "22baf8ecba",
+       "type": "omelette",
+       "ingredients": [
+              {
+                     "object": "egg",
+                     "state": "whole raw"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "stick",
+                     "state": "small meat"
+              },
+              {
+                     "object": "bamboo",
+                     "state": "baked"
+              },
+              {
+                     "object": "leek",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "mushroom",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "water",
+                     "state": "juice"
+              },
+              {
+                     "object": "sake",
+                     "state": "juice"
+              },
+              {
+                     "object": "soy sauce",
+                     "state": "sauce"
+              },
+              {
+                     "object": "sugar",
+                     "state": "ground"
+              },
+              {
+                     "object": "ketchup",
+                     "state": "thick sauce"
+              },
+              {
+                     "object": "vinegar",
+                     "state": "juice"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "ginger",
+                     "state": "juice"
+              },
+              {
+                     "object": "onion",
+                     "state": "whole veg"
+              }
+       ]
+}

@@ -1,0 +1,30 @@
+{
+       "id": "0779b13525",
+       "type": "rice",
+       "ingredients": [
+              {
+                     "object": "cilantro",
+                     "state": "ground"
+              },
+              {
+                     "object": "onion",
+                     "state": "chopped"
+              },
+              {
+                     "object": "scallion",
+                     "state": "chopped"
+              },
+              {
+                     "object": "jalapeno",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "rice",
+                     "state": "baked"
+              }
+       ]
+}

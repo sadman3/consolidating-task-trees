@@ -1,0 +1,38 @@
+{
+       "id": "030c8fc96c",
+       "type": "salad",
+       "ingredients": [
+              {
+                     "object": "rice",
+                     "state": "grain"
+              },
+              {
+                     "object": "scallion",
+                     "state": "sliced"
+              },
+              {
+                     "object": "avocado",
+                     "state": "whole fruit"
+              },
+              {
+                     "object": "garlic",
+                     "state": "crushed"
+              },
+              {
+                     "object": "vinegar",
+                     "state": "juice"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "tomato",
+                     "state": "chopped"
+              },
+              {
+                     "object": "pepper",
+                     "state": "dried"
+              }
+       ]
+}

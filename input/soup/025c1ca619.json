@@ -1,0 +1,46 @@
+{
+       "id": "025c1ca619",
+       "type": "soup",
+       "ingredients": [
+              {
+                     "object": "onion",
+                     "state": "chopped"
+              },
+              {
+                     "object": "carrot",
+                     "state": "chopped"
+              },
+              {
+                     "object": "rib",
+                     "state": "chopped"
+              },
+              {
+                     "object": "tomato",
+                     "state": "diced"
+              },
+              {
+                     "object": "lentil",
+                     "state": "bean"
+              },
+              {
+                     "object": "water",
+                     "state": "juice"
+              },
+              {
+                     "object": "beef",
+                     "state": "solid"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "spinach",
+                     "state": "leaves"
+              },
+              {
+                     "object": "parmesan",
+                     "state": "creamy"
+              }
+       ]
+}

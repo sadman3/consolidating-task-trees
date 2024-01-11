@@ -1,0 +1,34 @@
+{
+       "id": "03855b6179",
+       "type": "soup",
+       "ingredients": [
+              {
+                     "object": "tomato",
+                     "state": "whole fruit"
+              },
+              {
+                     "object": "carrot",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "onion",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "broth",
+                     "state": "thick liquid"
+              },
+              {
+                     "object": "bouillon",
+                     "state": "ground"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              }
+       ]
+}

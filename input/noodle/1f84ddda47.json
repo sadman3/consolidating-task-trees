@@ -1,0 +1,54 @@
+{
+       "id": "1f84ddda47",
+       "type": "noodle",
+       "ingredients": [
+              {
+                     "object": "lemongras",
+                     "state": "peeled"
+              },
+              {
+                     "object": "broth",
+                     "state": "thick liquid"
+              },
+              {
+                     "object": "ginger",
+                     "state": "peeled"
+              },
+              {
+                     "object": "stick",
+                     "state": "uncooked"
+              },
+              {
+                     "object": "chicken",
+                     "state": "halved"
+              },
+              {
+                     "object": "edamame",
+                     "state": "baked"
+              },
+              {
+                     "object": "carrot",
+                     "state": "chopped"
+              },
+              {
+                     "object": "soy sauce",
+                     "state": "sauce"
+              },
+              {
+                     "object": "mushroom",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "cilantro",
+                     "state": "leaves"
+              },
+              {
+                     "object": "onion",
+                     "state": "sliced"
+              },
+              {
+                     "object": "lime",
+                     "state": "peel"
+              }
+       ]
+}

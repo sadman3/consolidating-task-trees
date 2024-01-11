@@ -1,0 +1,22 @@
+{
+       "id": "375f5b9978",
+       "type": "drinks",
+       "ingredients": [
+              {
+                     "object": "instant low - fat chocolate drink mix",
+                     "state": "ground"
+              },
+              {
+                     "object": "ice",
+                     "state": "solid"
+              },
+              {
+                     "object": "banana",
+                     "state": "whole fruit"
+              },
+              {
+                     "object": "milk",
+                     "state": "juice"
+              }
+       ]
+}

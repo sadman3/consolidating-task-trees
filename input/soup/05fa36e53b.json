@@ -1,0 +1,58 @@
+{
+       "id": "05fa36e53b",
+       "type": "soup",
+       "ingredients": [
+              {
+                     "object": "butter",
+                     "state": "softened"
+              },
+              {
+                     "object": "onion",
+                     "state": "minced"
+              },
+              {
+                     "object": "mushroom",
+                     "state": "sliced"
+              },
+              {
+                     "object": "chicken",
+                     "state": "diced"
+              },
+              {
+                     "object": "flour",
+                     "state": "ground"
+              },
+              {
+                     "object": "broth",
+                     "state": "thick liquid"
+              },
+              {
+                     "object": "rice",
+                     "state": "grain"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              },
+              {
+                     "object": "carrot",
+                     "state": "grated"
+              },
+              {
+                     "object": "almond",
+                     "state": "peeled"
+              },
+              {
+                     "object": "half and half",
+                     "state": "juice"
+              },
+              {
+                     "object": "dry sherry",
+                     "state": "dried"
+              },
+              {
+                     "object": "parsley",
+                     "state": "minced"
+              }
+       ]
+}

@@ -1,0 +1,42 @@
+{
+       "id": "078d520210",
+       "type": "noodle",
+       "ingredients": [
+              {
+                     "object": "noodle",
+                     "state": "baked"
+              },
+              {
+                     "object": "bean",
+                     "state": "bean"
+              },
+              {
+                     "object": "garlic",
+                     "state": "crushed"
+              },
+              {
+                     "object": "ginger",
+                     "state": "grated"
+              },
+              {
+                     "object": "chili",
+                     "state": "chopped"
+              },
+              {
+                     "object": "soy sauce",
+                     "state": "sauce"
+              },
+              {
+                     "object": "egg",
+                     "state": "whipped"
+              },
+              {
+                     "object": "cornflour",
+                     "state": "ground"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              }
+       ]
+}

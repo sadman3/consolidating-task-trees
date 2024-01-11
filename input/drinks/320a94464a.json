@@ -1,0 +1,14 @@
+{
+       "id": "320a94464a",
+       "type": "drinks",
+       "ingredients": [
+              {
+                     "object": "yogurt",
+                     "state": "creamy"
+              },
+              {
+                     "object": "honey",
+                     "state": "peeled"
+              }
+       ]
+}

@@ -1,0 +1,42 @@
+{
+       "id": "1864ab43d8",
+       "type": "noodle",
+       "ingredients": [
+              {
+                     "object": "noodle",
+                     "state": "baked"
+              },
+              {
+                     "object": "egg",
+                     "state": "whipped"
+              },
+              {
+                     "object": "sugar",
+                     "state": "ground"
+              },
+              {
+                     "object": "vanilla",
+                     "state": "juice"
+              },
+              {
+                     "object": "margarine",
+                     "state": "juice"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              },
+              {
+                     "object": "margarine",
+                     "state": "juice"
+              },
+              {
+                     "object": "corn",
+                     "state": "crumbs"
+              },
+              {
+                     "object": "brown sugar",
+                     "state": "ground"
+              }
+       ]
+}

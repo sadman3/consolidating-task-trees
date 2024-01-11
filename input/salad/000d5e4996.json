@@ -1,0 +1,26 @@
+{
+       "id": "000d5e4996",
+       "type": "salad",
+       "ingredients": [
+              {
+                     "object": "pineapple",
+                     "state": "sliced"
+              },
+              {
+                     "object": "green",
+                     "state": "leaves"
+              },
+              {
+                     "object": "stick",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "tomato",
+                     "state": "halved"
+              },
+              {
+                     "object": "vinaigrette",
+                     "state": "creamy"
+              }
+       ]
+}

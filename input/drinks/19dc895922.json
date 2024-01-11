@@ -1,0 +1,38 @@
+{
+       "id": "19dc895922",
+       "type": "drinks",
+       "ingredients": [
+              {
+                     "object": "banana",
+                     "state": "whole"
+              },
+              {
+                     "object": "blueberry",
+                     "state": "berries"
+              },
+              {
+                     "object": "spinach",
+                     "state": "leaves"
+              },
+              {
+                     "object": "ice",
+                     "state": "solid"
+              },
+              {
+                     "object": "seed",
+                     "state": "grain"
+              },
+              {
+                     "object": "seed",
+                     "state": "grain"
+              },
+              {
+                     "object": "butter",
+                     "state": "ground"
+              },
+              {
+                     "object": "milk",
+                     "state": "juice"
+              }
+       ]
+}

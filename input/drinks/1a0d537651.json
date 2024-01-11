@@ -1,0 +1,22 @@
+{
+       "id": "1a0d537651",
+       "type": "drinks",
+       "ingredients": [
+              {
+                     "object": "mango",
+                     "state": "peeled"
+              },
+              {
+                     "object": "banana",
+                     "state": "whole fruit"
+              },
+              {
+                     "object": "milk",
+                     "state": "juice"
+              },
+              {
+                     "object": "yogurt",
+                     "state": "creamy"
+              }
+       ]
+}

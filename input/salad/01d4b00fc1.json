@@ -1,0 +1,14 @@
+{
+       "id": "01d4b00fc1",
+       "type": "salad",
+       "ingredients": [
+              {
+                     "object": "carrot",
+                     "state": "peeled"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              }
+       ]
+}

@@ -1,0 +1,18 @@
+{
+       "id": "2568fa8055",
+       "type": "omelette",
+       "ingredients": [
+              {
+                     "object": "egg",
+                     "state": "whole raw"
+              },
+              {
+                     "object": "water",
+                     "state": "juice"
+              },
+              {
+                     "object": "ham",
+                     "state": "processed meat"
+              }
+       ]
+}

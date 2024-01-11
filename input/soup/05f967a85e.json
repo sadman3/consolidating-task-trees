@@ -1,0 +1,62 @@
+{
+       "id": "05f967a85e",
+       "type": "soup",
+       "ingredients": [
+              {
+                     "object": "onion",
+                     "state": "whole"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "margarine",
+                     "state": "softened"
+              },
+              {
+                     "object": "potato",
+                     "state": "whole"
+              },
+              {
+                     "object": "cumin",
+                     "state": "ground"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "tomato",
+                     "state": "diced"
+              },
+              {
+                     "object": "chickpea",
+                     "state": "bean"
+              },
+              {
+                     "object": "garlic",
+                     "state": "minced"
+              },
+              {
+                     "object": "stock",
+                     "state": "thick liquid"
+              },
+              {
+                     "object": "vinegar",
+                     "state": "juice"
+              },
+              {
+                     "object": "chipotle chile",
+                     "state": "whole"
+              },
+              {
+                     "object": "water",
+                     "state": "ground"
+              }
+       ]
+}

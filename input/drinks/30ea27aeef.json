@@ -1,0 +1,22 @@
+{
+       "id": "30ea27aeef",
+       "type": "drinks",
+       "ingredients": [
+              {
+                     "object": "lemonade",
+                     "state": "juice"
+              },
+              {
+                     "object": "raspberry",
+                     "state": "berries"
+              },
+              {
+                     "object": "strawberry",
+                     "state": "berries"
+              },
+              {
+                     "object": "sherbet",
+                     "state": "berries"
+              }
+       ]
+}

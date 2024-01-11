@@ -1,0 +1,78 @@
+{
+       "id": "052505aa1c",
+       "type": "rice",
+       "ingredients": [
+              {
+                     "object": "rice",
+                     "state": "baked"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "soy sauce",
+                     "state": "sauce"
+              },
+              {
+                     "object": "onion",
+                     "state": "minced"
+              },
+              {
+                     "object": "sprout",
+                     "state": "bean"
+              },
+              {
+                     "object": "mushroom",
+                     "state": "chopped"
+              },
+              {
+                     "object": "beef",
+                     "state": "baked"
+              },
+              {
+                     "object": "zucchini",
+                     "state": "pieces"
+              },
+              {
+                     "object": "cabbage",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "egg",
+                     "state": "whipped"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "seed",
+                     "state": "baked"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "onion",
+                     "state": "minced"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "seaweed",
+                     "state": "baked"
+              },
+              {
+                     "object": "pepper",
+                     "state": "flakes"
+              }
+       ]
+}

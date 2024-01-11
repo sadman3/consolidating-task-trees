@@ -1,0 +1,46 @@
+{
+       "id": "00eb3e6171",
+       "type": "soup",
+       "ingredients": [
+              {
+                     "object": "corn",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "tomato",
+                     "state": "diced"
+              },
+              {
+                     "object": "bean",
+                     "state": "bean"
+              },
+              {
+                     "object": "bean",
+                     "state": "bean"
+              },
+              {
+                     "object": "tomato",
+                     "state": "thick sauce"
+              },
+              {
+                     "object": "beef",
+                     "state": "ground"
+              },
+              {
+                     "object": "seasoning",
+                     "state": "ground"
+              },
+              {
+                     "object": "chip",
+                     "state": "pieces"
+              },
+              {
+                     "object": "cream",
+                     "state": "creamy"
+              },
+              {
+                     "object": "avocado",
+                     "state": "whole fruit"
+              }
+       ]
+}

@@ -1,0 +1,18 @@
+{
+       "id": "0218aee90b",
+       "type": "bread",
+       "ingredients": [
+              {
+                     "object": "strawberry",
+                     "state": "sliced"
+              },
+              {
+                     "object": "sugar",
+                     "state": "ground"
+              },
+              {
+                     "object": "extract",
+                     "state": "juice"
+              }
+       ]
+}

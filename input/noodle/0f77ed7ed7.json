@@ -1,0 +1,26 @@
+{
+       "id": "0f77ed7ed7",
+       "type": "noodle",
+       "ingredients": [
+              {
+                     "object": "water",
+                     "state": "juice"
+              },
+              {
+                     "object": "fish sauce",
+                     "state": "sauce"
+              },
+              {
+                     "object": "pepper",
+                     "state": "whole"
+              },
+              {
+                     "object": "sugar",
+                     "state": "ground"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              }
+       ]
+}

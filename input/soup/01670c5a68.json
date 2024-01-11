@@ -1,0 +1,66 @@
+{
+       "id": "01670c5a68",
+       "type": "soup",
+       "ingredients": [
+              {
+                     "object": "onion",
+                     "state": "diced"
+              },
+              {
+                     "object": "carrot",
+                     "state": "diced"
+              },
+              {
+                     "object": "celery",
+                     "state": "diced"
+              },
+              {
+                     "object": "garlic",
+                     "state": "minced"
+              },
+              {
+                     "object": "mushroom",
+                     "state": "sliced"
+              },
+              {
+                     "object": "stock",
+                     "state": "meat"
+              },
+              {
+                     "object": "bay leaf",
+                     "state": "leaves"
+              },
+              {
+                     "object": "seasoning",
+                     "state": "ground"
+              },
+              {
+                     "object": "basil",
+                     "state": "ground"
+              },
+              {
+                     "object": "tomato",
+                     "state": "diced"
+              },
+              {
+                     "object": "corn",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "zucchini",
+                     "state": "diced"
+              },
+              {
+                     "object": "bean",
+                     "state": "bean"
+              },
+              {
+                     "object": "bean",
+                     "state": "bean"
+              },
+              {
+                     "object": "pasta",
+                     "state": "uncooked"
+              }
+       ]
+}

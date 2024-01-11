@@ -1,0 +1,30 @@
+{
+       "id": "2702598739",
+       "type": "omelette",
+       "ingredients": [
+              {
+                     "object": "strawberry",
+                     "state": "sliced"
+              },
+              {
+                     "object": "sugar",
+                     "state": "ground"
+              },
+              {
+                     "object": "egg",
+                     "state": "whole raw"
+              },
+              {
+                     "object": "butter",
+                     "state": "creamy"
+              },
+              {
+                     "object": "sugar",
+                     "state": "ground"
+              },
+              {
+                     "object": "sugar",
+                     "state": "ground"
+              }
+       ]
+}

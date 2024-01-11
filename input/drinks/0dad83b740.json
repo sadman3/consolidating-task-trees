@@ -1,0 +1,26 @@
+{
+       "id": "0dad83b740",
+       "type": "drinks",
+       "ingredients": [
+              {
+                     "object": "tomato",
+                     "state": "chopped"
+              },
+              {
+                     "object": "carrot",
+                     "state": "chopped"
+              },
+              {
+                     "object": "celery",
+                     "state": "chopped"
+              },
+              {
+                     "object": "tabasco sauce",
+                     "state": "sauce"
+              },
+              {
+                     "object": "ice",
+                     "state": "solid"
+              }
+       ]
+}

@@ -1,0 +1,34 @@
+{
+       "id": "3866409274",
+       "type": "noodle",
+       "ingredients": [
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "mushroom",
+                     "state": "sliced"
+              },
+              {
+                     "object": "garlic",
+                     "state": "crushed"
+              },
+              {
+                     "object": "pepper",
+                     "state": "seeded"
+              },
+              {
+                     "object": "broccoli",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "noodle",
+                     "state": "processed raw"
+              },
+              {
+                     "object": "water",
+                     "state": "juice"
+              }
+       ]
+}

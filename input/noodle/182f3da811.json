@@ -1,0 +1,42 @@
+{
+       "id": "182f3da811",
+       "type": "noodle",
+       "ingredients": [
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "noodle",
+                     "state": "baked"
+              },
+              {
+                     "object": "broth",
+                     "state": "thick liquid"
+              },
+              {
+                     "object": "lemongras",
+                     "state": "crushed"
+              },
+              {
+                     "object": "ginger",
+                     "state": "peeled"
+              },
+              {
+                     "object": "water",
+                     "state": "juice"
+              },
+              {
+                     "object": "pea",
+                     "state": "steaks"
+              },
+              {
+                     "object": "mint",
+                     "state": "leaves"
+              },
+              {
+                     "object": "chili",
+                     "state": "sauce"
+              }
+       ]
+}

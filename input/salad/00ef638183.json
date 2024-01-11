@@ -1,0 +1,34 @@
+{
+       "id": "00ef638183",
+       "type": "salad",
+       "ingredients": [
+              {
+                     "object": "berry",
+                     "state": "mixed"
+              },
+              {
+                     "object": "vinegar",
+                     "state": "juice"
+              },
+              {
+                     "object": "chicken",
+                     "state": "baked"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "lettuce",
+                     "state": "whole leafy"
+              },
+              {
+                     "object": "cucumber",
+                     "state": "chopped"
+              },
+              {
+                     "object": "chip",
+                     "state": "pieces"
+              }
+       ]
+}

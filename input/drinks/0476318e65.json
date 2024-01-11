@@ -1,0 +1,30 @@
+{
+       "id": "0476318e65",
+       "type": "drinks",
+       "ingredients": [
+              {
+                     "object": "banana",
+                     "state": "whole fruit"
+              },
+              {
+                     "object": "cantaloupe",
+                     "state": "whole fruit"
+              },
+              {
+                     "object": "pineapple",
+                     "state": "whole fruit"
+              },
+              {
+                     "object": "yogurt",
+                     "state": "creamy"
+              },
+              {
+                     "object": "strawberry",
+                     "state": "berries"
+              },
+              {
+                     "object": "milk",
+                     "state": "juice"
+              }
+       ]
+}

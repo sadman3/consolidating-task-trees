@@ -1,0 +1,30 @@
+{
+       "id": "00a7b36a48",
+       "type": "salad",
+       "ingredients": [
+              {
+                     "object": "ranch dressing",
+                     "state": "creamy"
+              },
+              {
+                     "object": "noodle",
+                     "state": "ground"
+              },
+              {
+                     "object": "corn",
+                     "state": "thawed"
+              },
+              {
+                     "object": "bean",
+                     "state": "bean"
+              },
+              {
+                     "object": "cheddar",
+                     "state": "shredded"
+              },
+              {
+                     "object": "cilantro",
+                     "state": "chopped"
+              }
+       ]
+}

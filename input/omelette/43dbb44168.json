@@ -1,0 +1,26 @@
+{
+       "id": "43dbb44168",
+       "type": "omelette",
+       "ingredients": [
+              {
+                     "object": "spinach",
+                     "state": "whole leafy"
+              },
+              {
+                     "object": "mint",
+                     "state": "mixed"
+              },
+              {
+                     "object": "egg",
+                     "state": "whole raw"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              }
+       ]
+}

@@ -1,0 +1,30 @@
+{
+       "id": "07eae95b0c",
+       "type": "drinks",
+       "ingredients": [
+              {
+                     "object": "oat",
+                     "state": "ground"
+              },
+              {
+                     "object": "extract",
+                     "state": "juice"
+              },
+              {
+                     "object": "sugar",
+                     "state": "ground"
+              },
+              {
+                     "object": "strawberry",
+                     "state": "berries"
+              },
+              {
+                     "object": "banana",
+                     "state": "whole fruit"
+              },
+              {
+                     "object": "milk",
+                     "state": "juice"
+              }
+       ]
+}

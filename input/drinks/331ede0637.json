@@ -1,0 +1,26 @@
+{
+       "id": "331ede0637",
+       "type": "drinks",
+       "ingredients": [
+              {
+                     "object": "milk",
+                     "state": "juice"
+              },
+              {
+                     "object": "cherry",
+                     "state": "seeded"
+              },
+              {
+                     "object": "banana",
+                     "state": "whole fruit"
+              },
+              {
+                     "object": "extract",
+                     "state": "juice"
+              },
+              {
+                     "object": "cashew",
+                     "state": "chopped"
+              }
+       ]
+}

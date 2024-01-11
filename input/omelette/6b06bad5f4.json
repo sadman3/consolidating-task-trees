@@ -1,0 +1,46 @@
+{
+       "id": "6b06bad5f4",
+       "type": "omelette",
+       "ingredients": [
+              {
+                     "object": "potato",
+                     "state": "peeled"
+              },
+              {
+                     "object": "zucchini",
+                     "state": "pieces"
+              },
+              {
+                     "object": "tomato",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "flour",
+                     "state": "ground"
+              },
+              {
+                     "object": "soymilk",
+                     "state": "juice"
+              },
+              {
+                     "object": "vinegar",
+                     "state": "juice"
+              },
+              {
+                     "object": "onion",
+                     "state": "chopped"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              }
+       ]
+}

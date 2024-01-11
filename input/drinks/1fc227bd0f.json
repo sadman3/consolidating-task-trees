@@ -1,0 +1,26 @@
+{
+       "id": "1fc227bd0f",
+       "type": "drinks",
+       "ingredients": [
+              {
+                     "object": "strawberry",
+                     "state": "berries"
+              },
+              {
+                     "object": "peach",
+                     "state": "sliced"
+              },
+              {
+                     "object": "yogurt",
+                     "state": "creamy"
+              },
+              {
+                     "object": "milk",
+                     "state": "juice"
+              },
+              {
+                     "object": "honey",
+                     "state": "thick sauce"
+              }
+       ]
+}

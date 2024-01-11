@@ -1,0 +1,42 @@
+{
+       "id": "000d94f80b",
+       "type": "soup",
+       "ingredients": [
+              {
+                     "object": "onion",
+                     "state": "sliced"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "onion",
+                     "state": "chopped"
+              },
+              {
+                     "object": "leek",
+                     "state": "chopped"
+              },
+              {
+                     "object": "potato",
+                     "state": "peeled"
+              },
+              {
+                     "object": "broth",
+                     "state": "thick liquid"
+              },
+              {
+                     "object": "ginger",
+                     "state": "grated"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              },
+              {
+                     "object": "lemon",
+                     "state": "sliced"
+              }
+       ]
+}

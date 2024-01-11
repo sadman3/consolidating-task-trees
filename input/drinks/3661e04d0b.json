@@ -1,0 +1,30 @@
+{
+       "id": "3661e04d0b",
+       "type": "drinks",
+       "ingredients": [
+              {
+                     "object": "raspberry",
+                     "state": "berries"
+              },
+              {
+                     "object": "yogurt",
+                     "state": "creamy"
+              },
+              {
+                     "object": "syrup",
+                     "state": "thick sauce"
+              },
+              {
+                     "object": "cocoa",
+                     "state": "ground"
+              },
+              {
+                     "object": "extract",
+                     "state": "juice"
+              },
+              {
+                     "object": "mint",
+                     "state": "leaves"
+              }
+       ]
+}

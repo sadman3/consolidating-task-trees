@@ -1,0 +1,70 @@
+{
+       "id": "007fd8202a",
+       "type": "soup",
+       "ingredients": [
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "garlic",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "basil",
+                     "state": "dried"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "lentil",
+                     "state": "dried"
+              },
+              {
+                     "object": "broth",
+                     "state": "thick liquid"
+              },
+              {
+                     "object": "carrot",
+                     "state": "shredded"
+              },
+              {
+                     "object": "onion",
+                     "state": "grated"
+              },
+              {
+                     "object": "asparagu",
+                     "state": "chopped"
+              },
+              {
+                     "object": "pea",
+                     "state": "berries"
+              },
+              {
+                     "object": "sugar",
+                     "state": "ground"
+              },
+              {
+                     "object": "marmalade",
+                     "state": "ground"
+              },
+              {
+                     "object": "curry",
+                     "state": "ground"
+              },
+              {
+                     "object": "saffron",
+                     "state": "ground"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              }
+       ]
+}

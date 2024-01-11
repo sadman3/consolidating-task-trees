@@ -1,0 +1,46 @@
+{
+       "id": "003f786b7c",
+       "type": "soup",
+       "ingredients": [
+              {
+                     "object": "potato",
+                     "state": "diced"
+              },
+              {
+                     "object": "carrot",
+                     "state": "sliced"
+              },
+              {
+                     "object": "pea",
+                     "state": "berries"
+              },
+              {
+                     "object": "water",
+                     "state": "juice"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "butter",
+                     "state": "creamy"
+              },
+              {
+                     "object": "flour",
+                     "state": "ground"
+              },
+              {
+                     "object": "milk",
+                     "state": "juice"
+              },
+              {
+                     "object": "cheddar",
+                     "state": "shredded"
+              }
+       ]
+}

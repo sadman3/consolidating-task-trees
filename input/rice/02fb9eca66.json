@@ -1,0 +1,46 @@
+{
+       "id": "02fb9eca66",
+       "type": "rice",
+       "ingredients": [
+              {
+                     "object": "rib",
+                     "state": "meat"
+              },
+              {
+                     "object": "carrot",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "potato",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "wine",
+                     "state": "juice"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "onion",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "rice",
+                     "state": "grain"
+              },
+              {
+                     "object": "bouillon",
+                     "state": "meat"
+              }
+       ]
+}

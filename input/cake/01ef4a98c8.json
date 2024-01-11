@@ -1,0 +1,18 @@
+{
+       "id": "01ef4a98c8",
+       "type": "cake",
+       "ingredients": [
+              {
+                     "object": "milk",
+                     "state": "juice"
+              },
+              {
+                     "object": "lemon",
+                     "state": "ground"
+              },
+              {
+                     "object": "cool whip",
+                     "state": "whipped"
+              }
+       ]
+}

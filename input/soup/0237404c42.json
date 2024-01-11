@@ -1,0 +1,42 @@
+{
+       "id": "0237404c42",
+       "type": "soup",
+       "ingredients": [
+              {
+                     "object": "squash",
+                     "state": "seeded"
+              },
+              {
+                     "object": "carrot",
+                     "state": "peeled"
+              },
+              {
+                     "object": "onion",
+                     "state": "halved"
+              },
+              {
+                     "object": "potato",
+                     "state": "peeled"
+              },
+              {
+                     "object": "water",
+                     "state": "juice"
+              },
+              {
+                     "object": "bay leaf",
+                     "state": "leaves"
+              },
+              {
+                     "object": "garlic",
+                     "state": "ground"
+              },
+              {
+                     "object": "nutmeg",
+                     "state": "ground"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              }
+       ]
+}

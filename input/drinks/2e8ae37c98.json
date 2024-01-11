@@ -1,0 +1,18 @@
+{
+       "id": "2e8ae37c98",
+       "type": "drinks",
+       "ingredients": [
+              {
+                     "object": "banana",
+                     "state": "whole"
+              },
+              {
+                     "object": "strawberry",
+                     "state": "mixed"
+              },
+              {
+                     "object": "berry",
+                     "state": "mixed"
+              }
+       ]
+}

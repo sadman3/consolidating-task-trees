@@ -1,0 +1,78 @@
+{
+       "id": "01ed1d63b8",
+       "type": "salad",
+       "ingredients": [
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "vinegar",
+                     "state": "juice"
+              },
+              {
+                     "object": "water",
+                     "state": "juice"
+              },
+              {
+                     "object": "honey",
+                     "state": "thick sauce"
+              },
+              {
+                     "object": "mustard",
+                     "state": "thick sauce"
+              },
+              {
+                     "object": "garlic",
+                     "state": "minced"
+              },
+              {
+                     "object": "herbe de provence",
+                     "state": "minced"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "lettuce",
+                     "state": "chopped"
+              },
+              {
+                     "object": "cabbage",
+                     "state": "sliced"
+              },
+              {
+                     "object": "chicken",
+                     "state": "baked"
+              },
+              {
+                     "object": "corn",
+                     "state": "baked"
+              },
+              {
+                     "object": "tomato",
+                     "state": "halved"
+              },
+              {
+                     "object": "avocado",
+                     "state": "whole"
+              },
+              {
+                     "object": "almond",
+                     "state": "dried"
+              },
+              {
+                     "object": "date",
+                     "state": "whole"
+              },
+              {
+                     "object": "cheese",
+                     "state": "creamy"
+              }
+       ]
+}

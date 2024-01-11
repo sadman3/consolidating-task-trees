@@ -1,0 +1,26 @@
+{
+       "id": "086f9607c5",
+       "type": "rice",
+       "ingredients": [
+              {
+                     "object": "water",
+                     "state": "flakes"
+              },
+              {
+                     "object": "pea",
+                     "state": "berries"
+              },
+              {
+                     "object": "water",
+                     "state": "juice"
+              },
+              {
+                     "object": "milk",
+                     "state": "juice"
+              },
+              {
+                     "object": "rice",
+                     "state": "grain"
+              }
+       ]
+}

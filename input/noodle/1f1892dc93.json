@@ -1,0 +1,22 @@
+{
+       "id": "1f1892dc93",
+       "type": "noodle",
+       "ingredients": [
+              {
+                     "object": "chip",
+                     "state": "pieces"
+              },
+              {
+                     "object": "butter",
+                     "state": "ground"
+              },
+              {
+                     "object": "noodle",
+                     "state": "pieces"
+              },
+              {
+                     "object": "peanut",
+                     "state": "baked"
+              }
+       ]
+}

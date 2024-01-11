@@ -1,0 +1,62 @@
+{
+       "id": "0da830732e",
+       "type": "noodle",
+       "ingredients": [
+              {
+                     "object": "butter",
+                     "state": "creamy"
+              },
+              {
+                     "object": "soy sauce",
+                     "state": "sauce"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "honey",
+                     "state": "thick sauce"
+              },
+              {
+                     "object": "ginger",
+                     "state": "peeled"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "noodle",
+                     "state": "dried"
+              },
+              {
+                     "object": "pea",
+                     "state": "ground"
+              },
+              {
+                     "object": "pepper",
+                     "state": "whole"
+              },
+              {
+                     "object": "scallion",
+                     "state": "whole"
+              },
+              {
+                     "object": "seed",
+                     "state": "grain"
+              }
+       ]
+}

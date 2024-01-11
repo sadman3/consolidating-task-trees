@@ -1,0 +1,50 @@
+{
+       "id": "0554604f54",
+       "type": "soup",
+       "ingredients": [
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "sausage",
+                     "state": "diced"
+              },
+              {
+                     "object": "onion",
+                     "state": "chopped"
+              },
+              {
+                     "object": "broth",
+                     "state": "thick liquid"
+              },
+              {
+                     "object": "water",
+                     "state": "juice"
+              },
+              {
+                     "object": "bean",
+                     "state": "bean"
+              },
+              {
+                     "object": "bean",
+                     "state": "bean"
+              },
+              {
+                     "object": "tomato",
+                     "state": "diced"
+              },
+              {
+                     "object": "potato",
+                     "state": "diced"
+              },
+              {
+                     "object": "carrot",
+                     "state": "peeled"
+              },
+              {
+                     "object": "oregano",
+                     "state": "dried"
+              }
+       ]
+}

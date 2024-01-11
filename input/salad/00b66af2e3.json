@@ -1,0 +1,42 @@
+{
+       "id": "00b66af2e3",
+       "type": "salad",
+       "ingredients": [
+              {
+                     "object": "noodle",
+                     "state": "processed raw"
+              },
+              {
+                     "object": "egg",
+                     "state": "whole raw"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "onion",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "carrot",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "cheddar",
+                     "state": "creamy"
+              },
+              {
+                     "object": "salad dressing",
+                     "state": "whipped"
+              },
+              {
+                     "object": "sugar",
+                     "state": "ground"
+              },
+              {
+                     "object": "vinegar",
+                     "state": "juice"
+              }
+       ]
+}

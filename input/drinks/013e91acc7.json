@@ -1,0 +1,22 @@
+{
+       "id": "013e91acc7",
+       "type": "drinks",
+       "ingredients": [
+              {
+                     "object": "yogurt",
+                     "state": "creamy"
+              },
+              {
+                     "object": "soy protein concentrate",
+                     "state": "ground"
+              },
+              {
+                     "object": "berry",
+                     "state": "berries"
+              },
+              {
+                     "object": "spinach",
+                     "state": "whole leafy"
+              }
+       ]
+}

@@ -1,0 +1,34 @@
+{
+       "id": "4a142caa07",
+       "type": "omelette",
+       "ingredients": [
+              {
+                     "object": "egg",
+                     "state": "whole raw"
+              },
+              {
+                     "object": "water",
+                     "state": "juice"
+              },
+              {
+                     "object": "steak",
+                     "state": "steaks"
+              },
+              {
+                     "object": "tomato",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "green",
+                     "state": "leaves"
+              },
+              {
+                     "object": "cream",
+                     "state": "creamy"
+              },
+              {
+                     "object": "milk",
+                     "state": "juice"
+              }
+       ]
+}

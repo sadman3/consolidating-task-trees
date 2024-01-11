@@ -1,0 +1,30 @@
+{
+       "id": "6ec9e128b4",
+       "type": "omelette",
+       "ingredients": [
+              {
+                     "object": "egg",
+                     "state": "whole raw"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              },
+              {
+                     "object": "chive",
+                     "state": "chopped"
+              },
+              {
+                     "object": "pesto sauce",
+                     "state": "sauce"
+              },
+              {
+                     "object": "cheese",
+                     "state": "creamy"
+              },
+              {
+                     "object": "green",
+                     "state": "mixed"
+              }
+       ]
+}

@@ -1,0 +1,38 @@
+{
+       "id": "03905881da",
+       "type": "bread",
+       "ingredients": [
+              {
+                     "object": "bread",
+                     "state": "whole"
+              },
+              {
+                     "object": "sausage",
+                     "state": "processed meat"
+              },
+              {
+                     "object": "garlic",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "onion",
+                     "state": "minced"
+              },
+              {
+                     "object": "oregano",
+                     "state": "ground"
+              },
+              {
+                     "object": "egg",
+                     "state": "whole raw"
+              },
+              {
+                     "object": "mozzarella",
+                     "state": "shredded"
+              },
+              {
+                     "object": "parmesan",
+                     "state": "shredded"
+              }
+       ]
+}

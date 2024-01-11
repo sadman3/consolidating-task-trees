@@ -1,0 +1,58 @@
+{
+       "id": "024da74504",
+       "type": "salad",
+       "ingredients": [
+              {
+                     "object": "apricot",
+                     "state": "dried"
+              },
+              {
+                     "object": "fig",
+                     "state": "dried"
+              },
+              {
+                     "object": "peach",
+                     "state": "dried"
+              },
+              {
+                     "object": "bean",
+                     "state": "juice"
+              },
+              {
+                     "object": "honey",
+                     "state": "thick sauce"
+              },
+              {
+                     "object": "water",
+                     "state": "juice"
+              },
+              {
+                     "object": "anise",
+                     "state": "minced"
+              },
+              {
+                     "object": "stick",
+                     "state": "sticks"
+              },
+              {
+                     "object": "garlic",
+                     "state": "whole"
+              },
+              {
+                     "object": "almond",
+                     "state": "whole"
+              },
+              {
+                     "object": "cream",
+                     "state": "creamy"
+              },
+              {
+                     "object": "sugar",
+                     "state": "ground"
+              },
+              {
+                     "object": "vanilla",
+                     "state": "juice"
+              }
+       ]
+}

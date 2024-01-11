@@ -1,0 +1,66 @@
+{
+       "id": "0309744948",
+       "type": "salad",
+       "ingredients": [
+              {
+                     "object": "scallop",
+                     "state": "halved"
+              },
+              {
+                     "object": "mussel",
+                     "state": "small meat"
+              },
+              {
+                     "object": "lemon",
+                     "state": "minced"
+              },
+              {
+                     "object": "garlic",
+                     "state": "chopped"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "sugar",
+                     "state": "ground"
+              },
+              {
+                     "object": "dill",
+                     "state": "chopped"
+              },
+              {
+                     "object": "prawn",
+                     "state": "baked"
+              },
+              {
+                     "object": "shrimp",
+                     "state": "baked"
+              },
+              {
+                     "object": "pepper",
+                     "state": "sliced"
+              },
+              {
+                     "object": "tomato",
+                     "state": "halved"
+              },
+              {
+                     "object": "onion",
+                     "state": "sliced"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "green",
+                     "state": "leaves"
+              }
+       ]
+}

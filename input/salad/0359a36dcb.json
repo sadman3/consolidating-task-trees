@@ -1,0 +1,34 @@
+{
+       "id": "0359a36dcb",
+       "type": "salad",
+       "ingredients": [
+              {
+                     "object": "rice",
+                     "state": "baked"
+              },
+              {
+                     "object": "corn",
+                     "state": "whole"
+              },
+              {
+                     "object": "bean",
+                     "state": "bean"
+              },
+              {
+                     "object": "tomato",
+                     "state": "halved"
+              },
+              {
+                     "object": "onion",
+                     "state": "sliced"
+              },
+              {
+                     "object": "italian dressing",
+                     "state": "creamy"
+              },
+              {
+                     "object": "cheese",
+                     "state": "grated"
+              }
+       ]
+}

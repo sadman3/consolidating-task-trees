@@ -1,0 +1,46 @@
+{
+       "id": "112642b611",
+       "type": "omelette",
+       "ingredients": [
+              {
+                     "object": "spare rib",
+                     "state": "baked"
+              },
+              {
+                     "object": "water",
+                     "state": "juice"
+              },
+              {
+                     "object": "date",
+                     "state": "whole"
+              },
+              {
+                     "object": "carrot",
+                     "state": "whole"
+              },
+              {
+                     "object": "ginger",
+                     "state": "peeled"
+              },
+              {
+                     "object": "oyster",
+                     "state": "dried"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "egg",
+                     "state": "whole"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              }
+       ]
+}

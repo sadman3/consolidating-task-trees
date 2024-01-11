@@ -1,0 +1,42 @@
+{
+       "id": "143ff0bdb5",
+       "type": "noodle",
+       "ingredients": [
+              {
+                     "object": "chicken",
+                     "state": "halved"
+              },
+              {
+                     "object": "water",
+                     "state": "juice"
+              },
+              {
+                     "object": "carrot",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "celery",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              },
+              {
+                     "object": "sugar",
+                     "state": "ground"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "chicken",
+                     "state": "solid"
+              },
+              {
+                     "object": "noodle",
+                     "state": "baked"
+              }
+       ]
+}

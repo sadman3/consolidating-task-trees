@@ -1,0 +1,66 @@
+{
+       "id": "013e0041b6",
+       "type": "soup",
+       "ingredients": [
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "onion",
+                     "state": "chopped"
+              },
+              {
+                     "object": "garlic",
+                     "state": "minced"
+              },
+              {
+                     "object": "seed",
+                     "state": "ground"
+              },
+              {
+                     "object": "dill",
+                     "state": "ground"
+              },
+              {
+                     "object": "oregano",
+                     "state": "ground"
+              },
+              {
+                     "object": "flour",
+                     "state": "ground"
+              },
+              {
+                     "object": "tomato",
+                     "state": "crushed"
+              },
+              {
+                     "object": "tomato",
+                     "state": "chopped"
+              },
+              {
+                     "object": "broth",
+                     "state": "thick liquid"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "cream",
+                     "state": "juice"
+              },
+              {
+                     "object": "parsley",
+                     "state": "ground"
+              },
+              {
+                     "object": "honey",
+                     "state": "thick sauce"
+              }
+       ]
+}

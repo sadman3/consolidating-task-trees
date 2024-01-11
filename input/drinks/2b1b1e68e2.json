@@ -1,0 +1,30 @@
+{
+       "id": "2b1b1e68e2",
+       "type": "drinks",
+       "ingredients": [
+              {
+                     "object": "cucumber",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "kale",
+                     "state": "chopped"
+              },
+              {
+                     "object": "yogurt",
+                     "state": "creamy"
+              },
+              {
+                     "object": "blueberry",
+                     "state": "berries"
+              },
+              {
+                     "object": "berry",
+                     "state": "mixed"
+              },
+              {
+                     "object": "seed",
+                     "state": "grain"
+              }
+       ]
+}

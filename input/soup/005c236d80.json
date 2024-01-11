@@ -1,0 +1,34 @@
+{
+       "id": "005c236d80",
+       "type": "soup",
+       "ingredients": [
+              {
+                     "object": "onion",
+                     "state": "chopped"
+              },
+              {
+                     "object": "garlic",
+                     "state": "chopped"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "potato",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "pea",
+                     "state": "dried"
+              },
+              {
+                     "object": "pea",
+                     "state": "baked"
+              },
+              {
+                     "object": "broth",
+                     "state": "ground"
+              }
+       ]
+}

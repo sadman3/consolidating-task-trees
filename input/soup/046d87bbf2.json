@@ -1,0 +1,46 @@
+{
+       "id": "046d87bbf2",
+       "type": "soup",
+       "ingredients": [
+              {
+                     "object": "butter",
+                     "state": "ground"
+              },
+              {
+                     "object": "leek",
+                     "state": "steaks"
+              },
+              {
+                     "object": "carrot",
+                     "state": "peeled"
+              },
+              {
+                     "object": "garlic",
+                     "state": "chopped"
+              },
+              {
+                     "object": "ham",
+                     "state": "diced"
+              },
+              {
+                     "object": "broth",
+                     "state": "thick liquid"
+              },
+              {
+                     "object": "thyme",
+                     "state": "dried"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "parsley",
+                     "state": "chopped"
+              }
+       ]
+}

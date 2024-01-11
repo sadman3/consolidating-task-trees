@@ -1,0 +1,54 @@
+{
+       "id": "043d187560",
+       "type": "soup",
+       "ingredients": [
+              {
+                     "object": "pumpkin",
+                     "state": "whole"
+              },
+              {
+                     "object": "onion",
+                     "state": "sliced"
+              },
+              {
+                     "object": "garlic",
+                     "state": "minced"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "courgette",
+                     "state": "sliced"
+              },
+              {
+                     "object": "mushroom",
+                     "state": "sliced"
+              },
+              {
+                     "object": "tomato",
+                     "state": "chopped"
+              },
+              {
+                     "object": "pasta",
+                     "state": "processed raw"
+              },
+              {
+                     "object": "stock",
+                     "state": "juice"
+              },
+              {
+                     "object": "fromage frai",
+                     "state": "creamy"
+              },
+              {
+                     "object": "basil",
+                     "state": "chopped"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              }
+       ]
+}

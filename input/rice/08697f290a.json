@@ -1,0 +1,38 @@
+{
+       "id": "08697f290a",
+       "type": "rice",
+       "ingredients": [
+              {
+                     "object": "rice",
+                     "state": "grain"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "shallot",
+                     "state": "chopped"
+              },
+              {
+                     "object": "garlic",
+                     "state": "chopped"
+              },
+              {
+                     "object": "cream",
+                     "state": "whole fruit"
+              },
+              {
+                     "object": "lemongras",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "pandan leaf",
+                     "state": "leaves"
+              },
+              {
+                     "object": "turmeric",
+                     "state": "ground"
+              }
+       ]
+}

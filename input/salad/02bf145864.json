@@ -1,0 +1,50 @@
+{
+       "id": "02bf145864",
+       "type": "salad",
+       "ingredients": [
+              {
+                     "object": "blueberry",
+                     "state": "juice"
+              },
+              {
+                     "object": "raspberry",
+                     "state": "juice"
+              },
+              {
+                     "object": "pineapple",
+                     "state": "halved"
+              },
+              {
+                     "object": "watermelon",
+                     "state": "seeded"
+              },
+              {
+                     "object": "banana",
+                     "state": "sliced"
+              },
+              {
+                     "object": "kiwi",
+                     "state": "peeled"
+              },
+              {
+                     "object": "orange",
+                     "state": "chopped"
+              },
+              {
+                     "object": "cheese",
+                     "state": "creamy"
+              },
+              {
+                     "object": "sugar",
+                     "state": "ground"
+              },
+              {
+                     "object": "cream",
+                     "state": "whipped"
+              },
+              {
+                     "object": "lime",
+                     "state": "minced"
+              }
+       ]
+}

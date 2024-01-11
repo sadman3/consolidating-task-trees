@@ -1,0 +1,38 @@
+{
+       "id": "003642bf69",
+       "type": "salad",
+       "ingredients": [
+              {
+                     "object": "potato",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "onion",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "egg",
+                     "state": "baked"
+              },
+              {
+                     "object": "mayonnaise",
+                     "state": "whipped"
+              },
+              {
+                     "object": "sugar",
+                     "state": "ground"
+              },
+              {
+                     "object": "vinegar",
+                     "state": "juice"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              },
+              {
+                     "object": "seed",
+                     "state": "whole veg"
+              }
+       ]
+}

@@ -1,0 +1,42 @@
+{
+       "id": "01ca519c25",
+       "type": "bread",
+       "ingredients": [
+              {
+                     "object": "bisquick",
+                     "state": "ground"
+              },
+              {
+                     "object": "oat",
+                     "state": "ground"
+              },
+              {
+                     "object": "sugar",
+                     "state": "ground"
+              },
+              {
+                     "object": "milk",
+                     "state": "juice"
+              },
+              {
+                     "object": "egg",
+                     "state": "whipped"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "chip",
+                     "state": "pieces"
+              },
+              {
+                     "object": "chip",
+                     "state": "pieces"
+              },
+              {
+                     "object": "walnut",
+                     "state": "chopped"
+              }
+       ]
+}

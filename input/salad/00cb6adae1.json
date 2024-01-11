@@ -1,0 +1,30 @@
+{
+       "id": "00cb6adae1",
+       "type": "salad",
+       "ingredients": [
+              {
+                     "object": "cottage cheese",
+                     "state": "creamy"
+              },
+              {
+                     "object": "tomato",
+                     "state": "chopped"
+              },
+              {
+                     "object": "lettuce",
+                     "state": "whole leafy"
+              },
+              {
+                     "object": "cucumber",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              },
+              {
+                     "object": "cumin",
+                     "state": "ground"
+              }
+       ]
+}

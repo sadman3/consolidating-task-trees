@@ -1,0 +1,38 @@
+{
+       "id": "0222895cb5",
+       "type": "salad",
+       "ingredients": [
+              {
+                     "object": "bean",
+                     "state": "baked"
+              },
+              {
+                     "object": "tomato",
+                     "state": "halved"
+              },
+              {
+                     "object": "egg",
+                     "state": "baked"
+              },
+              {
+                     "object": "pea",
+                     "state": "baked"
+              },
+              {
+                     "object": "cream",
+                     "state": "creamy"
+              },
+              {
+                     "object": "worcestershire sauce",
+                     "state": "sauce"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "spinach",
+                     "state": "whole leafy"
+              }
+       ]
+}

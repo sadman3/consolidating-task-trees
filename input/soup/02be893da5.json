@@ -1,0 +1,82 @@
+{
+       "id": "02be893da5",
+       "type": "soup",
+       "ingredients": [
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "onion",
+                     "state": "chopped"
+              },
+              {
+                     "object": "leek",
+                     "state": "sliced"
+              },
+              {
+                     "object": "mushroom",
+                     "state": "dried"
+              },
+              {
+                     "object": "garlic",
+                     "state": "minced"
+              },
+              {
+                     "object": "ginger",
+                     "state": "minced"
+              },
+              {
+                     "object": "carrot",
+                     "state": "sliced"
+              },
+              {
+                     "object": "parsnip",
+                     "state": "sliced"
+              },
+              {
+                     "object": "rib",
+                     "state": "halved"
+              },
+              {
+                     "object": "chili",
+                     "state": "dried"
+              },
+              {
+                     "object": "thyme",
+                     "state": "minced"
+              },
+              {
+                     "object": "bay leaf",
+                     "state": "leaves"
+              },
+              {
+                     "object": "stock",
+                     "state": "thick liquid"
+              },
+              {
+                     "object": "noodle",
+                     "state": "dried"
+              },
+              {
+                     "object": "chicken",
+                     "state": "shredded"
+              },
+              {
+                     "object": "soy sauce",
+                     "state": "sauce"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "parsley",
+                     "state": "leaves"
+              }
+       ]
+}

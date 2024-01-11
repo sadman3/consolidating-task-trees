@@ -1,0 +1,26 @@
+{
+       "id": "1c79de6e70",
+       "type": "drinks",
+       "ingredients": [
+              {
+                     "object": "banana",
+                     "state": "whole"
+              },
+              {
+                     "object": "milk",
+                     "state": "whole"
+              },
+              {
+                     "object": "banana",
+                     "state": "whole"
+              },
+              {
+                     "object": "coriander",
+                     "state": "leaves"
+              },
+              {
+                     "object": "orange",
+                     "state": "sliced"
+              }
+       ]
+}

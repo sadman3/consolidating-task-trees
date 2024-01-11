@@ -1,0 +1,38 @@
+{
+       "id": "0dbd90b0f7",
+       "type": "noodle",
+       "ingredients": [
+              {
+                     "object": "carrot",
+                     "state": "peeled"
+              },
+              {
+                     "object": "broth",
+                     "state": "thick liquid"
+              },
+              {
+                     "object": "water",
+                     "state": "juice"
+              },
+              {
+                     "object": "garlic",
+                     "state": "ground"
+              },
+              {
+                     "object": "chicken",
+                     "state": "meat"
+              },
+              {
+                     "object": "dill",
+                     "state": "leaves"
+              },
+              {
+                     "object": "noodle",
+                     "state": "dried"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              }
+       ]
+}

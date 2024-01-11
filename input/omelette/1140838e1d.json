@@ -1,0 +1,38 @@
+{
+       "id": "1140838e1d",
+       "type": "omelette",
+       "ingredients": [
+              {
+                     "object": "shrimp",
+                     "state": "small meat"
+              },
+              {
+                     "object": "egg",
+                     "state": "thick liquid"
+              },
+              {
+                     "object": "water",
+                     "state": "juice"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "dill",
+                     "state": "dried"
+              },
+              {
+                     "object": "cheese",
+                     "state": "ground"
+              },
+              {
+                     "object": "chive",
+                     "state": "chopped"
+              },
+              {
+                     "object": "cooking spray",
+                     "state": "oily"
+              }
+       ]
+}

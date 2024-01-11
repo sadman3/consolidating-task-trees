@@ -1,0 +1,14 @@
+{
+       "id": "346fbbbeb1",
+       "type": "drinks",
+       "ingredients": [
+              {
+                     "object": "mango",
+                     "state": "thick sauce"
+              },
+              {
+                     "object": "sugar",
+                     "state": "ground"
+              }
+       ]
+}

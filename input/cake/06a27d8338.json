@@ -1,0 +1,22 @@
+{
+       "id": "06a27d8338",
+       "type": "cake",
+       "ingredients": [
+              {
+                     "object": "cake",
+                     "state": "creamy"
+              },
+              {
+                     "object": "brandy",
+                     "state": "juice"
+              },
+              {
+                     "object": "wine",
+                     "state": "juice"
+              },
+              {
+                     "object": "almond",
+                     "state": "baked"
+              }
+       ]
+}

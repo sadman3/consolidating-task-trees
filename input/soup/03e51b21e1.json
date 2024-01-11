@@ -1,0 +1,58 @@
+{
+       "id": "03e51b21e1",
+       "type": "soup",
+       "ingredients": [
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "onion",
+                     "state": "chopped"
+              },
+              {
+                     "object": "apple",
+                     "state": "peeled"
+              },
+              {
+                     "object": "turnip",
+                     "state": "peeled"
+              },
+              {
+                     "object": "squash",
+                     "state": "peeled"
+              },
+              {
+                     "object": "carrot",
+                     "state": "chopped"
+              },
+              {
+                     "object": "potato",
+                     "state": "peeled"
+              },
+              {
+                     "object": "stock",
+                     "state": "thick liquid"
+              },
+              {
+                     "object": "syrup",
+                     "state": "thick sauce"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "baguette",
+                     "state": "whole"
+              },
+              {
+                     "object": "cheese",
+                     "state": "creamy"
+              },
+              {
+                     "object": "chive",
+                     "state": "chopped"
+              }
+       ]
+}

@@ -1,0 +1,38 @@
+{
+       "id": "12173e641f",
+       "type": "omelette",
+       "ingredients": [
+              {
+                     "object": "broccoli",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "egg",
+                     "state": "whole raw"
+              },
+              {
+                     "object": "water",
+                     "state": "juice"
+              },
+              {
+                     "object": "stock",
+                     "state": "thick liquid"
+              },
+              {
+                     "object": "sake",
+                     "state": "juice"
+              },
+              {
+                     "object": "oyster",
+                     "state": "sauce"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              },
+              {
+                     "object": "potato starch",
+                     "state": "ground"
+              }
+       ]
+}

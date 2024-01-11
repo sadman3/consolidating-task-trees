@@ -1,0 +1,54 @@
+{
+       "id": "02756e915b",
+       "type": "soup",
+       "ingredients": [
+              {
+                     "object": "bacon",
+                     "state": "processed meat"
+              },
+              {
+                     "object": "courgette",
+                     "state": "grated"
+              },
+              {
+                     "object": "onion",
+                     "state": "diced"
+              },
+              {
+                     "object": "leek",
+                     "state": "sliced"
+              },
+              {
+                     "object": "garlic",
+                     "state": "diced"
+              },
+              {
+                     "object": "bay leaf",
+                     "state": "leaves"
+              },
+              {
+                     "object": "stock",
+                     "state": "thick liquid"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "thyme",
+                     "state": "minced"
+              },
+              {
+                     "object": "celery",
+                     "state": "diced"
+              },
+              {
+                     "object": "wine",
+                     "state": "juice"
+              },
+              {
+                     "object": "carrot",
+                     "state": "grated"
+              }
+       ]
+}

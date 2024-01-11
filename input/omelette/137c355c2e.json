@@ -1,0 +1,74 @@
+{
+       "id": "137c355c2e",
+       "type": "omelette",
+       "ingredients": [
+              {
+                     "object": "chicken",
+                     "state": "sliced"
+              },
+              {
+                     "object": "five-spice powder",
+                     "state": "ground"
+              },
+              {
+                     "object": "coriander",
+                     "state": "ground"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "garlic",
+                     "state": "ground"
+              },
+              {
+                     "object": "egg",
+                     "state": "whole raw"
+              },
+              {
+                     "object": "water",
+                     "state": "juice"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "onion",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "garlic",
+                     "state": "ground"
+              },
+              {
+                     "object": "mushroom",
+                     "state": "sliced"
+              },
+              {
+                     "object": "sprout",
+                     "state": "bean"
+              },
+              {
+                     "object": "oyster",
+                     "state": "sauce"
+              },
+              {
+                     "object": "soy sauce",
+                     "state": "sauce"
+              },
+              {
+                     "object": "water",
+                     "state": "juice"
+              },
+              {
+                     "object": "scallion",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "soy sauce",
+                     "state": "sauce"
+              }
+       ]
+}

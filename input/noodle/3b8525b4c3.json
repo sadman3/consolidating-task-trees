@@ -1,0 +1,74 @@
+{
+       "id": "3b8525b4c3",
+       "type": "noodle",
+       "ingredients": [
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "seed",
+                     "state": "grain"
+              },
+              {
+                     "object": "garlic",
+                     "state": "sliced"
+              },
+              {
+                     "object": "gingerroot",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "corn",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "pepper",
+                     "state": "sliced"
+              },
+              {
+                     "object": "noodle",
+                     "state": "processed raw"
+              },
+              {
+                     "object": "spinach",
+                     "state": "leaves"
+              },
+              {
+                     "object": "prawn",
+                     "state": "baked"
+              },
+              {
+                     "object": "seed",
+                     "state": "grain"
+              },
+              {
+                     "object": "asafoetida powder",
+                     "state": "ground"
+              },
+              {
+                     "object": "vinegar",
+                     "state": "juice"
+              },
+              {
+                     "object": "mirin",
+                     "state": "juice"
+              },
+              {
+                     "object": "fish",
+                     "state": "sauce"
+              },
+              {
+                     "object": "onion",
+                     "state": "sliced"
+              },
+              {
+                     "object": "chili",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "coriander",
+                     "state": "chopped"
+              }
+       ]
+}

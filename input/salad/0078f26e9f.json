@@ -1,0 +1,34 @@
+{
+       "id": "0078f26e9f",
+       "type": "salad",
+       "ingredients": [
+              {
+                     "object": "tomato",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "onion",
+                     "state": "halved"
+              },
+              {
+                     "object": "onion",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "cucumber",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "mozzarella",
+                     "state": "creamy"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "chive",
+                     "state": "minced"
+              }
+       ]
+}

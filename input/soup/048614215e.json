@@ -1,0 +1,42 @@
+{
+       "id": "048614215e",
+       "type": "soup",
+       "ingredients": [
+              {
+                     "object": "marrow",
+                     "state": "meat"
+              },
+              {
+                     "object": "carrot",
+                     "state": "peeled"
+              },
+              {
+                     "object": "garlic",
+                     "state": "minced"
+              },
+              {
+                     "object": "pea",
+                     "state": "berries"
+              },
+              {
+                     "object": "onion",
+                     "state": "diced"
+              },
+              {
+                     "object": "rib",
+                     "state": "whole"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              },
+              {
+                     "object": "pepper",
+                     "state": "ground"
+              },
+              {
+                     "object": "water",
+                     "state": "juice"
+              }
+       ]
+}

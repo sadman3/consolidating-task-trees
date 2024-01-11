@@ -1,0 +1,22 @@
+{
+       "id": "020eb6b3e1",
+       "type": "salad",
+       "ingredients": [
+              {
+                     "object": "almond",
+                     "state": "baked"
+              },
+              {
+                     "object": "onion",
+                     "state": "whole veg"
+              },
+              {
+                     "object": "oil",
+                     "state": "juice"
+              },
+              {
+                     "object": "sugar",
+                     "state": "ground"
+              }
+       ]
+}

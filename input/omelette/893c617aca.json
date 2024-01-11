@@ -1,0 +1,26 @@
+{
+       "id": "893c617aca",
+       "type": "omelette",
+       "ingredients": [
+              {
+                     "object": "asparagu",
+                     "state": "steaks"
+              },
+              {
+                     "object": "cheese",
+                     "state": "shredded"
+              },
+              {
+                     "object": "egg",
+                     "state": "whole raw"
+              },
+              {
+                     "object": "butter",
+                     "state": "juice"
+              },
+              {
+                     "object": "salt",
+                     "state": "ground"
+              }
+       ]
+}

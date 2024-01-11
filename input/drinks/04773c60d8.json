@@ -1,0 +1,18 @@
+{
+       "id": "04773c60d8",
+       "type": "drinks",
+       "ingredients": [
+              {
+                     "object": "blueberry",
+                     "state": "berries"
+              },
+              {
+                     "object": "cottage cheese",
+                     "state": "creamy"
+              },
+              {
+                     "object": "milk",
+                     "state": "juice"
+              }
+       ]
+}

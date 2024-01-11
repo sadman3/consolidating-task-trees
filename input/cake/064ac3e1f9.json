@@ -1,0 +1,58 @@
+{
+       "id": "064ac3e1f9",
+       "type": "cake",
+       "ingredients": [
+              {
+                     "object": "quinoa",
+                     "state": "baked"
+              },
+              {
+                     "object": "apple",
+                     "state": "chopped"
+              },
+              {
+                     "object": "blueberry",
+                     "state": "chopped"
+              },
+              {
+                     "object": "sugar",
+                     "state": "ground"
+              },
+              {
+                     "object": "honey",
+                     "state": "thick sauce"
+              },
+              {
+                     "object": "ginger",
+                     "state": "chopped"
+              },
+              {
+                     "object": "egg",
+                     "state": "whole raw"
+              },
+              {
+                     "object": "walnut",
+                     "state": "ground"
+              },
+              {
+                     "object": "seed",
+                     "state": "grain"
+              },
+              {
+                     "object": "seed",
+                     "state": "grain"
+              },
+              {
+                     "object": "flour",
+                     "state": "ground"
+              },
+              {
+                     "object": "tahini",
+                     "state": "ground"
+              },
+              {
+                     "object": "baking soda",
+                     "state": "ground"
+              }
+       ]
+}
